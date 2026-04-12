@@ -141,7 +141,193 @@ En el presente Sprint 1, el alcance funcional y técnico se ha dividido en tres 
 </div>
 
 ##### 5.2.1.3. Sprint Backlog 1
-[Pendiente]
+
+El presente Sprint Backlog detalla la descomposición técnica de las historias de usuario y técnicas seleccionadas para la primera iteración. El objetivo principal de este Sprint es establecer la presencia web inicial mediante la Landing Page y sentar las bases arquitectónicas del sistema. A continuación, se presenta la captura de nuestro tablero en Jira Software, seguida de la tabla de control de estado con la distribución de los Work-Items.
+
+<div align="center">
+
+![alt text](assets/READMEmedia/sprint1_jira.png)
+
+</div>
+
+<div align="center">
+  <table style="margin: auto; width: 100%; border-collapse: collapse; text-align: left; font-size: 13px; border: 1px solid #ddd;">
+    <thead>
+      <tr style="background-color: #e0e0e0; font-weight: bold;">
+        <th style="padding: 10px; text-align: center; border: 1px solid #ddd;">Sprint #</th>
+        <th colspan="7" style="padding: 10px; text-align: left; border: 1px solid #ddd;">1</th>
+      </tr>
+      <tr style="background-color: #f2f2f2;">
+        <th colspan="2" style="text-align: center; border: 1px solid #ddd; padding: 10px;">User Story</th>
+        <th colspan="6" style="text-align: center; border: 1px solid #ddd; padding: 10px;">Work-Item / Task</th>
+      </tr>
+      <tr style="background-color: #fafafa; text-align: center;">
+        <th style="border: 1px solid #ddd; padding: 5px; width: 6%;">Id</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 15%;">Title</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 6%;">Id</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 15%;">Title</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 30%;">Description</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 8%;">Estimation (Hours)</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 12%;">Assigned To</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 8%;">Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle; text-align: center; font-weight: bold;">US-01</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle;">Visualizar landing page</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-01</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Diseño inicial</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Diseñar wireframes y mockup inicial de la estructura web.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Luis, Diego</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #d32f2f;">To-do</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-02</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Setup Frontend</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Configurar proyecto base utilizando React y Tailwind CSS.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">López, Rodrigo</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #d32f2f;">To-do</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle; text-align: center; font-weight: bold;">US-02</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle;">Visualizar beneficios del sistema</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-03</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Redacción Copy</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Redactar y estructurar el contenido (copy) explicativo.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Sanchez, Juan</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #d32f2f;">To-do</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-04</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Componente Cards</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Desarrollar los componentes de tarjetas para beneficios.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Mamani, Alan</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #d32f2f;">To-do</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle; text-align: center; font-weight: bold;">US-03</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle;">Acceder a la plataforma desde CTA</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-05</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Botones CTA</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Maquetar los botones de llamado a la acción.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Luis, Diego</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #d32f2f;">To-do</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-06</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Enrutamiento React</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Configurar el enrutamiento base hacia vistas futuras.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Aguilar, Jeferson</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #d32f2f;">To-do</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle; text-align: center; font-weight: bold;">US-04</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle;">Visualizar landing responsive</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-07</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Media Queries</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Aplicar clases utilitarias para ajuste a móviles y tablets.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Aguilar, Jeferson</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #d32f2f;">To-do</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-08</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Testing UI</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Realizar validaciones de renderizado en pantallas.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Aguilar, Jeferson</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #d32f2f;">To-do</td>
+      </tr>
+      <tr>
+        <td rowspan="3" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle; text-align: center; font-weight: bold;">TS-01</td>
+        <td rowspan="3" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle;">Definir arquitectura del sistema</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-09</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Context Diagram</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Diseñar Context Diagram bajo el modelo C4.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Mamani, Alan</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #d32f2f;">To-do</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-10</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Container Diagram</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Diseñar Container Diagram bajo el modelo C4.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Sanchez, Juan</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #d32f2f;">To-do</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-11</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Event Storming</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Elaborar el Design-Level Event Storming.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Mamani, Alan</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #d32f2f;">To-do</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle; text-align: center; font-weight: bold;">TS-04</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle;">Diseñar modelo de base de datos</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-12</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Modelo Conceptual</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Identificar entidades y relaciones de negocio.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Sanchez, Juan</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #d32f2f;">To-do</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-13</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Diagrama Lógico ER</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Elaborar el Diagrama Entidad-Relación de la BD.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">5</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Mamani, Alan</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #d32f2f;">To-do</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle; text-align: center; font-weight: bold;">TS-10</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle;">Configurar entorno de desarrollo</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-14</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Configuración Git</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Definir estructura de repositorio y flujo de ramas.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">López, Rodrigo</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #d32f2f;">To-do</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-15</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Definir guía de estilos de código</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Code style guide and conventions.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">5</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Aguilar, Jeferson</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #d32f2f;">To-do</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle; text-align: center; font-weight: bold;">TS-11</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle;">Desplegar aplicación</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-16</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Hosting de la landing page</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Configurar el servicio de hosting estático para la Landing Page.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">López, Rodrigo</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #d32f2f;">To-do</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-17</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Pruebas de acceso</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Verificar el acceso público al enlace.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Aguilar, Jeferson</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #d32f2f;">To-do</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
 [Pendiente]
