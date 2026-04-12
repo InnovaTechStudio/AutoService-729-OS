@@ -17,7 +17,7 @@
           <i>Descripción pendiente...</i>
         </td>
         <td style="padding: 10px; border: 1px solid #ddd; width: 30%; text-align: center; vertical-align: middle;">
-          <img src="assets/profiles/jeferson.png" alt="Jeferson Aguilar" width="150" style="border-radius: 10px; border: 1px solid #ccc;">
+          <img src="docs/assets/jeferson.png" alt="Jeferson Aguilar" width="150" style="border-radius: 10px; border: 1px solid #ccc;">
         </td>
       </tr>
       <!-- Integrante 2 -->
@@ -27,7 +27,7 @@
           <i>Estudiante del quinto ciclo de Ing. de Software. Mis principales fortalezas son la capacidad de organización, manejo de tiempos y gestión del trabajo en equipo. Me encuentro en constante aprendizaje de distintas tecnologías y siempre busco trabajar de manera pulida y a consciencia.</i>
         </td>
         <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: middle;">
-          <img src="assets/profiles/rodrigo.png" alt="Rodrigo Lopez" width="150" style="border-radius: 10px; border: 1px solid #ccc;">
+          <img src="docs/assets/rodrigo.png" alt="Rodrigo Lopez" width="150" style="border-radius: 10px; border: 1px solid #ccc;">
         </td>
       </tr>
       <!-- Integrante 3 -->
@@ -37,7 +37,7 @@
           <i>Estoy cursando el quinto ciclo de mi carrera. A lo largo de mi experiencia aprendí muchas cosas como ser una persona proactiva, perseverante y responsable. Tengo conocimientos programando en diferentes leguajes C++, python, JS, CSS, HTML, SQL. En la parte de frontend me gusta diseñar para entregar un producto atractivo. Mediante mi conocimiento sé que puedo aportar más de mis capacidades para presentar un buen proyecto en equipo <br></i>
         </td>
         <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: middle;">
-          <img src="assets/profiles/diego.png" alt="Diego Luis" width="150" style="border-radius: 10px; border: 1px solid #ccc;">
+          <img src="docs/assets/diego.png" alt="Diego Luis" width="150" style="border-radius: 10px; border: 1px solid #ccc;">
         </td>
       </tr>
       <!-- Integrante 4 -->
@@ -47,7 +47,7 @@
           <i>Descripción pendiente...</i>
         </td>
         <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: middle;">
-          <img src="assets/profiles/alan.png" alt="Alan Mamani" width="150" style="border-radius: 10px; border: 1px solid #ccc;">
+          <img src="docs/assets/alan.png" alt="Alan Mamani" width="150" style="border-radius: 10px; border: 1px solid #ccc;">
         </td>
       </tr>
       <!-- Integrante 5 -->
@@ -57,7 +57,7 @@
             <i>Soy estudiante de Ingeniería de Software con conocimientos en diversos lenguajes de programación y tecnologías web, entre ellos Python, JavaScript, Java, SQL, HTML y CSS. Poseo habilidades en desarrollo de aplicaciones web, lógica de programación y manejo de bases de datos, lo que me permite contribuir en la construcción tanto del frontend como del backend del sistema. Asimismo, tengo capacidad para analizar problemas, diseñar soluciones tecnológicas y trabajar en equipo bajo metodologías de desarrollo, aportando de manera activa en la implementación y mejora continua del proyecto.</i>
         </td>
         <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: middle;">
-          <img src="assets/profiles/juan.png" alt="Juan Sanchez" width="150" style="border-radius: 10px; border: 1px solid #ccc;">
+          <img src="docs/assets/juan.png" alt="Juan Sanchez" width="150" style="border-radius: 10px; border: 1px solid #ccc;">
         </td>
       </tr>
     </tbody>
