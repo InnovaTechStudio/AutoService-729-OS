@@ -440,7 +440,10 @@ En la presente sección se definen los requisitos del sistema consolidados junto
 </div>
 
 ### 3.4. Impact Mapping
-[Pendiente]
+
+En esta sección se desarrolla el impact mapping, una técnica que permite visualizar la relación entre los objetivos del negocio, los actores involucrados, los impactos esperados y las funcionalidades del sistema. Esto facilita la alineación entre el desarrollo del producto y el valor que se busca generar. Se realiza en la plataforma UXPressia, acorde a las indicaciones del TF.
+
+![alt text](<docs/assets/Impact Map AutoService.png>)
 
 ### 3.5. Product Backlog
 [Pendiente]
