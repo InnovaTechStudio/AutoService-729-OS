@@ -229,4 +229,56 @@ Lo sabremos cuando veamos un incremento en el uso del sistema y una mejora en la
 
 
 ### 1.3. Segmentos objetivo
-[Pendiente]
+
+<p align="justify">
+Los segmentos de clientes permiten identificar los diferentes tipos de usuarios que interactúan con la solución propuesta. En este caso, se diferencian los clientes que generan ingresos (modelo B2B) y los usuarios finales que utilizan la plataforma como parte del servicio.
+</p>
+
+Segmentos que PAGAN (Clientes del sistema)
+
+Mecánicos Independientes
+<p align="justify">
+Este segmento está conformado por mecánicos que trabajan de manera independiente y gestionan sus propios servicios. Generalmente cuentan con recursos limitados y utilizan métodos manuales o herramientas básicas para organizar su trabajo.
+<br><br>
+Presentan la necesidad de mejorar la organización de sus operaciones, llevar un control de sus clientes y servicios, y ofrecer una mejor experiencia a sus clientes mediante mayor transparencia y seguimiento.
+</p>
+
+Características:
+<p align="justify">
+• Trabajan de forma autónoma.<br>
+• Manejan un número reducido de clientes.<br>
+• Bajo nivel de digitalización.<br>
+• Necesitan soluciones simples y económicas.
+</p>
+
+Talleres Automotrices / Empresas
+
+<p align="justify">
+Este segmento está conformado por talleres automotrices y pequeñas empresas que cuentan con múltiples empleados y manejan un mayor volumen de clientes y servicios.
+<br><br>
+Requieren herramientas más completas que les permitan gestionar personal, organizar múltiples órdenes de trabajo y controlar sus operaciones de manera eficiente.
+</p>
+
+Características:
+<p align="justify">
+• Manejan mayor volumen de trabajo.<br>
+• Tienen varios mecánicos o técnicos.<br>
+• Necesitan control administrativo.<br>
+• Buscan mejorar eficiencia y competitividad.
+</p>
+
+Segmento NO PAGA (Usuario Final)
+
+Clientes (Propietarios de Vehículos)
+<p align="justify">
+Este segmento corresponde a los clientes finales que llevan sus vehículos a los talleres para mantenimiento o reparación. Aunque no pagan por el uso del sistema, interactúan con la plataforma para consultar el estado de sus servicios.
+<br><br>
+Su principal interés es obtener información clara, rápida y confiable sobre el estado de su vehículo, así como conocer los trabajos realizados y los costos asociados.
+</p>
+Características:
+<p align="justify">
+• Buscan transparencia en el servicio.<br>
+• Desean seguimiento en tiempo real.<br>
+• No tienen conocimientos técnicos del sistema.<br>
+• Valoran la confianza y claridad en la información.
+</p>
