@@ -98,7 +98,17 @@ El Lean UX Process permite definir y validar la solución propuesta a partir de 
 
 
 ##### 1.2.2.1. Lean UX Problem Statements
-[Pendiente]
+
+<p align="justify">
+Dado que en el dominio de la gestión de talleres automotrices (domain), los mecánicos independientes y talleres automotrices (customer segments) gestionan sus procesos mediante herramientas manuales o no especializadas, enfrentan problemas de desorganización, falta de control de órdenes de trabajo, ausencia de historial estructurado de clientes y vehículos, así como deficiente comunicación con los clientes (pain points).
+
+Esto genera ineficiencia operativa, errores en la gestión, pérdida de información y desconfianza por parte de los clientes, quienes no pueden visualizar el estado de sus vehículos ni comprender claramente los servicios realizados (gap).
+
+Entonces, se propone como visión desarrollar una plataforma web que permita centralizar la información, gestionar de manera eficiente los procesos del taller y brindar transparencia al cliente mediante el seguimiento en tiempo real de los servicios (vision/strategy).
+
+Inicialmente, la solución estará enfocada en mecánicos independientes y pequeños talleres automotrices (initial segment), quienes presentan mayor necesidad de digitalización y carecen de sistemas de gestión adecuados.
+</p>
+
 
 ##### 1.2.2.2. Lean UX Assumptions
 [Pendiente]
