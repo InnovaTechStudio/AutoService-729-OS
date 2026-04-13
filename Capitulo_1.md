@@ -68,7 +68,8 @@
 </div>
 
 ### 1.2. Solution Profile
-[Pendiente]
+
+<p align="justify"> El Solution Profile presenta una visión general de la solución propuesta a partir del análisis del problema identificado en el dominio de los talleres automotrices. Esta sección describe de manera preliminar los antecedentes, la problemática existente y los principales aspectos que la solución busca abordar. Asimismo, se emplea el enfoque Lean UX para validar hipótesis centradas en el usuario, permitiendo diseñar una solución orientada a mejorar la eficiencia operativa y la experiencia del cliente. </p>
 
 #### 1.2.1 Antecedentes y problemática
 [Pendiente]
