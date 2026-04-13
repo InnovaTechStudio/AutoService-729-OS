@@ -165,7 +165,61 @@ Supuestos Críticos
 
 
 ##### 1.2.2.3. Lean UX Hypothesis Statements
-[Pendiente]
+
+<p align="justify">
+Las hipótesis en Lean UX permiten validar las suposiciones del equipo mediante la definición de resultados esperados. Estas se formulan con base en los usuarios, el valor que se busca generar y las métricas que permitirán comprobar si la solución es efectiva.
+</p>
+
+Hipótesis 1 – Gestión de Órdenes
+
+<p align="justify">
+Creemos que la implementación de un sistema digital de gestión de órdenes de trabajo permitirá mejorar la organización interna del taller.
+Para mecánicos independientes y talleres automotrices.
+Lograremos reducir errores en la gestión y mejorar la eficiencia operativa.
+Lo sabremos cuando veamos una disminución en el tiempo de registro de trabajos y una mejor organización en las órdenes.
+</p>
+
+Hipótesis 2 – Seguimiento del Cliente
+
+<p align="justify">
+Creemos que permitir a los clientes visualizar el estado de su vehículo en tiempo real aumentará la confianza en el servicio.
+Para clientes de talleres automotrices.
+Lograremos mejorar la satisfacción del cliente y la percepción del servicio.
+Lo sabremos cuando veamos un incremento en la interacción del cliente con la plataforma y menor cantidad de consultas directas al taller.
+</p>
+
+Hipótesis 3 – Modelo de Negocio (SaaS)
+<p align="justify">
+Creemos que ofrecer una plataforma de gestión mediante suscripción mensual será atractiva para talleres automotrices.
+Para mecánicos independientes y pequeñas empresas.
+Lograremos generar ingresos recurrentes y adopción del sistema.
+Lo sabremos cuando veamos que los usuarios optan por planes de pago y mantienen el uso continuo del sistema.
+</p>
+
+Hipótesis 4 – Centralización de Información
+<p align="justify">
+Creemos que centralizar la información de clientes, vehículos y servicios en una sola plataforma mejorará la toma de decisiones.
+Para administradores de talleres automotrices.
+Lograremos una mejor gestión del negocio y control de operaciones.
+Lo sabremos cuando veamos un uso frecuente del dashboard y consultas constantes de información histórica.
+</p>
+
+Hipótesis 5 – Usabilidad del Sistema
+<p align="justify">
+Creemos que una interfaz simple e intuitiva facilitará el uso del sistema por parte de los mecánicos.
+Para usuarios con bajo nivel técnico.
+Lograremos una rápida adopción del sistema.
+Lo sabremos cuando veamos que los usuarios utilizan la plataforma sin necesidad de capacitación extensa.
+</p>
+
+Hipotesis 6 - Exito del sistema
+
+<p align="justify">
+Creemos que una plataforma web que permita gestionar órdenes de trabajo y brindar seguimiento en tiempo real mejorará la eficiencia del taller y la confianza del cliente.
+Para talleres automotrices y sus clientes.
+Lograremos optimizar la gestión del servicio y mejorar la experiencia del usuario.
+Lo sabremos cuando veamos un incremento en el uso del sistema y una mejora en la satisfacción del cliente.
+</p>
 
 ##### 1.2.2.4. Lean UX Canvas
 [Pendiente]
