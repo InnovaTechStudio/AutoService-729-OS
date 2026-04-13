@@ -2,6 +2,8 @@
 
 ### 1.1. Startup Profile
 
+<p align="justify"> El Startup Profile presenta una visión general del equipo y de la propuesta de valor del proyecto, describiendo el enfoque de la solución, el contexto en el que se desarrolla y las capacidades del equipo de trabajo. Esta sección permite comprender la finalidad de la startup, así como el aporte de cada integrante en el desarrollo del sistema. </p>
+
 #### 1.1.1. Descripción de la Startup
 [Pendiente]
 
