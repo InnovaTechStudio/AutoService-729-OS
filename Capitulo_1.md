@@ -90,7 +90,12 @@ How (¿Cómo?)
 
 
 #### 1.2.2 Lean UX Process
-[Pendiente]
+
+<p align="justify">
+El Lean UX Process permite definir y validar la solución propuesta a partir de la comprensión del problema y las necesidades del usuario. Este enfoque se basa en la formulación de hipótesis, identificación de segmentos y análisis de valor, con el objetivo de diseñar una solución centrada en el usuario.
+</p>
+
+
 
 ##### 1.2.2.1. Lean UX Problem Statements
 [Pendiente]
