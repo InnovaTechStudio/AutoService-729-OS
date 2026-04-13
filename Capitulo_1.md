@@ -111,7 +111,58 @@ Inicialmente, la solución estará enfocada en mecánicos independientes y peque
 
 
 ##### 1.2.2.2. Lean UX Assumptions
-[Pendiente]
+
+<p align="justify">
+Las Assumptions (supuestos) representan las creencias iniciales del equipo respecto al problema, los usuarios y la solución propuesta. Estas suposiciones deben ser validadas posteriormente mediante investigación con usuarios, ya que constituyen la base para la toma de decisiones dentro del proceso Lean UX.
+</p>
+
+User Assumptions
+
+<p align="justify">
+• Los mecánicos independientes y talleres automotrices tienen dificultades para gestionar sus operaciones de manera organizada.<br>
+• Los talleres no cuentan con sistemas digitales especializados y utilizan métodos manuales o herramientas básicas.<br>
+• Los clientes desean conocer el estado de su vehículo en tiempo real.<br>
+• Los usuarios valoran la transparencia en los servicios automotrices.<br>
+• Los clientes prefieren soluciones simples y accesibles para interactuar con el taller.
+</p>
+
+Business Assumptions
+
+<p align="justify">
+• Los talleres automotrices están dispuestos a pagar por una solución que mejore su gestión.<br>
+• Un modelo SaaS (suscripción mensual) es viable para este tipo de negocio.<br>
+• Los talleres buscan mejorar su eficiencia y atraer más clientes.<br>
+• La digitalización puede generar ventaja competitiva frente a otros talleres.<br>
+• La implementación de la plataforma permitirá generar ingresos recurrentes.
+</p>
+
+Product Assumptions
+<p align="justify">
+• Una plataforma web es suficiente para cubrir las necesidades iniciales del sistema.<br>
+• La centralización de la información mejorará la organización del taller.<br>
+• El seguimiento en tiempo real incrementará la confianza del cliente.<br>
+• La gestión de órdenes de trabajo digital reducirá errores y pérdidas de información.<br>
+• La interfaz debe ser simple para facilitar su uso por parte de los mecánicos.
+</p>
+
+Technical Assumptions
+<p align="justify">
+• Las tecnologías web (HTML, CSS, JavaScript, backend con APIs) son adecuadas para el desarrollo del sistema.<br>
+• La base de datos puede estructurarse con un número limitado de tablas (de 15 a más).<br>
+• El sistema puede escalar en el futuro a funcionalidades más avanzadas (móvil, IoT, etc.).<br>
+• La integración con servicios externos (APIs) es viable para funcionalidades adicionales.
+</p>
+
+Supuestos Críticos
+<p align="justify">
+• Los talleres realmente tienen problemas de organización que desean resolver.<br>
+• Los talleres están dispuestos a pagar por la solución.<br>
+• Los clientes valoran la transparencia y seguimiento del servicio.<br>
+• El sistema será fácil de usar para personas con bajo nivel tecnológico.<br>
+• La solución propuesta generará mejoras reales en la eficiencia del taller.
+</p>
+
+
 
 ##### 1.2.2.3. Lean UX Hypothesis Statements
 [Pendiente]
