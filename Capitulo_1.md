@@ -222,7 +222,11 @@ Lo sabremos cuando veamos un incremento en el uso del sistema y una mejora en la
 </p>
 
 ##### 1.2.2.4. Lean UX Canvas
-[Pendiente]
+
+<p align="center">
+  <img src="docs/assets/LeanUX .jpg" alt="LeanUX Canvas" width="1000">
+</p>
+
 
 ### 1.3. Segmentos objetivo
 [Pendiente]
