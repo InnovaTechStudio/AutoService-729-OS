@@ -72,7 +72,22 @@
 <p align="justify"> El Solution Profile presenta una visión general de la solución propuesta a partir del análisis del problema identificado en el dominio de los talleres automotrices. Esta sección describe de manera preliminar los antecedentes, la problemática existente y los principales aspectos que la solución busca abordar. Asimismo, se emplea el enfoque Lean UX para validar hipótesis centradas en el usuario, permitiendo diseñar una solución orientada a mejorar la eficiencia operativa y la experiencia del cliente. </p>
 
 #### 1.2.1 Antecedentes y problemática
-[Pendiente]
+
+ Who (¿Quién?)
+<p align="justify"> Los principales actores involucrados en la problemática son los mecánicos independientes y los talleres automotrices (PYMES), quienes gestionan diariamente clientes, vehículos y servicios sin el apoyo de sistemas especializados. Asimismo, los clientes finales (propietarios de vehículos) también se ven afectados debido a la falta de información clara y seguimiento del servicio. </p>
+ What (¿Qué?)
+<p align="justify"> El problema radica en la deficiente gestión de procesos dentro de los talleres automotrices, incluyendo la administración de órdenes de trabajo, control de clientes, seguimiento de vehículos y registro de servicios. Esto se debe principalmente al uso de métodos manuales o herramientas no integradas, lo que genera desorganización, pérdida de información y errores en la operación. </p>
+ Where (¿Dónde?)
+<p align="justify"> Esta problemática se presenta principalmente en talleres automotrices pequeños y medianos, donde la digitalización de procesos aún es limitada. En estos entornos, es común el uso de cuadernos, hojas de cálculo o aplicaciones de mensajería para gestionar la información. </p>
+ When (¿Cuándo?)
+<p align="justify"> El problema ocurre de manera constante durante el desarrollo de las actividades del taller, especialmente en el registro de servicios, seguimiento del estado de los vehículos y comunicación con los clientes. </p>
+ Why (¿Por qué?)
+<p align="justify"> La principal causa es la falta de adopción de herramientas tecnológicas adecuadas que permitan automatizar y centralizar los procesos. Según Velneo (2023), la digitalización y automatización de procesos en talleres mecánicos permite mejorar la organización y facilitar la toma de decisiones. Sin embargo, muchos talleres aún no implementan este tipo de soluciones, lo que limita su eficiencia operativa. <br><br> Asimismo, una mala planificación del trabajo y la falta de control pueden generar errores, retrabajos e insatisfacción del cliente (JCM Automoción, 2022). </p>
+How (¿Cómo?)
+<p align="justify"> El problema se manifiesta a través de la desorganización interna, la falta de control sobre los trabajos realizados, la ausencia de historiales estructurados y la deficiente comunicación con los clientes. Esto impacta directamente en la calidad del servicio y en la percepción del cliente. <br><br> De acuerdo con Q2B Studio (2023), el uso de software de gestión automotriz permite optimizar procesos y aumentar la eficiencia operativa, evidenciando la necesidad de soluciones tecnológicas en este sector. </p>
+ How Much (¿Cuánto impacta?)
+<p align="justify"> El impacto de esta problemática se refleja en la pérdida de tiempo, errores en la gestión, baja productividad y disminución de la confianza del cliente. Además, la falta de transparencia y seguimiento genera insatisfacción en los usuarios, afectando la reputación del taller. <br><br> Según diversas fuentes, la implementación de sistemas de gestión contribuye significativamente a mejorar la satisfacción del cliente, al proporcionar mayor claridad, seguimiento y control del servicio (Quora, 2023). </p>
+
 
 #### 1.2.2 Lean UX Process
 [Pendiente]
