@@ -79,10 +79,65 @@ Para AutoService, se han implementado diversos sistemas de organización que res
 </ul>
 
 #### 4.2.3. SEO Tags and Meta Tags
-[Pendiente]
+
+<p style="text-align: justify;">
+  A continuación, se definen los metadatos estratégicos para el posicionamiento y la identidad de la plataforma tanto en la Landing Page como en la Aplicación Web:
+</p>
+
+<table style="width: 100%; border-collapse: collapse; text-align: justify;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="border: 1px solid #ddd; padding: 8px;">Página</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Title Tag</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Meta Description</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Keywords</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Author</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;">Landing Page</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">AutoService - Digital Management for Workshops</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">
+        Optimiza tu taller mecánico con seguimiento en tiempo real, gestión de órdenes y transparencia para el cliente.
+      </td>
+      <td style="border: 1px solid #ddd; padding: 8px;">
+        workshop software, mechanic SaaS, vehicle tracking, taller digital, gestión automotriz
+      </td>
+      <td style="border: 1px solid #ddd; padding: 8px;">InnovaTech Studio</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;">Web Application (Dashboard)</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">AutoService</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">
+        Panel de control operativo para gestión integral de servicios automotrices.
+      </td>
+      <td style="border: 1px solid #ddd; padding: 8px;">app, workshop, management, ERP, automotive.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">InnovaTech Studio</td>
+    </tr>
+  </tbody>
+</table>
 
 #### 4.2.4. Searching Systems
-[Pendiente]
+
+<p style="text-align: justify;">
+  Para evitar que los usuarios se pierdan ante grandes volúmenes de datos, se han definido los siguientes mecanismos de búsqueda y filtrado:
+</p>
+
+<ul style="text-align: justify;">
+  <li>
+    <strong>Búsqueda Global por Placa (License Plate):</strong> El buscador principal permite localizar rápidamente cualquier vehículo en el sistema ingresando el número de placa, lo cual redirige al detalle de su Orden de Trabajo activa.
+  </li>
+  <li>
+    <strong>Filtros de Estado en Tiempo Real:</strong> En el listado de órdenes, el usuario puede filtrar por "Pending", "In Process" o "Completed" para priorizar las tareas del día.
+  </li>
+  <li>
+    <strong>Filtros por Rango de Fechas:</strong> Aplicable en la sección de reportes financieros y de productividad para analizar el desempeño del taller en periodos específicos.
+  </li>
+  <li>
+    <strong>Presentación de Resultados:</strong> Los datos se muestran en formato de tarjetas (cards) o tablas interactivas con resaltado de sintaxis para los estados críticos.
+  </li>
+</ul>
 
 #### 4.2.5. Navigation Systems
 [Pendiente]
