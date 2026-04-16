@@ -140,7 +140,25 @@ Para AutoService, se han implementado diversos sistemas de organización que res
 </ul>
 
 #### 4.2.5. Navigation Systems
-[Pendiente]
+
+<p style="text-align: justify;">
+  El sistema de navegación está diseñado para ser consistente entre la Landing Page y la Aplicación, guiando al usuario hacia sus objetivos finales:
+</p>
+
+<ul style="text-align: justify;">
+  <li>
+    <strong>Navegación Global (Navbar):</strong> Presente en la Landing Page para dirigir a los usuarios potenciales a las secciones de beneficios, precios y el acceso al sistema (Login).
+  </li>
+  <li>
+    <strong>Navegación Vertical (Sidebar):</strong> Menú lateral persistente en la Web Application que permite el tránsito rápido entre los módulos operativos (Vehicles, Staff, Orders).
+  </li>
+  <li>
+    <strong>Breadcrumbs (Migas de Pan):</strong> Utilizadas en las vistas de detalle (ej: Work Orders &gt; Order #1234 &gt; Task Update) para que el usuario siempre sepa en qué nivel de la jerarquía se encuentra.
+  </li>
+  <li>
+    <strong>Navegación Contextual (CTAs):</strong> Enlaces directos desde el Dashboard hacia las acciones más frecuentes, como "Add New Vehicle" o "View Pending Tasks".
+  </li>
+</ul>
 
 ### 4.3. Landing Page UI Design
 
