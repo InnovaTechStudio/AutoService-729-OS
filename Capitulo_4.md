@@ -187,6 +187,10 @@ Para AutoService, se han implementado diversos sistemas de organización que res
 
 ### 4.6. Domain-Driven Software Architecture
 
+<p align="justify">
+La arquitectura de software de AutoService se fundamenta en los principios de Domain-Driven Design (DDD), permitiendo una traducción directa entre las necesidades operativas del negocio automotriz y la estructura del sistema técnico. Mediante la aplicación del Modelo C4, representamos la arquitectura en distintos niveles de abstracción, asegurando que la solución sea escalable, mantenible y esté estrictamente alineada con los contextos delimitados identificados durante el proceso de EventStorming.
+</p>
+
 #### 4.6.1. Design-Level EventStorming
 [Pendiente]
 
