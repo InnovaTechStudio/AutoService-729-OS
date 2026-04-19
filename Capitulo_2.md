@@ -546,6 +546,61 @@ El entrevistado Antenor Ayala, un mecánico automotriz de 33 años residente en 
 
 ![Entrevista Administrador Taller](docs/assets/chapter-2/interview-technical-3.png)
 
+
+#### Entrevista 4: Administrador de Taller Automotriz
+
+- **Nombre:** Juan Calisaya  
+- **Edad:** 30  
+- **Residencia:** Santa Anita, Lima  
+- **Ocupación:** Propietario y Administrador de Taller Automotriz  
+
+- **Inicio:** 0:05  
+- **Duración:** 14:07  
+
+**Link:**  
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e299_upc_edu_pe/IQBuwdmTZaBDQ6FwqgTBqd_zAZXoZxFYUA9sZBDB-I4bGyw?e=WVr7u3)
+
+---
+**Resumen:**
+<p style="text-align: justify;">
+El entrevistado Juan Calisaya, de 30 años, es propietario y administrador de un taller automotriz en Santa Anita con más de 5 años de experiencia. Su negocio cuenta con un equipo de 4 trabajadores, donde existen roles diferenciados como mecánicos y personal de apoyo, aunque la distribución de tareas no está completamente formalizada y depende en gran medida de su supervisión directa. Actualmente, la gestión del taller se realiza mediante métodos manuales, principalmente cuadernos y registros en papel, lo que genera desorganización y dificultad para acceder a información histórica. La asignación de trabajos se realiza de manera verbal, lo que ocasiona falta de claridad en las responsabilidades y dependencia constante del administrador. Uno de los principales problemas es la falta de visibilidad sobre el estado de los vehículos en reparación. El seguimiento se realiza consultando directamente a los mecánicos, generando interrupciones frecuentes y retrasos en la atención, además de presión constante por parte de los clientes. En cuanto a la comunicación, el taller utiliza llamadas telefónicas y WhatsApp, lo que obliga al administrador a actuar como intermediario, generando demoras y sobrecarga de trabajo. A nivel administrativo, no cuentan con herramientas digitales para controlar ingresos, egresos ni inventario, lo que dificulta la trazabilidad de gastos y puede generar desbalances. Asimismo, la rotación de funciones entre trabajadores por necesidades operativas provoca desorganización interna, aunque el equipo es competente. El entrevistado presenta un nivel básico de adopción tecnológica, valorando herramientas simples como WhatsApp y Yape. Finalmente, muestra una actitud positiva hacia la implementación de un sistema digital que incluya registro de clientes, historial de servicios, asignación de tareas, seguimiento en tiempo real, control financiero e inventario, con el objetivo de mejorar la organización, optimizar el tiempo y fortalecer la confianza con los clientes.
+</p>
+
+---
+
+**Evidencia:**
+
+![Entrevista Administrador Taller](docs/assets/chapter-2/interview-admin-taller-1.png)
+
+
+
+#### Entrevista 5: Administrador y Encargado de Logística de Taller Automotriz
+
+- **Nombre:** Sebastián Rojas  
+- **Edad:** 24  
+- **Residencia:** Villa El Salvador, Lima  
+- **Ocupación:** Administrador y Encargado de Logística de Taller Automotriz  
+
+- **Inicio:** 0:04  
+- **Duración:** 10:55  
+
+**Link:**  
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e299_upc_edu_pe/IQAn-6pC1Ur6TbGWsrSbHCfUATVeVUjKORt507XsjZzhAKU?e=zj8iCk)
+
+---
+
+**Resumen:**
+<p style="text-align: justify;">
+El entrevistado Sebastián Rojas, de 24 años, se desempeña como administrador y encargado de logística en un taller automotriz con un equipo de 6 personas, donde las funciones están distribuidas según especialidad. La gestión actual combina registros en papel y Excel, lo que permite cierto orden, pero resulta limitado ante el crecimiento del volumen de trabajo. Uno de los principales problemas es la falta de coordinación entre áreas, especialmente entre mecánicos y almacén, generando cuellos de botella y dependencia del administrador para validar procesos. El seguimiento de los vehículos se realiza mediante un pizarrón físico, pero al no actualizarse constantemente, se requiere comunicación directa frecuente, lo que reduce la eficiencia. La comunicación con los clientes se da principalmente por llamadas y WhatsApp, enviando ocasionalmente fotos, pero esto genera desconfianza cuando no hay claridad en los avances o cambios en los costos. Además, el control de ingresos e inventario es básico, lo que limita el análisis del rendimiento del negocio. El entrevistado muestra interés en implementar un sistema digital que permita gestionar órdenes de trabajo, controlar inventario, visualizar el estado de los vehículos en tiempo real y generar reportes, con el objetivo de mejorar la organización, optimizar el tiempo y aumentar la transparencia con los clientes.
+</p>
+
+---a
+
+**Evidencia:**
+
+![Entrevista Administrador Logística](docs/assets/chapter-2/interview-admin-taller-2.png)
+
+
 #### 2.2.3. Análisis de entrevistas
 [Pendiente]
 
@@ -554,21 +609,286 @@ El entrevistado Antenor Ayala, un mecánico automotriz de 33 años residente en 
 ### 2.3. Needfinding
 
 #### 2.3.1. User Personas
-[Pendiente]
+
+#### User Persona 1: Mechanic
+
+Perfil de un mecánico que trabaja en talleres automotrices y requiere una gestión eficiente de órdenes de servicio.
+
+![User Persona Mechanic](docs/assets/chapter-2/needfinding/user-persona-1-mechanic.png)
+
+
+#### User Persona 2: Workshop Manager
+
+Perfil de un administrador de taller que gestiona operaciones, personal y flujo de trabajo.
+
+![User Persona Workshop Manager](docs/assets/chapter-2/needfinding/user-persona-2-workshop-manager.png)
+
+
+#### User Persona 3: Vehicle Owner
+
+Perfil de un cliente que busca servicios automotrices rápidos, confiables y con seguimiento.
+
+![User Persona Vehicle Owner](docs/assets/chapter-2/needfinding/user-persona-3-vehicle-owner.png)
 
 #### 2.3.2. User Task Matrix
-[Pendiente]
+
+
+<p style="text-align: justify;">
+El User Task Matrix presenta de manera consolidada las tareas que realizan los tres User Personas identificados para el proyecto AutoService: Carlos Mendoza (Mecánico Independiente), Lucía Fernández (Administradora de Taller) y Ana Rojas (Cliente/Propietaria de vehículo).
+</p>
+
+<p style="text-align: justify;">
+Es importante destacar que las tareas descritas en esta matriz representan actividades que los segmentos realizan actualmente en su operación diaria (usando cuadernos, Excel, WhatsApp o llamados telefónicos), independientemente de la existencia de nuestra solución de software. Estas tareas son la base para identificar oportunidades de mejora mediante la digitalización.
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2" style="text-align: center; vertical-align: middle;">User Task<br>(Tarea del Usuario)</th>
+      <th colspan="2" style="text-align: center; ">Carlos Mendoza<br>(Mecánico)</th>
+      <th colspan="2" style="text-align: center; ">Lucía Fernández<br>(Administradora)</th>
+      <th colspan="2" style="text-align: center; ">Ana Rojas<br>(Cliente)</th>
+    </tr>
+    <tr>
+      <th style="text-align: center;">Frecuencia</th>
+      <th style="text-align: center;">Importancia</th>
+      <th style="text-align: center;">Frecuencia</th>
+      <th style="text-align: center;">Importancia</th>
+      <th style="text-align: center;">Frecuencia</th>
+      <th style="text-align: center;">Importancia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Diagnosticar fallas del vehículo</td><td style="text-align:center">Alta</td><td style="text-align:center">Crítica</td><td style="text-align:center">Baja</td><td style="text-align:center">Media</td><td style="text-align:center">Baja</td><td style="text-align:center">Crítica</td></tr>
+    <tr><td>Registrar información de clientes y vehículos</td><td style="text-align:center">Alta</td><td style="text-align:center">Crítica</td><td style="text-align:center">Alta</td><td style="text-align:center">Crítica</td><td style="text-align:center">Baja</td><td style="text-align:center">Media</td></tr>
+    <tr><td>Gestionar y coordinar tareas del personal</td><td style="text-align:center">Media</td><td style="text-align:center">Alta</td><td style="text-align:center">Alta</td><td style="text-align:center">Crítica</td><td style="text-align:center">N/A</td><td style="text-align:center">N/A</td></tr>
+    <tr><td>Comunicar el estado de la reparación al cliente</td><td style="text-align:center">Alta</td><td style="text-align:center">Crítica</td><td style="text-align:center">Alta</td><td style="text-align:center">Crítica</td><td style="text-align:center">Media</td><td style="text-align:center">Alta</td></tr>
+    <tr><td>Realizar seguimiento al progreso del servicio</td><td style="text-align:center">Alta</td><td style="text-align:center">Crítica</td><td style="text-align:center">Alta</td><td style="text-align:center">Crítica</td><td style="text-align:center">Alta</td><td style="text-align:center">Crítica</td></tr>
+    <tr><td>Gestionar pagos y facturación</td><td style="text-align:center">Alta</td><td style="text-align:center">Crítica</td><td style="text-align:center">Alta</td><td style="text-align:center">Crítica</td><td style="text-align:center">Baja</td><td style="text-align:center">Crítica</td></tr>
+    <tr><td>Programar citas y recepción de vehículos</td><td style="text-align:center">Alta</td><td style="text-align:center">Alta</td><td style="text-align:center">Alta</td><td style="text-align:center">Crítica</td><td style="text-align:center">Baja</td><td style="text-align:center">Alta</td></tr>
+    <tr><td>Consultar historial de mantenimientos</td><td style="text-align:center">Media</td><td style="text-align:center">Alta</td><td style="text-align:center">Alta</td><td style="text-align:center">Alta</td><td style="text-align:center">Baja</td><td style="text-align:center">Alta</td></tr>
+  </tbody>
+</table>
+
+#### Análisis del User Task Matrix
+
+<p style="text-align: justify;">
+Al analizar la matriz, se identifican patrones significativos y puntos de dolor compartidos entre los segmentos:</p>
+
+**1. Coincidencias (Puntos Críticos):**
+<p style="text-align: justify;">
+La tarea de <strong>"Realizar seguimiento al progreso del servicio"</strong> es crítica y de alta frecuencia tanto para Carlos y Lucía (quienes deben gestionarlo) como para Ana (quien necesita saberlo). Actualmente, esta tarea genera fricción: el mecánico pierde tiempo respondiendo llamadas y el cliente siente desconfianza por falta de información. Esto representa una oportunidad central para AutoService: automatizar este seguimiento para reducir la carga administrativa y aumentar la transparencia.</p>
+
+**2. Diferencias por Segmento:**
+<ul style="text-align: justify; margin-top: 0.5em; margin-bottom: 1.5em; padding-left: 1.5em;">
+  <li><strong>Carlos Mendoza (Operativo):</strong> Sus tareas de mayor importancia giran en torno al diagnóstico técnico y la comunicación directa. Su frecuencia en tareas administrativas complejas (como reportes detallados) es menor, pero su necesidad de simplicidad es máxima para no entorpecer su trabajo manual.</li>
+  <li><strong>Lucía Fernández (Gestión):</strong> Tiene una carga crítica en la <strong>coordinación de personal</strong> y la gestión de la información general. A diferencia de Carlos, ella necesita una visión panorámica del taller para delegar tareas, lo cual es un punto de dolor actual debido a la falta de herramientas de control.</li>
+  <li><strong>Ana Rojas (Cliente):</strong> Su interacción es más esporádica en frecuencia (lleva el auto ocasionalmente), pero la importancia es crítica. Su principal frustración es la dependencia de llamadas telefónicas para enterarse del estado de su vehículo.</li>
+</ul>
+
+**3. Oportunidades para la Solución:**
+<p style="text-align: justify;">
+Existe una clara oportunidad para digitalizar la <strong>"Comunicación del estado"</strong>. Actualmente, esta tarea consume recursos del taller (tiempo de Carlos y Lucía) y genera insatisfacción en Ana. Al transformar esta tarea manual en una funcionalidad de consulta autónoma (Dashboard para clientes), se reduce la carga operativa para el taller y se satisface la necesidad de transparencia del cliente.</p>
+
 
 #### 2.3.3. User Journey Mapping
-[Pendiente]
+
+
+##### Journey Map 1: Mechanic
+
+Representa el flujo de trabajo del mecánico desde la recepción del vehículo hasta la finalización del servicio.
+
+![Journey Map Mechanic](docs/assets/chapter-2/needfinding/journey-map-1-mechanic.png)
+
+
+#### Journey Map 2: Workshop Manager
+
+Describe la gestión operativa del administrador del taller y la supervisión de procesos.
+
+![Journey Map Workshop Manager](docs/assets/chapter-2/needfinding/journey-map-2-workshop-manager.png)
+
+
+#### Journey Map 3: Vehicle Owner
+
+Muestra la experiencia del cliente al solicitar, seguir y recibir un servicio automotriz.
+
+![Journey Map Vehicle Owner](docs/assets/chapter-2/needfinding/journey-map-3-vehicle-owner.png)
+
 
 #### 2.3.4. Empathy Mapping
-[Pendiente]
+
+
+#### Empathy Map 1: Mechanic
+
+Identifica pensamientos, emociones y necesidades del mecánico durante su trabajo.
+
+![Empathy Map Mechanic](docs/assets/chapter-2/needfinding/empathy-map-1-mechanic.png)
+
+
+#### Empathy Map 2: Workshop Manager
+
+Refleja las preocupaciones, objetivos y frustraciones del administrador del taller.
+
+![Empathy Map Workshop Manager](docs/assets/chapter-2/needfinding/empathy-map-2-workshop-manager.png)
+
+
+#### Empathy Map 3: Vehicle Owner
+
+Muestra las expectativas, emociones y percepciones del cliente.
+
+![Empathy Map Vehicle Owner](docs/assets/chapter-2/needfinding/empathy-map-3-vehicle-owner.png)
+
 
 ---
 
 ### 2.4. Big Picture EventStorming
-[Pendiente]
+
+
+<p style="text-align: justify;">
+En esta sección se presenta el **Big Picture EventStorming**, una técnica colaborativa utilizada para explorar el dominio del negocio de manera visual y de alto nivel. A través de una línea de tiempo horizontal, el equipo ha identificado los eventos significativos (naranjas) que ocurren en el flujo de trabajo de un taller automotriz, las acciones que los desencadenan (comandos azules), los actores involucrados (amarillos) y las reglas de negocio automatizadas (políticas moradas).
+</p>
+
+<p style="text-align: justify;">
+Este artefacto nos permite comprender la secuencia natural de los procesos, desde la configuración inicial del taller hasta el cierre financiero y la generación de reportes, exponiendo oportunidades de automatización y **"Hotspots"** (puntos de dolor) críticos en la comunicación entre el taller y el cliente.
+</p>
+
+> **Nota:** El diagrama a continuación representa la interacción entre los User Personas (Carlos, Lucía y Ana) y el sistema propuesto, siguiendo una línea de tiempo de izquierda a derecha.
+
+![Big Picture EventStorming](docs/assets/chapter-2/big-picture-event-storming.png)
+
+#### Estructura del Flujo (Timeline)
+
+<div style="text-align: justify; line-height: 1.6; margin-top: 1em; margin-bottom: 1.5em;">
+<p>Para facilitar la comprensión del modelo, el Event Storming se ha organizado en <strong>5 bloques lógicos</strong> que representan las fases del ciclo de vida del servicio:</p>
+
+<ol style="padding-left: 1.5em; margin-bottom: 1.5em;">
+  <li><strong>Onboarding & Registration (Izquierda):</strong><br>
+  Inicia con el <strong>System Admin</strong> registrando el taller (<code>Register Workshop</code> → <code>Workshop Account Created</code>). Se registran los actores clave: el <strong>Administrator</strong> o <strong>Mechanic</strong> registran clientes (<code>Client Registered</code>) y el <strong>Mechanic</strong> registra los vehículos (<code>Vehicle Registered</code>).<br>
+  <em>Hotspot identificado:</em> <code>Data scattered across notebooks</code> (Datos dispersos en cuadernos), reflejando la desorganización actual.</li>
+
+  <li><strong>Intake & Assessment (Centro-Superior):</strong><br>
+  El <strong>Mechanic</strong> crea la orden de trabajo (<code>Create Work Order</code> → <code>Work Order Created</code>). Se aplica una política automática: <code>Code Generation Policy</code> que genera un código de seguimiento (<code>Tracking Code Generated</code>). El mecánico detalla las tareas (<code>Add task</code> → <code>Task Added</code>) y el administrador asigna turnos (<code>Assign Shift</code>).<br>
+  <em>Hotspot identificado:</em> <code>Difficulty in estimating actual costs</code> (Dificultad para estimar costos reales), un problema que la digitalización busca resolver.</li>
+
+  <li><strong>Execution & Follow-up (Centro-Inferior):</strong><br>
+  El <strong>Mechanic</strong> inicia las tareas (<code>Start task</code> → <code>Task Started</code> → <code>Task Completed</code>). Se actualiza el estado del vehículo (<code>Update Vehicle Status</code> → <code>Vehicle Status Updated</code>).<br>
+  <strong>Punto Clave:</strong> Aquí interviene la política <code>Notify Client Policy</code>. Al cambiar el estado, el sistema envía una notificación (<code>Email/SMS System</code> → <code>Notification Sent</code>), manteniendo al cliente informado sin llamadas manuales.<br>
+  El <strong>Client</strong> puede consultar el estado ingresando su código (<code>Enter Tracking Code</code> → <code>Tracking Session Started</code>).<br>
+  <em>Hotspot identificado:</em> <code>The customer keeps calling to ask about the status</code> (El cliente llama constantemente), resolviendo la frustración de Ana.</li>
+
+  <li><strong>Closure & Billing (Derecha-Inferior):</strong><br>
+  El <strong>Mechanic</strong> completa la orden (<code>Complete Work Order</code> → <code>Work Order Completed</code>). El <strong>Administrator</strong> genera la factura (<code>Generate Invoice</code> → <code>Invoice Generated</code>). El <strong>Client</strong> procesa el pago (<code>Process Payment</code> → <code>Payment Processed</code>), interactuando con la <code>Payment Gateway</code>.<br>
+  <em>Hotspot identificado:</em> <code>Manual error in calculating totals</code> (Error manual en el cálculo de totales).</li>
+
+  <li><strong>Reports & Metrics (Derecha-Superior):</strong><br>
+  El <strong>Administrator</strong> visualiza métricas de productividad (<code>View Productivity Metrics</code> → <code>Workshop Productivity Calculated</code>). Se analizan tendencias de servicio (<code>Analyze Service Trends</code> → <code>Service Trends Analyzed</code>). Se generan reportes diarios de ingresos bajo la <code>Daily Closing Policy</code>.</li>
+</ol>
+
+#### Leyenda de Elementos
+
+<p>Para la correcta interpretación del diagrama, se han utilizado los estándares visuales de EventStorming:</p>
+<ul style="padding-left: 1.5em; margin-bottom: 1.5em;">
+  <li>🟧 <strong>Domain Events (Naranja):</strong> Hechos relevantes que ya ocurrieron en el negocio (ej. <code>Vehicle Status Updated</code>, <code>Invoice Generated</code>).</li>
+  <li>🟦 <strong>Commands (Azul):</strong> Acciones o decisiones que inician un proceso (ej. <code>Create Work Order</code>, <code>Process Payment</code>).</li>
+  <li>🟨 <strong>Actors (Amarillo):</strong> Usuarios o sistemas que ejecutan los comandos (System Admin, Mechanic, Administrator, Client).</li>
+  <li>🟪 <strong>Policies (Morado):</strong> Reglas de negocio o automatizaciones (ej. <code>Notify Client Policy</code>, <code>Code Generation Policy</code>).</li>
+  <li>🟥 <strong>External Systems (Rosa fuerte):</strong> Servicios de terceros integrados (Email/SMS System, Payment Gateway).</li>
+  <li>🔴 <strong>Hotspots (Rojo claro):</strong> Puntos de dolor o problemas identificados en el proceso actual.</li>
+</ul>
+
+#### Hotspots y Oportunidades de Mejora
+
+<p>Durante el modelado, detectamos áreas problemáticas en el proceso actual que justifican la existencia de nuestra solución <strong>AutoService</strong>:</p>
+<ol style="padding-left: 1.5em; margin-bottom: 1em;">
+  <li><strong>Falta de Transparencia (Bloque Execution):</strong><br>
+  <em>Problema:</em> El evento <code>Vehicle Status Updated</code> no llegaba al cliente, generando llamadas constantes.<br>
+  <em>Solución:</em> La política <code>Notify Client Policy</code> automatiza la comunicación.</li>
+
+  <li><strong>Desorganización Operativa (Bloque Onboarding/Intake):</strong><br>
+  <em>Problema:</em> Datos dispersos en cuadernos y dificultad para estimar costos.<br>
+  <em>Solución:</em> Centralización digital y cálculo automático basado en tareas registradas.</li>
+
+  <li><strong>Errores Administrativos (Bloque Closure):</strong><br>
+  <em>Problema:</em> Errores manuales al calcular totales de facturas.<br>
+  <em>Solución:</em> Generación automática de invoices basada en los servicios completados.</li>
+</ol>
+</div>
+
 
 ### 2.5. Ubiquitous Language
-[Pendiente]
+
+<p style="text-align: justify;">
+Para garantizar una comunicación clara y sin ambigüedades entre los miembros del equipo de desarrollo y los stakeholders del negocio, se ha definido el siguiente glosario de términos (Ubiquitous Language). Estos términos representan los conceptos fundamentales del dominio de la gestión de talleres automotrices.
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center; vertical-align: middle; ">Término<br>(Inglés)</th>
+      <th style="text-align: center; vertical-align: middle; ">Equivalente<br>(Español)</th>
+      <th style="text-align: left; vertical-align: middle; ">Definición</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center;"><strong>Work Order</strong></td>
+      <td style="text-align: center;">Orden de Trabajo</td>
+      <td>Documento digital que registra la solicitud de servicio de un vehículo, incluyendo los trabajos a realizar, los costos estimados y el estado actual del proceso.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>Service Request</strong></td>
+      <td style="text-align: center;">Solicitud de Servicio</td>
+      <td>Petición inicial realizada por el cliente para el mantenimiento o reparación de su vehículo.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>Mechanic / Technician</strong></td>
+      <td style="text-align: center;">Mecánico / Técnico</td>
+      <td>Usuario del sistema encargado de ejecutar las tareas técnicas de reparación y diagnóstico en los vehículos.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>Workshop Administrator</strong></td>
+      <td style="text-align: center;">Administrador del Taller</td>
+      <td>Usuario responsable de gestionar las órdenes de trabajo, asignar tareas al personal, controlar inventarios y gestionar la facturación.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>Vehicle</strong></td>
+      <td style="text-align: center;">Vehículo</td>
+      <td>El objeto físico (auto, moto, camión) que ingresa al taller para recibir servicio. Se asocia a un cliente específico.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>Diagnostic</strong></td>
+      <td style="text-align: center;">Diagnóstico</td>
+      <td>Evaluación técnica realizada por el mecánico para identificar fallas o necesidades de mantenimiento en el vehículo.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>Quote / Budget</strong></td>
+      <td style="text-align: center;">Cotización / Presupuesto</td>
+      <td>Estimación de costos detallada que se presenta al cliente antes de iniciar la reparación.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>Maintenance History</strong></td>
+      <td style="text-align: center;">Historial de Mantenimiento</td>
+      <td>Registro cronológico de todos los servicios, reparaciones y cambios de piezas realizados a un vehículo a lo largo del tiempo.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>Status</strong></td>
+      <td style="text-align: center;">Estado</td>
+      <td>Indicador del progreso de una Orden de Trabajo (ej. Pendiente, En Proceso, Listo, Entregado).</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>Spare Part</strong></td>
+      <td style="text-align: center;">Repuesto</td>
+      <td>Pieza o componente de inventario que se utiliza para reemplazar piezas dañadas durante la reparación.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>Client / Customer</strong></td>
+      <td style="text-align: center;">Cliente</td>
+      <td>Usuario final propietario del vehículo que contrata los servicios del taller.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>Staff</strong></td>
+      <td style="text-align: center;">Personal</td>
+      <td>Conjunto de mecánicos y personal de apoyo que labora en el taller.</td>
+    </tr>
+  </tbody>
+</table>
