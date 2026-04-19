@@ -716,7 +716,28 @@ Muestra la experiencia del cliente al solicitar, seguir y recibir un servicio au
 
 
 #### 2.3.4. Empathy Mapping
-[Pendiente]
+
+
+#### Empathy Map 1: Mechanic
+
+Identifica pensamientos, emociones y necesidades del mecánico durante su trabajo.
+
+![Empathy Map Mechanic](docs/assets/chapter-2/needfinding/empathy-map-1-mechanic.png)
+
+
+#### Empathy Map 2: Workshop Manager
+
+Refleja las preocupaciones, objetivos y frustraciones del administrador del taller.
+
+![Empathy Map Workshop Manager](docs/assets/chapter-2/needfinding/empathy-map-2-workshop-manager.png)
+
+
+#### Empathy Map 3: Vehicle Owner
+
+Muestra las expectativas, emociones y percepciones del cliente.
+
+![Empathy Map Vehicle Owner](docs/assets/chapter-2/needfinding/empathy-map-3-vehicle-owner.png)
+
 
 ---
 
