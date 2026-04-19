@@ -572,6 +572,35 @@ El entrevistado Juan Calisaya, de 30 años, es propietario y administrador de un
 
 ![Entrevista Administrador Taller](docs/assets/chapter-2/interview-admin-taller-1.png)
 
+
+
+#### Entrevista 5: Administrador y Encargado de Logística de Taller Automotriz
+
+- **Nombre:** Sebastián Rojas  
+- **Edad:** 24  
+- **Residencia:** Villa El Salvador, Lima  
+- **Ocupación:** Administrador y Encargado de Logística de Taller Automotriz  
+
+- **Inicio:** 0:04  
+- **Duración:** 10:55  
+
+**Link:**  
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e299_upc_edu_pe/IQAn-6pC1Ur6TbGWsrSbHCfUATVeVUjKORt507XsjZzhAKU?e=zj8iCk)
+
+---
+
+**Resumen:**
+<p style="text-align: justify;">
+El entrevistado Sebastián Rojas, de 24 años, se desempeña como administrador y encargado de logística en un taller automotriz con un equipo de 6 personas, donde las funciones están distribuidas según especialidad. La gestión actual combina registros en papel y Excel, lo que permite cierto orden, pero resulta limitado ante el crecimiento del volumen de trabajo. Uno de los principales problemas es la falta de coordinación entre áreas, especialmente entre mecánicos y almacén, generando cuellos de botella y dependencia del administrador para validar procesos. El seguimiento de los vehículos se realiza mediante un pizarrón físico, pero al no actualizarse constantemente, se requiere comunicación directa frecuente, lo que reduce la eficiencia. La comunicación con los clientes se da principalmente por llamadas y WhatsApp, enviando ocasionalmente fotos, pero esto genera desconfianza cuando no hay claridad en los avances o cambios en los costos. Además, el control de ingresos e inventario es básico, lo que limita el análisis del rendimiento del negocio. El entrevistado muestra interés en implementar un sistema digital que permita gestionar órdenes de trabajo, controlar inventario, visualizar el estado de los vehículos en tiempo real y generar reportes, con el objetivo de mejorar la organización, optimizar el tiempo y aumentar la transparencia con los clientes.
+</p>
+
+---
+
+**Evidencia:**
+
+![Entrevista Administrador Logística](docs/assets/chapter-2/interview-admin-taller-2.png)
+
+
 #### 2.2.3. Análisis de entrevistas
 [Pendiente]
 
