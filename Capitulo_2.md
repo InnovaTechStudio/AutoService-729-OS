@@ -692,7 +692,28 @@ Existe una clara oportunidad para digitalizar la <strong>"Comunicación del esta
 
 
 #### 2.3.3. User Journey Mapping
-[Pendiente]
+
+
+##### Journey Map 1: Mechanic
+
+Representa el flujo de trabajo del mecánico desde la recepción del vehículo hasta la finalización del servicio.
+
+![Journey Map Mechanic](docs/assets/chapter-2/needfinding/journey-map-1-mechanic.png)
+
+
+#### Journey Map 2: Workshop Manager
+
+Describe la gestión operativa del administrador del taller y la supervisión de procesos.
+
+![Journey Map Workshop Manager](docs/assets/chapter-2/needfinding/journey-map-2-workshop-manager.png)
+
+
+#### Journey Map 3: Vehicle Owner
+
+Muestra la experiencia del cliente al solicitar, seguir y recibir un servicio automotriz.
+
+![Journey Map Vehicle Owner](docs/assets/chapter-2/needfinding/journey-map-3-vehicle-owner.png)
+
 
 #### 2.3.4. Empathy Mapping
 [Pendiente]
