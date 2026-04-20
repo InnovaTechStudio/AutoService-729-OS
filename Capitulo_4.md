@@ -287,10 +287,61 @@ Este diagrama profundiza en el contenedor API RESTful para exponer los bloques e
 
 ### 4.7. Software Object-Oriented Design
 
+<p align="justify">
+  En esta sección se presenta el diseño orientado a objetos del sistema <strong>AutoService</strong>, 
+  alineado con los principios de <strong>Domain-Driven Design (DDD)</strong> y 
+  <strong>Clean Architecture</strong>.
+</p>
+
+<p align="justify">
+  Los diagramas de clases modelan la estructura estática de cada 
+  <strong>Bounded Context</strong> identificado en el <strong>Event Storming</strong>, 
+  asegurando una clara separación de responsabilidades, alta cohesión y bajo acoplamiento.
+</p>
+
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Característica</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Notación UML Estándar</td>
+      <td align="justify">Se utiliza la sintaxis oficial de diagramas de clases.</td>
+    </tr>
+    <tr>
+      <td>Visibilidad (Scope)</td>
+      <td align="justify">- private, + public, # protected – encapsulamiento.</td>
+    </tr>
+    <tr>
+      <td>Tipos de Datos C#</td>
+      <td align="justify">Guid, string, DateTime, decimal, bool, int – tipado nativo .NET.</td>
+    </tr>
+    <tr>
+      <td>Relaciones Explícitas</td>
+      <td align="justify">Nombre de rol, dirección de navegación y multiplicidad (1, 0..1, *).</td>
+    </tr>
+    <tr>
+      <td>Optimización para Persistencia</td>
+      <td align="justify">Entidades consolidadas para mapeo directo al modelo relacional de 16 tablas.</td>
+    </tr>
+    <tr>
+      <td>Patrones y Principios</td>
+      <td align="justify">SOLID (SRP, DIP), Repository, Factory, Strategy.</td>
+    </tr>
+  </tbody>
+</table>
+
+
 #### 4.7.1. Class Diagrams
-[Pendiente]
+
+
+
 
 ### 4.8. Database Design
 
 #### 4.8.1. Database Diagrams
-[Pendiente]
