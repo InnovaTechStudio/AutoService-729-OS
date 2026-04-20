@@ -476,4 +476,136 @@ Este diagrama profundiza en el contenedor API RESTful para exponer los bloques e
 
 ### 4.8. Database Design
 
+<p align="justify">
+En esta sección se presenta el diseño de la base de datos relacional para el <strong>AutoService</strong>, alineado con los <strong>Bounded Contexts</strong> identificados en el análisis de <strong>Domain-Driven Design (DDD)</strong> y optimizado para cumplir con el alcance del proyecto.
+</p>
+
+
+#### Características Principales del Diseño
+
+
+<div style="overflow-x: auto;">
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">Característica</th>
+        <th scope="col">Descripción</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Motor de Base de Datos</td>
+        <td style="text-align: justify;">
+          PostgreSQL 15+ / SQL Server 2019+ (según configuración del entorno).
+        </td>
+      </tr>
+      <tr>
+        <td>Normalización</td>
+        <td style="text-align: justify;">
+          Tercera Forma Normal (3NF) para eliminar redundancias y garantizar integridad referencial.
+        </td>
+      </tr>
+      <tr>
+        <td>Claves Primarias</td>
+        <td style="text-align: justify;">
+          Todas las tablas utilizan Guid/UUID como clave primaria para escalabilidad distribuida y evitar conflictos en entornos multi-tenant.
+        </td>
+      </tr>
+      <tr>
+        <td>Claves Foráneas</td>
+        <td style="text-align: justify;">
+          Relaciones explícitas con restricciones ON DELETE CASCADE o ON DELETE RESTRICT según la lógica de negocio y preservación de datos históricos.
+        </td>
+      </tr>
+      <tr>
+        <td>Índices</td>
+        <td style="text-align: justify;">
+          Índices en columnas de búsqueda frecuente (Plate, Email, OrderNumber, StatusEnum, WorkshopId) para optimizar consultas.
+        </td>
+      </tr>
+      <tr>
+        <td>Soft Delete</td>
+        <td style="text-align: justify;">
+          Columna IsActive o IsArchived en entidades críticas para preservación histórica sin eliminación física.
+        </td>
+      </tr>
+      <tr>
+        <td>Auditoría Básica</td>
+        <td style="text-align: justify;">
+          Columnas CreatedAt, UpdatedAt en tablas transaccionales para trazabilidad temporal.
+        </td>
+      </tr>
+      <tr>
+        <td>Enumeraciones</td>
+        <td style="text-align: justify;">
+          Campos INT con valores controlados para estados (WorkOrderStatus, PaymentStatus) garantizando consistencia de datos a nivel de aplicación.
+        </td>
+      </tr>
+      <tr>
+        <td>Multi-tenancy</td>
+        <td style="text-align: justify;">
+          Columna WorkshopId en tablas operativas para aislamiento lógico entre talleres (modelo SaaS), con políticas de Row-Level Security (RLS) opcionales.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
 #### 4.8.1. Database Diagrams
+
+##### Diagrama de Base de Datos General - AutoService
+
+<div align="center">
+
+![alt text](docs/assets/chapter-4/database-diagram/database-diagram-autoservice.png)
+</div>
+
+
+##### Identity & Profile Context
+Este contexto gestiona la autenticación, autorización y configuración multi-tenant del sistema.
+
+<div align="center">
+<img src="docs/assets/chapter-4/database-diagram/database-diagram-identity-&-profile-context.png"width="600">
+</div>
+
+
+##### Workshop Operations Context (Core Domain)
+El núcleo del negocio: gestión de órdenes de trabajo, tareas y seguimiento.
+
+<div align="center">
+<img src="docs/assets/chapter-4/database-diagram/database-diagram-workshop-operations-context-core.png"width="1000">
+</div>
+
+
+##### Staff Management Context (Supporting Domain)
+Administra el personal técnico, sus turnos y disponibilidad operativa.
+
+<div align="center">
+<img src="docs/assets/chapter-4/database-diagram/database-diagram-staff-management-context.png"width="600">
+</div>
+
+
+##### Billing & Payment Context (Supporting Domain)
+Gestiona la facturación, comprobantes y registro de transacciones económicas.
+
+<div align="center">
+<img src="docs/assets/chapter-4/database-diagram/database-diagram-billing-&-payment-context.png"width="800">
+</div>
+
+
+##### Customer Tracking & Notification Context (Supporting Domain)
+Facilita la comunicación proactiva con el cliente final y el seguimiento externo.
+
+<div align="center">
+<img src="docs/assets/chapter-4/database-diagram/database-diagram-customer-tracking-&-notification-context.png"width="500">
+</div>
+
+
+##### Reporting & Analytics Context (Supporting Domain)
+El contexto de Reporting se alimenta de las siguientes tablas operativas distribuidas en otros Bounded Contexts como Customer & Assets Context
+Gestiona la información de clientes propietarios y sus vehículos registrados.
+
+<div align="center">
+<img src="docs/assets/chapter-4/database-diagram/database-diagram-customer-&-assets-context.png"width="350">
+</div>
