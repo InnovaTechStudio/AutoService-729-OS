@@ -339,7 +339,139 @@ Este diagrama profundiza en el contenedor API RESTful para exponer los bloques e
 
 #### 4.7.1. Class Diagrams
 
+##### Diagrama de Clases General - AutoService
 
+<div align="center">
+<img src="docs/assets/chapter-4/class-diagrams/class-diagram-autoservice.png"width="1000">
+</div>
+
+
+##### Identity & Profile Context
+
+###### Responsabilidades Principales
+- Autenticación de usuarios mediante credenciales seguras (hash de contraseñas)
+- Gestión de roles y asignación a usuarios
+- Control de acceso multi-tenant mediante **WorkshopId**
+- Auditoría de asignación de roles (fecha de asignación)
+
+###### Reglas de Negocio Clave
+- Cada usuario pertenece a un único taller (**WorkshopId**), asegurando aislamiento multi-tenant
+- Los roles disponibles son: **Admin**, **Mechanic**, **Client**
+- Un usuario puede tener múltiples roles simultáneamente
+- La asignación de roles registra la fecha para trazabilidad
+- Solo usuarios activos (**IsActive = true**) pueden autenticarse
+
+<div align="center">
+<img src="docs/assets/chapter-4/class-diagrams/class-diagram-identity-&-profile-context.png"width="400">
+</div>
+
+
+##### Workshop Operations Context (Core Domain)
+
+###### Responsabilidades Principales
+- Gestión del ciclo de vida completo de las órdenes de trabajo
+- Registro y mantenimiento de información de clientes y vehículos
+- Desglose operativo de servicios en tareas asignables a mecánicos
+- Seguimiento del estado de servicios y auditoría de cambios
+- Generación de códigos de seguimiento para transparencia al cliente
+
+###### Reglas de Negocio Clave
+- Cada orden de trabajo debe estar asociada a un vehículo y un taller
+- Los vehículos deben tener un único propietario (cliente) registrado
+- El estado de la orden sigue un flujo definido: **PENDING → IN_PROGRESS → COMPLETED → DELIVERED** (con soporte para **CANCELLED**)
+- Cada cambio de estado se registra en **StatusHistory** para auditoría
+- Cada orden genera un código de seguimiento único para consulta del cliente
+- El monto total de la orden se calcula a partir de los costos de sus tareas
+
+<div align="center">
+<img src="docs/assets/chapter-4/class-diagrams/class-diagram-workshop-operations-context-core.png"width="800">
+</div>
+
+
+##### Staff Management Context (Supporting Domain)
+
+###### Responsabilidades Principales
+- Registro y gestión de información laboral de mecánicos
+- Asignación y control de turnos de trabajo
+- Validación de conflictos de horarios
+- Cálculo de métricas laborales (ingresos semanales)
+- Verificación de disponibilidad del personal técnico
+
+###### Reglas de Negocio Clave
+- Cada mecánico está asociado a un usuario del sistema (**UserId**) para autenticación
+- Un mecánico pertenece a un único taller (**WorkshopId**)
+- Los turnos de un mismo mecánico no pueden superponerse en el tiempo (**IsOverlapping()**)
+- El estado **IsActive** determina si el mecánico está disponible para asignación
+- Los tipos de turno son: **MORNING**, **AFTERNOON**, **NIGHT**, **OVERTIME**
+
+<div align="center">
+<img src="docs/assets/chapter-4/class-diagrams/class-diagram-staff-management-context.png"width="300">
+</div>
+
+
+##### Billing & Payment Context (Supporting Domain)
+
+###### Responsabilidades Principales
+- Generación de facturas y comprobantes fiscales
+- Cálculo de subtotales, impuestos y totales
+- Gestión de ítems detallados por factura
+- Registro de pagos con múltiples métodos
+- Procesamiento y seguimiento de transacciones
+- Soporte para cancelación y reembolsos
+
+###### Reglas de Negocio Clave
+- Cada factura puede estar asociada a una orden de trabajo (relación opcional **0..1**)
+- Los totales se calculan automáticamente a partir de los ítems y la tasa de impuesto
+- Una factura puede recibir un solo pago (relación **0..1**), simplificando el modelo
+- Se soportan múltiples métodos de pago: **efectivo**, **tarjeta crédito/débito**, **transferencia**
+- Los pagos tienen un ciclo de vida: **PENDING → PROCESSING → COMPLETED / FAILED**
+- Las facturas pueden estar en estado: **DRAFT**, **ISSUED**, **PAID**, **CANCELLED** o **OVERDUE**
+
+<div align="center">
+<img src="docs/assets/chapter-4/class-diagrams/class-diagram-billing-&-payment-context.png"width="500">
+</div>
+
+
+##### Customer Tracking & Notification Context (Supporting Domain)
+
+###### Responsabilidades Principales
+- Registro de notificaciones enviadas a clientes
+- Envío de notificaciones a través de múltiples canales (Email, SMS, Push, WhatsApp)
+- Seguimiento del estado de entrega de notificaciones
+- Trazabilidad completa de la comunicación por cliente y orden de trabajo
+- Soporte para notificaciones automáticas basadas en eventos del sistema
+
+###### Reglas de Negocio Clave
+- Cada notificación se registra antes de ser enviada, garantizando trazabilidad
+- Las notificaciones se vinculan al cliente destinatario (**ClientId**)
+- Opcionalmente, una notificación puede asociarse a una orden de trabajo (**WorkOrderId**)
+- Los tipos de notificación incluyen: **actualización de estado**, **orden completada**, **pago recibido** y **recordatorios**
+- El sistema soporta múltiples canales: **Email**, **SMS**, **Push Notification** y **WhatsApp**
+- El ciclo de vida de una notificación es: **PENDING → SENT → DELIVERED / FAILED**
+
+<div align="center">
+<img src="docs/assets/chapter-4/class-diagrams/class-diagram-customer-tracking-&-notification-context.png"width="450">
+</div>
+
+
+##### Reporting & Analytics Context (Supporting Domain)
+
+###### Responsabilidades Principales
+- Generación de reportes bajo demanda o programada
+- Almacenamiento de metadata de reportes generados (tipo, rango de fechas, URL del archivo)
+- Exportación de reportes en múltiples formatos (PDF, Excel)
+- Trazabilidad de quién generó cada reporte y cuándo
+
+###### Regla de Negocio Clave
+- Los reportes pueden generarse por rango de fechas personalizado
+- Cada reporte está asociado a un taller específico (**WorkshopId**)
+- Los tipos de reporte disponibles son: ingresos diarios, productividad semanal, resumen mensual y desempeño de mecánicos
+- Los reportes generados se almacenan como archivos (PDF/Excel) con una URL de acceso
+- La lógica de cálculo de métricas se ejecuta al momento de generar el reporte, consultando datos en vivo
+
+<div align="center">
+<img src="docs/assets/chapter-4/class-diagrams/class-diagram-reporting-&-analytics-context.png"width="300">
+</div>
 
 
 ### 4.8. Database Design
