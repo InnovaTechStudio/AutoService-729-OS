@@ -47,7 +47,7 @@
       <tr>
         <td style="padding: 20px; border: 1px solid #ddd; vertical-align: middle; text-align: left;">
           <strong>Mamani Vilca, Alan Jaivi</strong><br><br>
-          <i>Descripción pendiente...</i>
+          <i>Soy estudiante de Ingeniería de Software en la UPC, con interés en machine learning y análisis de datos. Me caracterizo por mi pensamiento analítico, responsabilidad, proactividad y capacidad de trabajo en equipo. Me mantengo en constante aprendizaje, enfocado en la resolución de problemas y en aportar de manera eficiente y colaborativa en proyectos tecnológicos.</i>
         </td>
         <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: middle;">
           <img src="docs/assets/alan.png" alt="Alan Mamani" width="150" style="border-radius: 10px; border: 1px solid #ccc;">
