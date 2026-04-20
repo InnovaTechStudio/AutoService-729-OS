@@ -330,19 +330,193 @@ El presente Sprint Backlog detalla la descomposición técnica de las historias 
 </div>
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
-[Pendiente]
+
+<p align="justify">
+Durante el Sprint 1, el equipo completó la base estratégica y técnica del proyecto, abarcando desde la definición del perfil de la startup hasta el diseño detallado del producto en los Capítulos I al IV. En cuanto a la implementación técnica, los esfuerzos se centraron en el diseño de mockups de alta fidelidad, el despliegue de la versión inicial de la Landing Page y la configuración de los entornos de desarrollo para la implementación de la Web Application y el RESTful API en los siguientes sprints.<br><br>
+En la siguiente tabla se presentan commits que representan hitos clave del desarrollo de este sprint:
+</p>
+
+<table style="width: 100%; border-collapse: collapse; text-align: justify;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="border: 1px solid #ddd; padding: 8px;">Repository</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Branch</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Commit Id</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Commit Message</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Commit Message Body</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Commited on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-729-OS</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>main</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>43a3a61</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">chore:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">initial project setup</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">12/04/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-729-OS</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/capitulo-1</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>a8c043e</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">docs:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">add solution profile</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">12/04/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-729-OS</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/chapter-3</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>25b600f</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">docs:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">add product backlog table and jira evidence</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">12/04/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-729-OS</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/chapter-5</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>3815e12</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">docs:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">add sprint 1 backlog table</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">12/04/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-729-OS</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/chapter-2/interview-struct</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>e262f08</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">docs:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">add chapter-2 intervier record,1,2,3 and interview design</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">14/04/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-729-OS</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/information-architecture-and-ddd</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>d1e9556</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">docs:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">add event storming section and c4 diagrams</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">16/04/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-729-OS</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/chapter-2-requirements-analysis</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>03e330c</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">docs:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">add user task matrix for Chapter 2 needfinding section</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">17/04/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-729-OS</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/chapter-4-design-diagrams</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>a1e4b4f</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">docs:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">add database design diagram for Chapter 4</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">19/04/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-729-OS</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/chapter-4-design-diagrams</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>0f7718c</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">docs:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">add class diagrams for Chapter 4 object-oriented design</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">19/04/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-landing</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/landing-base</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>5c2cdfa</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">feat:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">redesign landing page visual system</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">19/04/2026</td>
+    </tr>
+  </tbody>
+</table>
 
 ##### 5.2.1.5. Execution Evidence for Sprint Review
-[Pendiente]
+
+<p align="justify">
+En esta sección se presenta la evidencia de la ejecución del producto lograda durante el Sprint 1. El resultado principal de esta iteración es la primera versión funcional de la Landing Page de AutoService, desarrollada con HTML5, CSS3 y JavaScript. Esta interfaz presenta de forma clara el modelo de negocio, las herramientas principales de la plataforma y los planes de suscripción disponibles. Se ha verificado que la navegación interactiva (scroll suave y menú hamburguesa) sea fluida y que el diseño sea completamente adaptable (responsive web design) para garantizar una correcta experiencia de usuario tanto en navegadores de escritorio como en dispositivos móviles.
+</p>
+
+<div align="center">
+  <h5>Vista Principal de la Landing Page (Hero Section y Navegación)</h5>
+  <img src="docs/assets/chapter-5/hero-landing.png" alt="Landing Page Hero Section" width="80%">
+  
+  <h5>Sección de Características y Planes de Suscripción</h5>
+  <img src="docs/assets/chapter-5/pricing-landing.png" alt="Landing Page Pricing y Features" width="80%">
+</div>
+
+<p align="justify">
+Para ilustrar la visualización y las interacciones logradas en este Sprint, se adjunta el enlace a un video demostrativo. En este registro se evidencia el funcionamiento de los componentes clave, la adaptabilidad del diseño en distintas resoluciones y la coherencia visual con los lineamientos de UI establecidos en el Capítulo IV del proyecto.
+</p>
+
+---
 
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
-[Pendiente]
+
+<p align="justify">
+Durante el Sprint 1, el equipo priorizó estratégicamente el diseño del dominio (Domain-Driven Design), la elaboración de artefactos UX/UI y el desarrollo e implementación de la Landing Page. De acuerdo con la planificación de nuestro Sprint Backlog y la priorización de valor del producto, la implementación del contenedor API RESTful y su respectiva documentación con OpenAPI (Swagger) han sido programados para sprints futuros. Por tal motivo, en esta iteración inicial no se reportan endpoints implementados ni capturas de interacción de Web Services.
+</p>
+
+---
 
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
-[Pendiente]
+
+<p align="justify">
+En esta sección se detallan los procesos realizados para el despliegue de la solución durante el Sprint 1. El objetivo principal fue poner en producción la versión inicial de la Landing Page, permitiendo que el modelo de negocio de AutoService sea accesible para los interesados y potenciales clientes desde cualquier navegador.
+</p>
+
+<p align="justify">
+Para el despliegue, se utilizó <b>GitHub Pages</b>, aprovechando su integración nativa con el repositorio de código fuente. El proceso consistió en los siguientes pasos estratégicos:
+</p>
+
+<ol style="text-align: justify;">
+  <li><strong>Configuración del Entorno:</strong> Se configuró el repositorio específico para la Landing Page, asegurando que el archivo <code>index.html</code> se encuentre en la raíz para su correcto reconocimiento.</li>
+  <li><strong>Activación del Servicio:</strong> Se habilitó GitHub Pages desde los ajustes del repositorio, seleccionando la rama <code>main</code> como fuente de despliegue.</li>
+  <li><strong>Automatización (CI/CD):</strong> Se validó el flujo de trabajo automático mediante GitHub Actions, el cual dispara un nuevo despliegue cada vez que se realiza un merge a la rama principal.</li>
+</ol>
+
+<div align="center">
+
+  <h5>Evidencia 1: Configuración de GitHub Pages en el Repositorio</h5>
+    <img src="docs/assets/chapter-5/deployment_github_settings.png" alt="GitHub Pages Settings" width="80%">
+  <h5>Evidencia 2: Ejecución Exitosa del Workflow de Despliegue</h5>
+    <img src="docs/assets/chapter-5/deployment_actions_success.png" alt="GitHub Actions Workflow" width="80%">
+  <h5>Evidencia 3: Visualización de la Landing Page en Producción</h5>
+    <img src="docs/assets/chapter-5/deployment_live_url.png" alt="Live Landing Page" width="80%">
+
+</div><p align="justify">
+
+La Landing Page se encuentra actualmente operativa en la siguiente URL: <code>https://innovatechstudio.github.io/AutoService-landing/</code>.
+</p>
+
+---
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
-[Pendiente]
+
+<p align="justify">
+Durante el Sprint 1, el equipo mantuvo un flujo de trabajo altamente colaborativo y organizado, aplicando estrictamente la estrategia de control de versiones GitFlow. Para asegurar la calidad y revisión por pares, todo el desarrollo de la arquitectura, investigación de UX/UI y codificación de la Landing Page se trabajó en ramas independientes (<i>feature branches</i>). La integración del trabajo se realizó exclusivamente mediante <b>Pull Requests</b> hacia la rama <code>develop</code>, lo que fomentó la comunicación y revisión conjunta antes de consolidar los avances.
+</p>
+
+<p align="justify">
+A continuación, se presentan los analíticos extraídos de GitHub (Insights) que evidencian la participación equitativa y constante de todos los miembros del equipo (<i>Aspect Leaders</i> y <i>Collaborators</i>) tanto en el repositorio principal de documentación como en el de la Landing Page.
+</p>
+
+<div align="center">
+  <h5>Evidencia 1: Gráfico de Contribuciones por Miembro del Equipo</h5>
+  <img src="docs/assets/chapter-5/contributors.png" alt="GitHub Contributors Graph" width="80%">
+  
+  <h5>Evidencia 2: Resumen de Actividad del Sprint (GitHub Pulse)</h5>
+  <img src="docs/assets/chapter-5/pulse.png" alt="GitHub Pulse Activity" width="80%">
+
+  <h5>Evidencia 3: Gestión Colaborativa mediante Pull Requests</h5>
+  <img src="docs/assets/chapter-5/closed_pr.png" alt="GitHub Closed Pull Requests" width="80%">
+</div>
+
+<p align="justify">
+Como demuestran las gráficas y el resumen de actividad, la carga de trabajo se distribuyó de manera eficiente, logrando que el 100% de los integrantes registre commits significativos (alineados a <i>Conventional Commits</i>), gestione integraciones (Merges) y participe activamente en las fases de análisis, diseño e implementación temprana del producto.
+</p>
+
+---
 
 ### 5.3. Validation Interviews
 
