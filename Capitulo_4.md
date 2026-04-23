@@ -1185,7 +1185,9 @@ El video adjunto demuestra los principales flujos de interacción, evidenciando 
 
 <div align="center">
 
-<strong>Movil Applications Prototyping</strong>
+<strong>Mobile Applications Prototyping</strong>
+
+![alt text](docs/assets/chapter-4/mobile_app_proto.png)
 
 ![alt text](docs/assets/chapter4-designUX/screenshot-mobil-prototype.png)</div>
 

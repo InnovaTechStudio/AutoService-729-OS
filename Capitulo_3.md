@@ -798,6 +798,9 @@ A continuación, se presenta el Product Backlog del proyecto. Las historias han 
 
 Para complementar la especificación detallada del Product Backlog y evidenciar su correcta trazabilidad en nuestra herramienta de gestión, a continuación se presenta la captura de pantalla del entorno de Jira Software. En dicha evidencia se aprecia el listado completo de las historias configuradas y listas para ser abordadas en sus respectivos ciclos de desarrollo, manteniendo el estricto orden de prioridad de negocio establecido y sus correspondientes estimaciones en Story Points.
 
-![alt text](assets/READMEmedia/jira_backlog.png)
+<div align="center">
+
+![alt text](docs/assets/jira_backlog.png)
+</div>
 
 URL del tablero completo en Jira: https://innovatechstudio.atlassian.net/jira/software/projects/ASS/boards/1/backlog

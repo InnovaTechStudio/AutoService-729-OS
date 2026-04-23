@@ -331,6 +331,8 @@ La plataforma permite a mecánicos y talleres gestionar clientes, vehículos, ó
 </table>
 </div>
 
+---
+
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
 <p align="justify">Nuestro producto adoptará una estrategia competitiva basada en la diferenciación a través de la transparencia del servicio y la integración del cliente en el proceso, respondiendo a las limitaciones actuales del mercado, donde predominan soluciones centradas únicamente en la gestión interna.</p>
