@@ -268,10 +268,24 @@ Para AutoService, se han implementado diversos sistemas de organización que res
 ### 4.3. Landing Page UI Design
 
 #### 4.3.1. Landing Page Wireframe
-[Pendiente]
+
+<div align= center>
+
+![alt text](docs/assets/chapter-4/landing_wireframe_1.png)
+![alt text](docs/assets/chapter-4/landing_wireframe_2.png)
+![alt text](docs/assets/chapter-4/landing_wireframe_3.png)
+
+</div>
 
 #### 4.3.2. Landing Page Mock-up
-[Pendiente]
+
+<div align= center>
+
+![alt text](docs/assets/chapter-4/landing_mockup_1.png)
+![alt text](docs/assets/chapter-4/landing_mockup_2.png)
+![alt text](docs/assets/chapter-4/landing_mockup_3.png)
+
+</div>
 
 ### 4.4. Web Applications UX/UI Design
 
@@ -1071,16 +1085,20 @@ El video adjunto demuestra los principales flujos de interacción, evidenciando 
 
 <strong>Web Applications Prototyping</strong>
 
-![alt text](docs/assets/chapter-4/screenshot-web-prototype.png)</div>
+![alt text](docs/assets/chapter-4/web_app_proto.png)
+
+</div>
 
 <p>Url de video: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d185_upc_edu_pe/IQA1Ayp44N2tTZ3f8Qg06ivwAWceAwrAwbUt4oEaa1BBGXw?e=EAr9YX">https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d185_upc_edu_pe/IQA1Ayp44N2tTZ3f8Qg06ivwAWceAwrAwbUt4oEaa1BBGXw?e=EAr9YX</a></p>
 
 
 <div align="center">
 
-<strong>Movil Applications Prototyping</strong>
+<strong>Mobile Applications Prototyping</strong>
 
-![alt text](docs/assets/chapter-4/screenshot-mobil-prototype.png)</div>
+![alt text](docs/assets/chapter-4/mobile_app_proto.png)
+
+</div>
 
 <p>Url de video: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d185_upc_edu_pe/IQAkMAYXAVMXRqIAboIE6jKsAUqumaok8m0tsxRc5iGhvkY?e=MmRJh3">https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d185_upc_edu_pe/IQAkMAYXAVMXRqIAboIE6jKsAUqumaok8m0tsxRc5iGhvkY?e=MmRJh3</a></p>
 
