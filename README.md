@@ -107,6 +107,7 @@ Abril, 2026
 
 * **URL del Repositorio de GitHub:** https://github.com/InnovaTechStudio/AutoService-729-OS
 * **AV1:** - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+* **Video Exposición AV1:** 
 
 ---
 
@@ -234,10 +235,8 @@ Abril, 2026
       - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
 - [Conclusiones](#conclusiones)
-  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-  - [Video About-the-Team](#video-about-the-team)
+  - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
 - [Bibliografía](#bibliografía)
-- [\[Pendiente\]](#pendiente)
 - [Anexos](#anexos)
 
 ---
@@ -4861,17 +4860,210 @@ Como demuestran las gráficas y el resumen de actividad, la carga de trabajo se 
 
 ## Conclusiones
 
-### Conclusiones y recomendaciones
-[Pendiente]
+### Conclusiones y Recomendaciones
 
-### Video About-the-Team
-[Pendiente]
+<p align="justify">
+A continuación, se presentan las conclusiones derivadas del desarrollo de los primeros cinco capítulos del proyecto AutoService, así como las recomendaciones estratégicas para la continuidad de los siguientes Sprints:
+</p>
+
+<p align="justify"><b>Conclusiones:</b></p>
+<ul style="text-align: justify; margin-top: 0.5em; margin-bottom: 1.5em; padding-left: 1.5em;">
+  <li style="margin-bottom: 0.8em;">
+    <strong>Validación del modelo de negocio:</strong> La aplicación de la metodología Lean UX y el proceso de Needfinding permitió corroborar una necesidad crítica en el sector de mantenimiento automotriz: la falta de transparencia y la ineficiencia en la comunicación entre los talleres y los propietarios de vehículos. AutoService se perfila como una solución viable y centrada en el usuario para resolver este "pain point" identificado en los segmentos objetivo.
+  </li>
+  <li style="margin-bottom: 0.8em;">
+    <strong>Solidez Arquitectónica:</strong> La utilización conjunta del EventStorming y el enfoque Domain-Driven Design (DDD) facilitó una transición estructurada desde la lógica de negocio hacia una arquitectura de software orientada a servicios (C4 Model). Esto asegura que el sistema sea escalable, mantenible y modular desde su concepción técnica inicial.
+  </li>
+  <li style="margin-bottom: 0.8em;">
+    <strong>Eficacia en el Desarrollo Ágil:</strong> La ejecución exitosa del Sprint 1, evidenciada en el despliegue automático de la Landing Page mediante GitHub Pages y la integración de EmailJS, demuestra una correcta adopción de prácticas de Software Configuration Management, control de versiones con GitFlow y entrega continua por parte del equipo.
+  </li>
+</ul>
+
+<p align="justify"><b>Recomendaciones:</b></p>
+<ul style="text-align: justify; margin-top: 0.5em; margin-bottom: 1.5em; padding-left: 1.5em;">
+  <li style="margin-bottom: 0.8em;">
+    <strong>Mantenimiento de Estándares:</strong> Se recomienda mantener la rigurosidad en las ceremonias ágiles y en la revisión de Pull Requests para los siguientes sprints, garantizando que el código de la Web Application (Angular) y el Backend (Spring Boot) mantengan los estándares de calidad y convenciones definidos en la guía de estilos.
+  </li>
+  <li style="margin-bottom: 0.8em;">
+    <strong>Validación Temprana:</strong> Realizar pruebas de usabilidad tempranas utilizando el prototipo interactivo en Figma y la Landing Page desplegada para recolectar retroalimentación de usuarios reales antes de iniciar la programación masiva de los módulos operativos del Core Domain.
+  </li>
+  <li style="margin-bottom: 0.8em;">
+    <strong>Priorización Técnica:</strong> Se sugiere priorizar la implementación de la capa de seguridad (IAM Context) y la configuración de la persistencia de datos en el inicio del Sprint 2, para establecer las bases de autenticación requeridas por los distintos actores (Administrador, Mecánico y Cliente) de la plataforma.
+  </li>
+</ul>
 
 ---
 
 ## Bibliografía
-[Pendiente]
+
+<p align="justify" style="margin-left: 2em; text-indent: -2em; margin-bottom: 0.8em;">
+  Angular Team. (2024). <i>Angular Documentation</i>. Google. <a href="https://angular.io/docs" target="_blank">https://angular.io/docs</a>
+</p>
+
+<p align="justify" style="margin-left: 2em; text-indent: -2em; margin-bottom: 0.8em;">
+  Brandolini, A. (2021). <i>Introducing EventStorming: An act of deliberate collective learning</i>. Leanpub. <a href="https://leanpub.com/introducing_eventstorming" target="_blank">https://leanpub.com/introducing_eventstorming</a>
+</p>
+
+<p align="justify" style="margin-left: 2em; text-indent: -2em; margin-bottom: 0.8em;">
+  Brown, S. (2020). <i>The C4 model for visualising software architecture</i>. C4 Model. <a href="https://c4model.com/" target="_blank">https://c4model.com/</a>
+</p>
+
+<p align="justify" style="margin-left: 2em; text-indent: -2em; margin-bottom: 0.8em;">
+  Cucumber. (s.f.). <i>Gherkin Reference: Syntax and Keywords</i>. <a href="https://cucumber.io/docs/gherkin/" target="_blank">https://cucumber.io/docs/gherkin/</a>
+</p>
+
+<p align="justify" style="margin-left: 2em; text-indent: -2em; margin-bottom: 0.8em;">
+  EmailJS. (2024). <i>EmailJS Official Documentation</i>. <a href="https://www.emailjs.com/docs/" target="_blank">https://www.emailjs.com/docs/</a>
+</p>
+
+<p align="justify" style="margin-left: 2em; text-indent: -2em; margin-bottom: 0.8em;">
+  Evans, E. (2003). <i>Domain-Driven Design: Tackling Complexity in the Heart of Software</i>. Addison-Wesley Professional. <a href="https://www.oreilly.com/library/view/domain-driven-design-tackling/0321125215/" target="_blank">https://www.oreilly.com/library/view/domain-driven-design-tackling/0321125215/</a>
+</p>
+
+<p align="justify" style="margin-left: 2em; text-indent: -2em; margin-bottom: 0.8em;">
+  GitHub. (2024). <i>GitHub Actions and GitHub Pages Documentation</i>. <a href="https://docs.github.com/" target="_blank">https://docs.github.com/</a>
+</p>
+
+<p align="justify" style="margin-left: 2em; text-indent: -2em; margin-bottom: 0.8em;">
+  Gothelf, J., & Seiden, J. (2021). <i>Lean UX: Designing Great Products with Agile Teams</i> (3.ª ed.). O'Reilly Media. <a href="https://www.oreilly.com/library/view/lean-ux-3rd/9781492048596/" target="_blank">https://www.oreilly.com/library/view/lean-ux-3rd/9781492048596/</a>
+</p>
+
+<p align="justify" style="margin-left: 2em; text-indent: -2em; margin-bottom: 0.8em;">
+  Spring Framework. (2024). <i>Spring Boot Reference Guide</i>. VMware. <a href="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/" target="_blank">https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/</a>
+</p>
+
+<p align="justify" style="margin-left: 2em; text-indent: -2em; margin-bottom: 0.8em;">
+  Swagger. (s.f.). <i>OpenAPI Specification and Documentation Tools</i>. <a href="https://swagger.io/" target="_blank">https://swagger.io/</a>
+</p>
+
+<p align="justify" style="margin-left: 2em; text-indent: -2em; margin-bottom: 0.8em;">
+  Velneo. (2023). <i>Por qué usar un software de gestión ERP en talleres mecánicos</i>. <a href="https://velneo.com/blog/software-gestion-erp-talleres-mecanicos/" target="_blank">https://velneo.com/blog/software-gestion-erp-talleres-mecanicos/</a>
+</p>
+
 ---
 
 ## Anexos
-[Pendiente]
+
+<div align="center">
+  <h3 style="border-bottom: none;">Anexo A: Guía de Entrevistas por Segmento</h3>
+</div>
+
+<p align="justify">
+A continuación, se presentan las guías de preguntas estructuradas utilizadas durante el proceso de <i>Requirements Elicitation</i> para los tres segmentos objetivo del proyecto. Estas preguntas fueron diseñadas para identificar puntos de dolor, procesos actuales y expectativas de los usuarios.
+</p>
+
+<p><strong>Segmento 1: Mecánicos Independientes</strong></p>
+<table style="width: 100%; border-collapse: collapse; margin-bottom: 1.5em;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="border: 1px solid #ddd; padding: 8px;">#</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Pregunta de Entrevista</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">1</td><td style="border: 1px solid #ddd; padding: 8px;">¿Cuánto tiempo llevas trabajando como mecánico? ¿Podrías contarme cómo es un día típico en tu trabajo dentro del taller?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td><td style="border: 1px solid #ddd; padding: 8px;">¿Cómo registras actualmente la información de tus clientes, vehículos y trabajos?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td><td style="border: 1px solid #ddd; padding: 8px;">¿Cuáles son los principales problemas que enfrentas al gestionar los trabajos del taller?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td><td style="border: 1px solid #ddd; padding: 8px;">¿Cómo informas a tus clientes sobre el estado de sus vehículos?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">5</td><td style="border: 1px solid #ddd; padding: 8px;">¿Qué tan seguido te llaman o escriben clientes para preguntar por el estado de su auto?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">6</td><td style="border: 1px solid #ddd; padding: 8px;">¿Crees que tus clientes confían en el servicio que brindas? ¿Por qué?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">7</td><td style="border: 1px solid #ddd; padding: 8px;">¿Llevas un historial de los trabajos realizados por vehículo o cliente?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">8</td><td style="border: 1px solid #ddd; padding: 8px;">Si existiera una plataforma que te ayude a organizar tus trabajos y mostrar el progreso al cliente, ¿la usarías? ¿Por qué?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">9</td><td style="border: 1px solid #ddd; padding: 8px;">¿Qué funcionalidad te sería más útil en una herramienta digital para tu trabajo diario?</td></tr>
+  </tbody>
+</table>
+
+<p><strong>Segmento 2: Talleres Automotrices - Empresas</strong></p>
+<table style="width: 100%; border-collapse: collapse; margin-bottom: 1.5em;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="border: 1px solid #ddd; padding: 8px;">#</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Pregunta de Entrevista</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">1</td><td style="border: 1px solid #ddd; padding: 8px;">¿Cuántas personas trabajan en su taller y cómo están organizadas sus funciones?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td><td style="border: 1px solid #ddd; padding: 8px;">¿Cómo gestionan actualmente los clientes, vehículos y órdenes de trabajo?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td><td style="border: 1px solid #ddd; padding: 8px;">¿Qué problemas tienen al coordinar el trabajo entre mecánicos o áreas?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td><td style="border: 1px solid #ddd; padding: 8px;">¿Cómo hacen seguimiento al estado de cada vehículo en reparación?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">5</td><td style="border: 1px solid #ddd; padding: 8px;">¿Tienen algún sistema para medir ingresos, servicios realizados o rendimiento del taller?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">6</td><td style="border: 1px solid #ddd; padding: 8px;">¿Cómo se comunican con los clientes sobre el avance del servicio?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">7</td><td style="border: 1px solid #ddd; padding: 8px;">¿Han tenido problemas de desconfianza o reclamos por parte de clientes?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">8</td><td style="border: 1px solid #ddd; padding: 8px;">Si existiera un sistema que te permita gestionar tu taller y mostrar a tus clientes el progreso en tiempo real, ¿lo usarías?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">9</td><td style="border: 1px solid #ddd; padding: 8px;">¿Qué funcionalidades consideras indispensables en un sistema de gestión para talleres?</td></tr>
+  </tbody>
+</table>
+
+<p><strong>Segmento 3: Clientes - Propietarios de vehículos</strong></p>
+<table style="width: 100%; border-collapse: collapse; margin-bottom: 1.5em;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="border: 1px solid #ddd; padding: 8px;">#</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Pregunta de Entrevista</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">1</td><td style="border: 1px solid #ddd; padding: 8px;">¿Podrías contarme sobre la última vez que llevaste tu vehículo a un taller? ¿Qué servicio necesitabas?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td><td style="border: 1px solid #ddd; padding: 8px;">Durante el servicio, ¿cómo te informaban sobre el estado de tu vehículo?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td><td style="border: 1px solid #ddd; padding: 8px;">¿Tuviste alguna duda o preocupación mientras tu auto estaba en el taller? ¿Cuál fue?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td><td style="border: 1px solid #ddd; padding: 8px;">¿Alguna vez has sentido desconfianza hacia un taller? ¿Qué situación generó eso?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">5</td><td style="border: 1px solid #ddd; padding: 8px;">¿Te gustaría poder ver el progreso de la reparación de tu auto en tiempo real desde tu celular o computadora? ¿Por qué?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">6</td><td style="border: 1px solid #ddd; padding: 8px;">¿Qué tipo de información te gustaría ver mientras tu vehículo está en el taller?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">7</td><td style="border: 1px solid #ddd; padding: 8px;">¿Qué tan cómodo te sientes usando plataformas digitales o aplicaciones para consultar información de servicios?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">8</td><td style="border: 1px solid #ddd; padding: 8px;">Si existiera una plataforma que te permita ver el estado de tu vehículo, costos y trabajos realizados, ¿la usarías? ¿Qué te gustaría que incluya?</td></tr>
+  </tbody>
+</table>
+
+<div align="center">
+  <h3 style="border-bottom: none;">Anexo B: Gestión del Product Backlog en Jira Software</h3>
+</div>
+
+<p align="justify">
+<b>Referencia:</b> InnovaTech Studio. (2026). <i>Product Backlog de AutoService</i>. Atlassian Jira Software. <a href="https://innovatechstudio.atlassian.net/jira/software/projects/ASS/boards/1" target="_blank">https://innovatechstudio.atlassian.net/jira/software/projects/ASS/boards/1</a>
+</p>
+
+<p align="justify">
+Se presenta la gestión de historias de usuario, épicas y tareas técnicas mediante la herramienta Jira Software. El tablero refleja la priorización de los ítems del backlog y el estado de avance de las tareas planificadas para el Sprint 1.
+</p>
+
+<div align="center">
+  <img src="docs/assets/anexos_jira.png" alt="Jira Product Backlog Screenshot" width="80%">
+</div>
+
+<br>
+
+<div align="center">
+  <h3 style="border-bottom: none;">Anexo C: Prototipado y Diseño de Interfaces en Figma</h3>
+</div>
+
+<p align="justify">
+<b>Referencia:</b> InnovaTech Studio. (2026). <i>Design System y Mockups de AutoService</i>. Figma. <a href="https://www.figma.com/design/rOJ6k8HLfI85lI8Xsik6TN/AUTOSERVICE-AW?node-id=1-2&t=aYBkJzt0CQrAU6qH-1" target="_blank">https://www.figma.com/design/rOJ6k8HLfI85lI8Xsik6TN/AUTOSERVICE-AW</a>
+</p>
+
+<p align="justify">
+Se adjunta el diseño de alta fidelidad de la plataforma, incluyendo el Design System (colores, tipografías y componentes), los wireframes y los mockups interactivos que definen la experiencia de usuario (UX) y la interfaz (UI) de AutoService.
+</p>
+
+<div align="center">
+  <h5>Captura del Diseño de Interfaces - Figma</h5>
+  <img src="docs/assets/anexos_figma.png" alt="Figma UI/UX Design Screenshot" width="80%">
+</div>
+
+<br>
+
+<div align="center">
+  <h3 style="border-bottom: none;">Anexo D: Modelado de Dominio y Flujos en Miro</h3>
+</div>
+
+<p align="justify">
+<b>Referencia:</b> InnovaTech Studio. (2026). <i>EventStorming y User Flows de AutoService</i>. Miro. <a href="https://miro.com/welcomeonboard/ME8rSzFiTWh0M3k1SC80N0RZelVpKzBCdk5LNTZsTzhDSEJORE4ybE5ta25rUVd1ZFVNZndDS1ExZm0xSkdNVHFuc3E3QTN1QzQrcFFzYnUrYzN1NE5HTFdLQ1ZtbnNpYUN3cWJiblZ5dVdCQS9rY3dnSjlBdnNPSDh4Tk41alBnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=615806054520" target="_blank">Enlace al tablero interactivo en Miro</a>
+</p>
+
+<p align="justify">
+Se presenta el modelado colaborativo del dominio del negocio mediante la técnica de EventStorming, así como los diagramas de flujo de usuario (User Flows) que detallan la navegación lógica para los distintos actores del sistema.
+</p>
+
+<div align="center">
+  <h5>Captura del Tablero de Modelado - Miro</h5>
+  <img src="docs/assets/anexos_miro.png" alt="Miro EventStorming Screenshot" width="80%">
+</div>
