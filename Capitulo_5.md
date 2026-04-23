@@ -535,7 +535,7 @@ El presente Sprint Backlog detalla la descomposición técnica de las historias 
         <td style="border: 1px solid #ddd; padding: 8px;"><i>Diseñar wireframes y mockup inicial de la estructura web.</i></td>
         <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td>
         <td style="border: 1px solid #ddd; padding: 8px;">Luis, Diego</td>
-        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #d32f2f;">To-do</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2aac2a;">Done</td>
       </tr>
       <tr>
         <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-02</td>
@@ -543,7 +543,7 @@ El presente Sprint Backlog detalla la descomposición técnica de las historias 
         <td style="border: 1px solid #ddd; padding: 8px;"><i>Configurar proyecto base utilizando React y Tailwind CSS.</i></td>
         <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
         <td style="border: 1px solid #ddd; padding: 8px;">López, Rodrigo</td>
-        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #d32f2f;">To-do</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2aac2a;">Done</td>
       </tr>
       <tr>
         <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle; text-align: center; font-weight: bold;">US-02</td>
@@ -553,7 +553,7 @@ El presente Sprint Backlog detalla la descomposición técnica de las historias 
         <td style="border: 1px solid #ddd; padding: 8px;"><i>Redactar y estructurar el contenido (copy) explicativo.</i></td>
         <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td>
         <td style="border: 1px solid #ddd; padding: 8px;">Sanchez, Juan</td>
-        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #d32f2f;">To-do</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2aac2a;">Done</td>
       </tr>
       <tr>
         <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-04</td>
@@ -561,7 +561,7 @@ El presente Sprint Backlog detalla la descomposición técnica de las historias 
         <td style="border: 1px solid #ddd; padding: 8px;"><i>Desarrollar los componentes de tarjetas para beneficios.</i></td>
         <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td>
         <td style="border: 1px solid #ddd; padding: 8px;">Mamani, Alan</td>
-        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #d32f2f;">To-do</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2aac2a;">Done</td>
       </tr>
       <tr>
         <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle; text-align: center; font-weight: bold;">US-03</td>
@@ -571,7 +571,7 @@ El presente Sprint Backlog detalla la descomposición técnica de las historias 
         <td style="border: 1px solid #ddd; padding: 8px;"><i>Maquetar los botones de llamado a la acción.</i></td>
         <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td>
         <td style="border: 1px solid #ddd; padding: 8px;">Luis, Diego</td>
-        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #d32f2f;">To-do</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2aac2a;">Done</td>
       </tr>
       <tr>
         <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-06</td>
@@ -579,7 +579,7 @@ El presente Sprint Backlog detalla la descomposición técnica de las historias 
         <td style="border: 1px solid #ddd; padding: 8px;"><i>Configurar el enrutamiento base hacia vistas futuras.</i></td>
         <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
         <td style="border: 1px solid #ddd; padding: 8px;">Aguilar, Jeferson</td>
-        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #d32f2f;">To-do</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2aac2a;">Done</td>
       </tr>
       <tr>
         <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle; text-align: center; font-weight: bold;">US-04</td>
@@ -589,7 +589,7 @@ El presente Sprint Backlog detalla la descomposición técnica de las historias 
         <td style="border: 1px solid #ddd; padding: 8px;"><i>Aplicar clases utilitarias para ajuste a móviles y tablets.</i></td>
         <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td>
         <td style="border: 1px solid #ddd; padding: 8px;">Aguilar, Jeferson</td>
-        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #d32f2f;">To-do</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2aac2a;">Done</td>
       </tr>
       <tr>
         <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-08</td>
@@ -597,7 +597,7 @@ El presente Sprint Backlog detalla la descomposición técnica de las historias 
         <td style="border: 1px solid #ddd; padding: 8px;"><i>Realizar validaciones de renderizado en pantallas.</i></td>
         <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td>
         <td style="border: 1px solid #ddd; padding: 8px;">Aguilar, Jeferson</td>
-        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #d32f2f;">To-do</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2aac2a;">Done</td>
       </tr>
       <tr>
         <td rowspan="3" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle; text-align: center; font-weight: bold;">TS-01</td>
@@ -607,7 +607,7 @@ El presente Sprint Backlog detalla la descomposición técnica de las historias 
         <td style="border: 1px solid #ddd; padding: 8px;"><i>Diseñar Context Diagram bajo el modelo C4.</i></td>
         <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
         <td style="border: 1px solid #ddd; padding: 8px;">Mamani, Alan</td>
-        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #d32f2f;">To-do</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2aac2a;">Done</td>
       </tr>
       <tr>
         <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-10</td>
@@ -615,7 +615,7 @@ El presente Sprint Backlog detalla la descomposición técnica de las historias 
         <td style="border: 1px solid #ddd; padding: 8px;"><i>Diseñar Container Diagram bajo el modelo C4.</i></td>
         <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td>
         <td style="border: 1px solid #ddd; padding: 8px;">Sanchez, Juan</td>
-        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #d32f2f;">To-do</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2aac2a;">Done</td>
       </tr>
       <tr>
         <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-11</td>
@@ -623,7 +623,7 @@ El presente Sprint Backlog detalla la descomposición técnica de las historias 
         <td style="border: 1px solid #ddd; padding: 8px;"><i>Elaborar el Design-Level Event Storming.</i></td>
         <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td>
         <td style="border: 1px solid #ddd; padding: 8px;">Mamani, Alan</td>
-        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #d32f2f;">To-do</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2aac2a;">Done</td>
       </tr>
       <tr>
         <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle; text-align: center; font-weight: bold;">TS-04</td>
@@ -633,7 +633,7 @@ El presente Sprint Backlog detalla la descomposición técnica de las historias 
         <td style="border: 1px solid #ddd; padding: 8px;"><i>Identificar entidades y relaciones de negocio.</i></td>
         <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
         <td style="border: 1px solid #ddd; padding: 8px;">Sanchez, Juan</td>
-        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #d32f2f;">To-do</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2aac2a;">Done</td>
       </tr>
       <tr>
         <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-13</td>
@@ -641,7 +641,7 @@ El presente Sprint Backlog detalla la descomposición técnica de las historias 
         <td style="border: 1px solid #ddd; padding: 8px;"><i>Elaborar el Diagrama Entidad-Relación de la BD.</i></td>
         <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">5</td>
         <td style="border: 1px solid #ddd; padding: 8px;">Mamani, Alan</td>
-        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #d32f2f;">To-do</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2aac2a;">Done</td>
       </tr>
       <tr>
         <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle; text-align: center; font-weight: bold;">TS-10</td>
@@ -651,7 +651,7 @@ El presente Sprint Backlog detalla la descomposición técnica de las historias 
         <td style="border: 1px solid #ddd; padding: 8px;"><i>Definir estructura de repositorio y flujo de ramas.</i></td>
         <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
         <td style="border: 1px solid #ddd; padding: 8px;">López, Rodrigo</td>
-        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #d32f2f;">To-do</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2aac2a;">Done</td>
       </tr>
       <tr>
         <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-15</td>
@@ -659,7 +659,7 @@ El presente Sprint Backlog detalla la descomposición técnica de las historias 
         <td style="border: 1px solid #ddd; padding: 8px;"><i>Code style guide and conventions.</i></td>
         <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">5</td>
         <td style="border: 1px solid #ddd; padding: 8px;">Aguilar, Jeferson</td>
-        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #d32f2f;">To-do</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2aac2a;">Done</td>
       </tr>
       <tr>
         <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle; text-align: center; font-weight: bold;">TS-11</td>
@@ -669,7 +669,7 @@ El presente Sprint Backlog detalla la descomposición técnica de las historias 
         <td style="border: 1px solid #ddd; padding: 8px;"><i>Configurar el servicio de hosting estático para la Landing Page.</i></td>
         <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td>
         <td style="border: 1px solid #ddd; padding: 8px;">López, Rodrigo</td>
-        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #d32f2f;">To-do</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2aac2a;">Done</td>
       </tr>
       <tr>
         <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-17</td>
@@ -677,7 +677,7 @@ El presente Sprint Backlog detalla la descomposición técnica de las historias 
         <td style="border: 1px solid #ddd; padding: 8px;"><i>Verificar el acceso público al enlace.</i></td>
         <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td>
         <td style="border: 1px solid #ddd; padding: 8px;">Aguilar, Jeferson</td>
-        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #d32f2f;">To-do</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2aac2a;">Done</td>
       </tr>
     </tbody>
   </table>
@@ -793,10 +793,10 @@ En esta sección se presenta la evidencia de la ejecución del producto lograda 
 
 <div align="center">
   <h5>Vista Principal de la Landing Page (Hero Section y Navegación)</h5>
-  <img src="docs/assets/chapter-5/hero-landing.png" alt="Landing Page Hero Section" width="80%">
+  <img src="docs/assets/chapter-5/landing_ss_1.png" alt="Landing Page Hero Section" width="80%">
   
   <h5>Sección de Características y Planes de Suscripción</h5>
-  <img src="docs/assets/chapter-5/pricing-landing.png" alt="Landing Page Pricing y Features" width="80%">
+  <img src="docs/assets/chapter-5/landing_ss_2.png" alt="Landing Page Pricing y Features" width="80%">
 </div>
 
 <p align="justify">
