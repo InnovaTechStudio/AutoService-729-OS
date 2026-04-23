@@ -38,49 +38,49 @@ Branding y tono de comunicación
         <td style="padding: 12px; border: 1px solid #ddd; font-family: monospace; text-align: center;">#0A2540</td>
         <td style="padding: 12px; border: 1px solid #ddd;">Representa confianza, profesionalismo y autoridad. Azul profundo que transmite estabilidad y seriedad, cualidades esenciales en un servicio técnico automotriz. Genera sensación de seguridad tanto para mecánicos como para clientes.</td>
         <td style="padding: 12px; border: 1px solid #ddd;">Sidebar izquierdo, navbar, botones principales (CTA), encabezados del Panel de Control.</td>
-        <td style="padding: 12px; border: 1px solid #ddd; text-align: center;"><img src="assets/colors/primary-blue.png" alt="Primary Blue" width="60" height="60" style="border-radius: 8px;"></td>
+        <td style="padding: 12px; border: 1px solid #ddd; text-align: center;"><img src="./docs/assets/chapter-4/design-system/colors/#0A2540.png" alt="Primary Blue" width="60" height="60" style="border-radius: 8px;"></td>
       </tr>
       <tr>
         <td style="padding: 12px; border: 1px solid #ddd; font-weight: bold;">Secondary Teal</td>
         <td style="padding: 12px; border: 1px solid #ddd; font-family: monospace; text-align: center;">#00BFA5</td>
         <td style="padding: 12px; border: 1px solid #ddd;">Simboliza progreso, eficiencia y modernidad. El turquesa verdoso evoca movimiento positivo y finalización exitosa. Ideal para indicar avance y estados positivos.</td>
         <td style="padding: 12px; border: 1px solid #ddd;">Barra de progreso, badges “En curso”, indicadores de avance en tareas.</td>
-        <td style="padding: 12px; border: 1px solid #ddd; text-align: center;"><img src="assets/colors/secondary-teal.png" alt="Secondary Teal" width="60" height="60" style="border-radius: 8px;"></td>
+        <td style="padding: 12px; border: 1px solid #ddd; text-align: center;"><img src="./docs/assets/chapter-4/design-system/colors/#00BFA5.png" alt="Secondary Teal" width="60" height="60" style="border-radius: 8px;"></td>
       </tr>
       <tr>
         <td style="padding: 12px; border: 1px solid #ddd; font-weight: bold;">Accent Orange</td>
         <td style="padding: 12px; border: 1px solid #ddd; font-family: monospace; text-align: center;">#FF6B00</td>
         <td style="padding: 12px; border: 1px solid #ddd;">Representa atención y urgencia. Color energético que capta la atención sin generar ansiedad. Reservado para elementos que requieren acción inmediata.</td>
         <td style="padding: 12px; border: 1px solid #ddd;">Notificaciones de alta prioridad, alertas</td>
-        <td style="padding: 12px; border: 1px solid #ddd; text-align: center;"><img src="assets/colors/accent-orange.png" alt="Accent Orange" width="60" height="60" style="border-radius: 8px;"></td>
+        <td style="padding: 12px; border: 1px solid #ddd; text-align: center;"><img src="./docs/assets/chapter-4/design-system/colors/#FF6B00.png" alt="Accent Orange" width="60" height="60" style="border-radius: 8px;"></td>
       </tr>
       <tr>
         <td style="padding: 12px; border: 1px solid #ddd; font-weight: bold;">Neutral Gray</td>
         <td style="padding: 12px; border: 1px solid #ddd; font-family: monospace; text-align: center;">#F4F4F5</td>
         <td style="padding: 12px; border: 1px solid #ddd;">Proporciona calma, orden y fondo limpio. Reduce la fatiga visual y permite que los elementos importantes resalten.</td>
         <td style="padding: 12px; border: 1px solid #ddd;">Fondo general del dashboard, tarjetas KPI y contenedores secundarios.</td>
-        <td style="padding: 12px; border: 1px solid #ddd; text-align: center;"><img src="assets/colors/neutral-gray.png" alt="Neutral Gray" width="60" height="60" style="border-radius: 8px;"></td>
+        <td style="padding: 12px; border: 1px solid #ddd; text-align: center;"><img src="./docs/assets/chapter-4/design-system/colors/#F4F4F5.png" alt="Neutral Gray" width="60" height="60" style="border-radius: 8px;"></td>
       </tr>
       <tr>
         <td style="padding: 12px; border: 1px solid #ddd; font-weight: bold;">Dark Gray</td>
         <td style="padding: 12px; border: 1px solid #ddd; font-family: monospace; text-align: center;">#1F2937</td>
         <td style="padding: 12px; border: 1px solid #ddd;">Color para texto secundario. Ofrece alto contraste con fondos claros garantizando excelente legibilidad.</td>
         <td style="padding: 12px; border: 1px solid #ddd;">Cuerpo de texto, descripciones y etiquetas secundarias.</td>
-        <td style="padding: 12px; border: 1px solid #ddd; text-align: center;"><img src="assets/colors/dark-gray.png" alt="Dark Gray" width="60" height="60" style="border-radius: 8px;"></td>
+        <td style="padding: 12px; border: 1px solid #ddd; text-align: center;"><img src="./docs/assets/chapter-4/design-system/colors/#1F2937.png" alt="Dark Gray" width="60" height="60" style="border-radius: 8px;"></td>
       </tr>
       <tr>
         <td style="padding: 12px; border: 1px solid #ddd; font-weight: bold;">Success Green</td>
         <td style="padding: 12px; border: 1px solid #ddd; font-family: monospace; text-align: center;">#10B981</td>
         <td style="padding: 12px; border: 1px solid #ddd;">Transmite éxito y completitud. Verde moderno que refuerza la sensación de logro al finalizar un servicio.</td>
         <td style="padding: 12px; border: 1px solid #ddd;">Badges “Completado” y confirmaciones exitosas.</td>
-        <td style="padding: 12px; border: 1px solid #ddd; text-align: center;"><img src="assets/colors/success-green.png" alt="Success Green" width="60" height="60" style="border-radius: 8px;"></td>
+        <td style="padding: 12px; border: 1px solid #ddd; text-align: center;"><img src="./docs/assets/chapter-4/design-system/colors/#10B981.png" alt="Success Green" width="60" height="60" style="border-radius: 8px;"></td>
       </tr>
       <tr>
         <td style="padding: 12px; border: 1px solid #ddd; font-weight: bold;">White</td>
         <td style="padding: 12px; border: 1px solid #ddd; font-family: monospace; text-align: center;">#FFFFFF</td>
         <td style="padding: 12px; border: 1px solid #ddd;">Representa claridad y espacio. Se usa como fondo principal de tarjetas y modales para maximizar legibilidad y dar sensación de orden.</td>
         <td style="padding: 12px; border: 1px solid #ddd;">Tarjetas KPI, modales y secciones principales.</td>
-        <td style="padding: 12px; border: 1px solid #ddd; text-align: center;"><img src="assets/colors/white.png" alt="White" width="60" height="60" style="border: 1px solid #ddd; border-radius: 8px;"></td>
+        <td style="padding: 12px; border: 1px solid #ddd; text-align: center;"><img src="./docs/assets/chapter-4/design-system/colors/#FFFFFF.png" alt="White" width="60" height="60" style="border: 1px solid #ddd; border-radius: 8px;"></td>
       </tr>
     </tbody>
   </table>
@@ -269,23 +269,116 @@ Para AutoService, se han implementado diversos sistemas de organización que res
 
 #### 4.3.1. Landing Page Wireframe
 
-<div align= center>
+**-Landing Page**<br><br>
+**1. Header / Navbar**
+<br>
 
-![alt text](docs/assets/chapter-4/landing_wireframe_1.png)
-![alt text](docs/assets/chapter-4/landing_wireframe_2.png)
-![alt text](docs/assets/chapter-4/landing_wireframe_3.png)
+![alt text](docs/assets/chapter-4/landing-page-wireframe/header-navbar-landing-wireframe.png)
 
-</div>
+**2. Hero Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-wireframe/hero-section-landing-wireframe.png)
+
+**3. Key Features**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-wireframe/key-features-landing-wireframe.png)
+
+**4. Problem + Solution Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-wireframe/problem+solution-section-landing-wireframe.png)
+
+**5. Tools Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-wireframe/tools-section-landing-wireframe.png)
+
+**6. How it works Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-wireframe/how-it-works-landing-wireframe.png)
+
+**7. Additional Features/ Simplicity Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-wireframe/simplicity-section-landing-wireframe.png)
+
+**8. Pricing Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-wireframe/pricing-section-landing-wireframe.png)
+
+**9. Final Call To Action Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-wireframe/final-call-to-action-landing-wireframe.png)
+
+**10. Footer Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-wireframe/footer-section-landing-wireframe.png)
+
+**-Mobile Web Browser**
+
+![alt text](docs/assets/chapter-4/landing-page-wireframe/Mobile%20Web%20Browser%20Wireframe.png)
 
 #### 4.3.2. Landing Page Mock-up
 
-<div align= center>
+**1. Header / Navbar**
+<br>
 
-![alt text](docs/assets/chapter-4/landing_mockup_1.png)
-![alt text](docs/assets/chapter-4/landing_mockup_2.png)
-![alt text](docs/assets/chapter-4/landing_mockup_3.png)
+![alt text](docs/assets/chapter-4/landing-page-mockup/header-landing-mockup.png)
 
-</div>
+**2. Hero Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-mockup/hero-section-mockup.png)
+
+**3. Key Features**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-mockup/key-features-mockup.png)
+
+**4. Problem + Solution Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-mockup/problem+solution-section-mockup.png)
+
+**5. Tools Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-mockup/tools-section-mockup.png)
+
+**6. How it works Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-mockup/how-it-works-mockup.png)
+
+**7. Additional Features/ Simplicity Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-mockup/simplicity-section-mockup.png)
+
+**8. Pricing Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-mockup/pricing-section-mockup.png)
+
+**9. Final Call To Action Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-mockup/final-call-to-action-mockup.png)
+
+**10. Footer Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-mockup/footer-section-mockup.png)
+
+**-Mobile Web Browser**
+
+![alt text](docs/assets/chapter-4/landing-page-mockup/Mobile%20Web%20Browser%20Mockup.png)
 
 ### 4.4. Web Applications UX/UI Design
 
@@ -1085,9 +1178,7 @@ El video adjunto demuestra los principales flujos de interacción, evidenciando 
 
 <strong>Web Applications Prototyping</strong>
 
-![alt text](docs/assets/chapter-4/web_app_proto.png)
-
-</div>
+![alt text](docs/assets/chapter4-designUX/screenshot-web-prototype.png)</div>
 
 <p>Url de video: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d185_upc_edu_pe/IQA1Ayp44N2tTZ3f8Qg06ivwAWceAwrAwbUt4oEaa1BBGXw?e=EAr9YX">https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d185_upc_edu_pe/IQA1Ayp44N2tTZ3f8Qg06ivwAWceAwrAwbUt4oEaa1BBGXw?e=EAr9YX</a></p>
 
@@ -1098,7 +1189,7 @@ El video adjunto demuestra los principales flujos de interacción, evidenciando 
 
 ![alt text](docs/assets/chapter-4/mobile_app_proto.png)
 
-</div>
+![alt text](docs/assets/chapter4-designUX/screenshot-mobil-prototype.png)</div>
 
 <p>Url de video: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d185_upc_edu_pe/IQAkMAYXAVMXRqIAboIE6jKsAUqumaok8m0tsxRc5iGhvkY?e=MmRJh3">https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d185_upc_edu_pe/IQAkMAYXAVMXRqIAboIE6jKsAUqumaok8m0tsxRc5iGhvkY?e=MmRJh3</a></p>
 
