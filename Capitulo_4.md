@@ -1198,8 +1198,6 @@ Este diagrama profundiza en el contenedor API RESTful para exponer los bloques e
   asegurando una clara separación de responsabilidades, alta cohesión y bajo acoplamiento.
 </p>
 
-
-
 <table>
   <thead>
     <tr>
@@ -1217,8 +1215,8 @@ Este diagrama profundiza en el contenedor API RESTful para exponer los bloques e
       <td align="justify">- private, + public, # protected – encapsulamiento.</td>
     </tr>
     <tr>
-      <td>Tipos de Datos C#</td>
-      <td align="justify">Guid, string, DateTime, decimal, bool, int – tipado nativo .NET.</td>
+      <td>Tipos de Datos Java</td>
+      <td align="justify">UUID, String, LocalDateTime, BigDecimal, boolean, int, enum – tipado nativo Java.</td>
     </tr>
     <tr>
       <td>Relaciones Explícitas</td>
@@ -1226,11 +1224,11 @@ Este diagrama profundiza en el contenedor API RESTful para exponer los bloques e
     </tr>
     <tr>
       <td>Optimización para Persistencia</td>
-      <td align="justify">Entidades consolidadas para mapeo directo al modelo relacional de 16 tablas.</td>
+      <td align="justify">Entidades consolidadas para mapeo directo al modelo relacional de 16 tablas (JPA/Hibernate).</td>
     </tr>
     <tr>
       <td>Patrones y Principios</td>
-      <td align="justify">SOLID (SRP, DIP), Repository, Factory, Strategy.</td>
+      <td align="justify">SOLID (SRP, DIP), Repository, Factory, Strategy, Domain Events.</td>
     </tr>
   </tbody>
 </table>
