@@ -331,6 +331,8 @@ La plataforma permite a mecánicos y talleres gestionar clientes, vehículos, ó
 </table>
 </div>
 
+---
+
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
 <p align="justify">Nuestro producto adoptará una estrategia competitiva basada en la diferenciación a través de la transparencia del servicio y la integración del cliente en el proceso, respondiendo a las limitaciones actuales del mercado, donde predominan soluciones centradas únicamente en la gestión interna.</p>
@@ -602,7 +604,31 @@ El entrevistado Sebastián Rojas, de 24 años, se desempeña como administrador 
 
 
 #### 2.2.3. Análisis de entrevistas
-[Pendiente]
+
+<p align="justify">
+A partir de las entrevistas realizadas a los segmentos objetivo (mecánicos independientes y administradores/encargados de logística en talleres automotrices), se han identificado patrones clave, puntos de dolor recurrentes y necesidades que validan la propuesta de valor de <b>AutoService</b>:
+</p>
+
+<ul style="text-align: justify; margin-top: 0.5em; margin-bottom: 1.5em; padding-left: 1.5em;">
+  <li style="margin-bottom: 0.8em;">
+    <strong>Gestión operativa manual y descentralizada:</strong> La totalidad de los entrevistados depende parcial o totalmente de métodos tradicionales (cuadernos, pizarras físicas, hojas de papel o Excel básico) para registrar ingresos de vehículos, datos de clientes y órdenes de trabajo. Esto provoca desorganización, dificultad para rastrear historiales y cuellos de botella en la operación diaria.
+  </li>
+  <li style="margin-bottom: 0.8em;">
+    <strong>Fricción constante en la comunicación y seguimiento:</strong> El flujo de información actual es ineficiente. Los clientes llaman o escriben frecuentemente (vía WhatsApp) para conocer el estado de sus vehículos, lo que interrumpe el trabajo técnico de los mecánicos. En talleres con más personal, el administrador se convierte en un intermediario saturado entre el técnico y el cliente.
+  </li>
+  <li style="margin-bottom: 0.8em;">
+    <strong>Falta de visibilidad interna en tiempo real:</strong> Los administradores y encargados de logística carecen de un panorama actualizado sobre el progreso de las reparaciones. Para conocer el estado de un vehículo, deben interrumpir a los mecánicos y consultarles verbalmente, lo que retrasa la atención y genera descoordinación entre áreas (ej. taller y almacén de repuestos).
+  </li>
+  <li style="margin-bottom: 0.8em;">
+    <strong>Desconfianza originada por falta de transparencia:</strong> La incapacidad de comunicar de forma estructurada los diagnósticos, avances y posibles cambios en los costos genera incertidumbre en el cliente final. Aunque los mecánicos intentan mitigar esto enviando fotos o videos de forma manual, reconocen que es un proceso tedioso que necesita optimización.
+  </li>
+  <li style="margin-bottom: 0.8em;">
+    <strong>Deficiencia en el control administrativo y logístico:</strong> La mayoría de los talleres entrevistados carece de herramientas especializadas para controlar el inventario, registrar ingresos/egresos de forma detallada o medir la productividad del personal, limitando su capacidad de crecimiento y análisis de rentabilidad.
+  </li>
+  <li style="margin-bottom: 0.8em;">
+    <strong>Alta disposición hacia la digitalización:</strong> A pesar de manejar procesos tradicionales, todos los entrevistados mostraron una actitud sumamente receptiva hacia la adopción de un sistema digital. Identifican como indispensable contar con historiales de vehículos, asignación clara de tareas, seguimiento de estados en tiempo real y automatización de la comunicación para modernizar sus talleres y fortalecer la confianza de sus clientes.
+  </li>
+</ul>
 
 ---
 
