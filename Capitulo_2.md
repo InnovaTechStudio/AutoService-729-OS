@@ -602,7 +602,44 @@ El entrevistado Sebastián Rojas, de 24 años, se desempeña como administrador 
 
 
 #### 2.2.3. Análisis de entrevistas
-[Pendiente]
+
+<div style="text-align: justify; line-height: 1.6;">
+<p>Tras realizar las entrevistas a los representantes de los segmentos objetivo, se procedió a analizar la información recolectada para identificar patrones de comportamiento, necesidades latentes y puntos de dolor (pain points) comunes. Este análisis cuantitativo y cualitativo sirve de base fundamental para la construcción de los arquetipos de usuario (User Personas) en la siguiente sección.</p>
+
+<h4>A. Segmento: Mecánicos Independientes</h4>
+<p><strong>Muestra:</strong> entrevistados (Fray Díaz, Gumercindo Ventura, Antenor Ayala).</p>
+<ul style="padding-left: 1.5em;">
+  <li><strong>Gestión de Información (100% Manual):</strong> La totalidad de los mecánicos entrevistados gestiona la información de clientes y vehículos mediante métodos analógicos (cuadernos, actas de control o comprobantes simples). No existe un historial digital centralizado, lo que dificulta el seguimiento de mantenimientos preventivos.</li>
+  <li><strong>Comunicación Reactiva (100%):</strong> La comunicación con el cliente se limita a llamadas telefónicas o mensajes de WhatsApp esporádicos, generalmente iniciados por el cliente para preguntar "¿cómo va mi auto?". Esto interrumpe la labor técnica del mecánico.</li>
+  <li><strong>Interés en Digitalización (100%):</strong> Todos mostraron una actitud positiva hacia una plataforma digital. Destacan como necesidades prioritarias: la organización de la agenda, el recordatorio automático de servicios y la generación de historiales para mejorar la confianza del cliente.</li>
+  <li><strong>Nivel Tecnológico:</strong> Bajo/Medio. Utilizan smartphones para comunicación básica (WhatsApp/Yape), pero muestran resistencia a sistemas complejos. Requieren interfaces extremadamente simples.</li>
+</ul>
+
+<h4>B. Segmento: Administradores de Taller (PYMES)</h4>
+<p><strong>Muestra:</strong> entrevistados (Juan Calisaya, Sebastián Rojas).</p>
+<ul style="padding-left: 1.5em;">
+  <li><strong>Desorganización Operativa (100%):</strong> Ambos administradores reportan caos en la asignación de tareas. La coordinación entre mecánicos, almacén y recepción se realiza verbalmente o mediante pizarras físicas, generando cuellos de botella y dependencia excesiva del administrador.</li>
+  <li><strong>Falta de Visibilidad en Tiempo Real (100%):</strong> No tienen forma rápida de saber el estado exacto de cada vehículo sin interrumpir al mecánico. Esto genera retrasos en la atención y presión por parte de los clientes.</li>
+  <li><strong>Control Financiero Deficiente (100%):</strong> El registro de ingresos, egresos e inventario es básico (Excel o papel), lo que impide un análisis real de la rentabilidad del taller y genera errores manuales en la facturación.</li>
+  <li><strong>Necesidad de Control:</strong> Buscan herramientas que les permitan delegar supervisión, controlar el inventario de repuestos y generar reportes de desempeño del personal.</li>
+</ul>
+
+<h4>C. Segmento: Clientes (Propietarios de Vehículos)</h4>
+<p><strong>Muestra:</strong> Inferido de las entrevistas a proveedores de servicio (Puntos de dolor mencionados por mecánicos y administradores sobre sus clientes).</p>
+<ul style="padding-left: 1.5em;">
+  <li><strong>Ansiedad e Incertidumbre (Alta Frecuencia):</strong> El principal punto de dolor identificado es la falta de transparencia. Los clientes llaman constantemente porque no saben si su auto está siendo atendido, si faltan repuestos o cuándo estará listo.</li>
+  <li><strong>Desconfianza (Media/Alta):</strong> Existe escepticismo sobre los costos y los trabajos realizados. Los clientes valorarían enormemente la evidencia visual (fotos/videos) y un desglose claro de costos antes y después del servicio.</li>
+  <li><strong>Preferencia por la Autogestión:</strong> Se identifica una oportunidad clara: los clientes prefieren consultar el estado de su vehículo por sí mismos a través de un código o enlace, evitando tener que llamar al taller.</li>
+</ul>
+
+<h4>Conclusiones del Análisis</h4>
+<p>El análisis revela una brecha significativa entre la operación actual (manual, desorganizada y opaca) y las expectativas del mercado (digital, transparente y eficiente). Se confirman las siguientes hipótesis clave para el desarrollo de <strong>AutoService</strong>:</p>
+<ol style="padding-left: 1.5em;">
+  <li>La digitalización del <strong>Historial de Mantenimiento</strong> es la funcionalidad más valorada por los mecánicos para fidelizar clientes.</li>
+  <li>La implementación de un sistema de <strong>Seguimiento en Tiempo Real</strong> (vía código único) reducirá drásticamente la carga administrativa de llamadas entrantes.</li>
+  <li>La <strong>Transparencia</strong> (notificaciones automáticas y detalle de costos) es el factor diferenciador que aumentará la confianza del cliente final.</li>
+</ol>
+</div>
 
 ---
 
