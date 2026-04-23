@@ -2,17 +2,371 @@
 
 ### 5.1. Software Configuration Management
 
-#### 5.1.1. Software Development Environment Configuration
-[Pendiente]
+<p align="justify">
+  La siguiente tabla presenta las herramientas, plataformas y guías empleadas para la configuración del entorno de desarrollo del proyecto <strong>AutoService</strong>, el cual tiene como objetivo digitalizar y optimizar la gestión de talleres automotrices mediante una solución web basada en arquitectura distribuida.
+  
+  Cada herramienta ha sido seleccionada considerando su compatibilidad con tecnologías open-source, su capacidad de integración y su uso en entornos profesionales de desarrollo de software.
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Proceso</th>
+      <th>Recurso o plataforma</th>
+      <th>Finalidad</th>
+      <th>Medio de acceso o Enlace</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Especificación de requisitos</td>
+      <td>Convenciones Gherkin</td>
+      <td>Definir criterios de aceptación claros para funcionalidades del sistema</td>
+      <td><a href="https://cucumber.io/docs/gherkin/" target="_blank">Guía Gherkin</a></td>
+    </tr>
+    <tr>
+      <td>Frontend Web Application</td>
+      <td>Angular Framework</td>
+      <td>Desarrollar la interfaz web dinámica del sistema AutoService</td>
+      <td><a href="https://angular.io/" target="_blank">Angular</a></td>
+    </tr>
+    <tr>
+      <td>Backend REST API</td>
+      <td>Spring Boot</td>
+      <td>Implementar servicios RESTful para la gestión de citas, clientes y servicios automotrices</td>
+      <td><a href="https://spring.io/projects/spring-boot" target="_blank">Spring Boot</a></td>
+    </tr>
+    <tr>
+      <td>Desarrollo Landing Page</td>
+      <td>Visual Studio Code</td>
+      <td>Editar y programar el código del Landing Page y frontend</td>
+      <td><a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a></td>
+    </tr>
+    <tr>
+      <td>Control de versiones</td>
+      <td>Git & GitHub</td>
+      <td>Gestionar versiones y colaboración del equipo</td>
+      <td><a href="https://github.com/" target="_blank">GitHub</a></td>
+    </tr>
+    <tr>
+      <td>Diseño UX/UI</td>
+      <td>Figma</td>
+      <td>Diseñar wireframes, mockups y prototipos del sistema</td>
+      <td><a href="https://figma.com" target="_blank">Figma</a></td>
+    </tr>
+    <tr>
+      <td>Gestión del proyecto</td>
+      <td>Trello</td>
+      <td>Organizar backlog, tareas y seguimiento de sprints</td>
+      <td><a href="https://trello.com" target="_blank">Trello</a></td>
+    </tr>
+    <tr>
+      <td>Documentación API</td>
+      <td>Swagger (OpenAPI)</td>
+      <td>Documentar endpoints REST del sistema</td>
+      <td><a href="https://swagger.io/" target="_blank">Swagger</a></td>
+    </tr>
+    <tr>
+      <td>Modelado UX</td>
+      <td>UXPressia</td>
+      <td>Construir User Personas, Journey Maps y análisis UX</td>
+      <td><a href="https://uxpressia.com/" target="_blank">UXPressia</a></td>
+    </tr>
+  </tbody>
+</table>
+
 
 #### 5.1.2. Source Code Management
-[Pendiente]
+<p align="justify">
+  Para el desarrollo del proyecto AutoService, el equipo utiliza GitHub como plataforma principal de control de versiones, permitiendo gestionar de manera eficiente el código fuente tanto del Landing Page, como de la Web Application (Angular) y los Web Services (Spring Boot).
+  
+  Se ha adoptado el modelo GitFlow como estrategia principal de trabajo, lo que permite estructurar el desarrollo de manera ordenada y escalable. Este enfoque resulta especialmente adecuado para el proyecto, ya que involucra múltiples componentes (frontend, backend y landing page) que evolucionan en paralelo.
+  
+  La estructura de ramas implementada incluye:
+</p>
+
+- **main**: contiene la versión estable y desplegada del sistema AutoService  
+- **develop**: integra los avances en desarrollo antes de pasar a producción  
+- **feature/**: desarrollo de funcionalidades específicas (ej. gestión de citas, autenticación)  
+- **hotfix/**: correcciones urgentes en producción  
+
+<p align="justify">
+  Cada funcionalidad es desarrollada en una rama independiente, lo que permite mantener el aislamiento de cambios y evitar conflictos. La integración se realiza mediante Pull Requests, los cuales son revisados por el equipo antes de ser fusionados.
+  
+  Adicionalmente, se implementa la convención de Conventional Commits para estandarizar los mensajes de confirmación:
+</p>
+
+- **feat**: nuevas funcionalidades (ej. creación de citas)  
+- **fix**: corrección de errores  
+- **docs**: cambios en documentación  
+- **refactor**: mejoras internas sin alterar funcionalidad  
+- **style**: cambios de formato  
+- **test**: pruebas  
+
+<p align="justify">
+  Asimismo, se utiliza versionado semántico (Semantic Versioning) bajo el esquema MAJOR.MINOR.PATCH, lo cual permite gestionar de manera clara la evolución del sistema.
+  
+  Este enfoque garantiza una gestión organizada, colaborativa y escalable del proyecto AutoService.
+</p>
 
 #### 5.1.3. Source Code Style Guide & Conventions
-[Pendiente]
+<p align="justify">
+  Con el propósito de garantizar la calidad, mantenibilidad y escalabilidad del sistema AutoService, se han establecido lineamientos de codificación aplicables a todos los componentes del proyecto, incluyendo el Landing Page (HTML, CSS, JavaScript), la Web Application (Angular) y el Backend (Spring Boot).
+  
+  Estos lineamientos permiten mantener consistencia en el desarrollo colaborativo, facilitar la lectura del código y asegurar su evolución a lo largo del tiempo. Como estándar general, todo el código fuente, nombres de variables, clases, métodos, archivos y documentación técnica se redacta en idioma inglés, alineándose con prácticas internacionales de desarrollo de software.
+</p>
+
+  **HTML Conventions**
+
+<p align="justify">
+Para la estructura del frontend se empleará HTML5 semántico, que prioriza la correcta organización del contenido y la accesibilidad.
+</p>
+
+<p align="justify">
+Las principales convenciones adoptadas son:
+</p>
+
+- Uso de etiquetas semánticas como &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;section&gt; y &lt;footer&gt;
+- Nombres de etiquetas y atributos en minúsculas
+- Inclusión obligatoria del atributo alt en imágenes
+- Uso de metadatos esenciales (&lt;title&gt;, &lt;meta&gt;)
+- Evitar estilos inline
+
+Ejemplo:
+
+```html
+<section class="hero-section">
+  <img src="assets/images/banner.jpg" alt="AutoService platform banner" width="1200" height="600">
+</section>
+  ```
+
+  **CSS Conventions**
+
+<p align="justify">
+  Para la hoja de estilos se seguirá una estructura modular y escalable, enfocada en la reutilización de componentes.
+  - Uso de nomenclatura kebab-case.
+  - Aplicación de metodología BEM.
+  - Diseño responsive (mobile-first).
+  - Uso de variables CSS en :root.
+  - Uso de unidades relativas (rem, %, vh, vw).
+
+  ``` CSS
+  :root {
+  --primary-color: #1e3a8a;
+  --secondary-color: #64748b;
+  }
+
+  .main-header {
+    padding: 1rem;
+    background-color: var(--primary-color);
+  }
+  ```
+
+  **JavaScript Conventions**
+
+  Para la lógica del lado del cliente se adoptarán lineamientos orientados a la claridad, reutilización y mantenimiento del código.
+  Se aplicarán las siguientes convenciones:
+  - Uso de camelCase para variables y funciones.
+  - Declaración con const y let (evitando var).
+  - Código separado por módulos.
+  - Uso de addEventListener().
+
+  Ejemplo:
+  ``` JavaScript
+  const contactButton = document.querySelector("#contact-button");
+
+  function handleContactClick() {
+    console.log("Contact button clicked");
+  }
+
+  contactButton.addEventListener("click", handleContactClick);
+  ```
+
+  **Angular Conventions**
+
+  Se utiliza como el framework principal para el desarrollo de la Web Application, es decir, la interfaz con la que interactúan los usuarios del sistema, como administradores de talleres y clientes. Su función es permitir la construcción de una aplicación web dinámica, moderna y altamente interactiva, capaz de consumir los servicios proporcionados por el backend desarrollado en Spring Boot.
+
+  Se aplicarán las siguientes convenciones:
+
+  - Uso de TypeScript.
+  - Arquitectura basada en componentes.
+  - Separación en modules, services y models.
+  - camelCase para variables y métodos.
+  - PascalCase para clases.
+    
+  Ejemplo:
+  ``` angular
+  export class AppointmentService {
+
+    getAppointments() {
+      return [];
+    }
+  }
+  ```
+
+  **Spring Boot Conventions**
+
+  Para la definición de criterios de aceptación y pruebas funcionales se utilizará el lenguaje Gherkin, que sigue una estructura orientada al negocio.
+  Las convenciones definidas son:
+  - Uso de PascalCase para clases.
+  - Uso de camelCase para variables y métodos.
+  - Arquitectura en capas: Controllers, Services, Repositories, Models.
+  - Uso de anotaciones REST.
+
+  Ejemplo:
+
+  ``` sprint boot
+  @RestController
+  @RequestMapping("/api/appointments")
+  public class AppointmentController {
+
+      @GetMapping
+      public List<Appointment> getAllAppointments() {
+          return new ArrayList<>();
+      }
+  }
+  ```
+
+  **Gherkin Conventions (User Stories & Testing)**
+
+  Se utiliza como un lenguaje estructurado para definir las funcionalidades del sistema desde la perspectiva del usuario, permitiendo describir de manera clara y comprensible los comportamientos esperados de la aplicación. Su uso se integra principalmente en la redacción de User Stories y criterios de aceptación, facilitando la comunicación entre los miembros del equipo técnico y los stakeholders no técnicos, como usuarios finales o evaluadores del proyecto.
+
+    - Uso de Given - When - Then.
+    - Lenguaje entendible para negocio.
+    - Escenarios claros.
+
+  Ejemplo:
+
+  ``` gherkin
+  Feature: Appointment Management
+
+  Escenario: Creación de cita exitosa
+    Dado que el usuario ha iniciado sesión en AutoService, 
+    cuando el usuario programa una nueva cita de servicio, 
+    entonces el sistema guarda la cita correctamente.
+  ```
+
+  **Coding Principles Adopted**
+
+  De manera transversal, el equipo aplicará los siguientes principios:
+  - Readbility First: código fácil de leer y entender.
+  - Consistency: mantener el mismo estilo en toda la solución.
+  - Modularity: separación clara de responsabilidades.
+  - Scalability: estructura preparada para crecimiento futuro.
+  - Maintainability: facilidad para futuras modificaciones.
+</p>
+
 
 #### 5.1.4. Software Deployment Configuration
-[Pendiente]
+<p align="justify">
+Para la configuración del despliegue del sistema AutoService, se ha definido una estrategia que contempla la publicación independiente de cada uno de sus componentes: el Landing Page, la Web Application desarrollada en Angular y el Backend basado en servicios REST con Spring Boot. Esta separación responde a la arquitectura distribuida del proyecto, permitiendo una mayor escalabilidad, mantenibilidad y facilidad de integración entre las distintas capas del sistema.
+</p>
+
+**Landing Page Deployment - HTML, CSS and JavaScript**
+
+**Source Repository Setup**
+<p align="justify">
+  En el caso específico del Landing Page, se utilizará un repositorio remoto alojado en GitHub, en el cual se almacenarán todos los archivos fuente correspondientes a la interfaz web estática. Este componente cumple la función de presentar la propuesta de valor de AutoService y servir como punto de entrada para los usuarios hacia la plataforma.
+  
+  Dado que el Landing Page ha sido desarrollado con HTML, CSS y JavaScript, es indispensable que el archivo principal <strong>index.html</strong> permanezca en la raíz del repositorio, ya que este será utilizado como punto de inicio durante el proceso de despliegue. Asimismo, los archivos complementarios como hojas de estilo, scripts e imágenes se organizarán en directorios específicos, con el fin de mantener una estructura clara, facilitar el mantenimiento del código y permitir futuras actualizaciones del sistema.
+  
+  Ejemplo:
+  ```
+  /
+  |---index.html
+  |---css/
+  |    |__ styles.css
+  |---js/
+  |    |__ main.js
+  |---assets/
+        |__ images/
+  ```
+</p>
+
+**Deployment Process (GitHub Pages)**
+<p align="justify">
+  La publicación del sitio se realizará mediante el servicio GitHub Pages, el cual permite desplegar sitios estáticos directamente desde el repositorio.
+  Para habilitar el despliegue, se seguirán los siguientes pasos:
+  - Acceder al repositorio del proyecto en GitHub
+  - Ingresar a la sección Settings
+  - Seleccionar la opción Pages
+  - Configurar la rama main como fuente de despliegue
+  - Definir la carpeta raíz (root) como directorio de publicación
+  - Guardar la configuración
+  Una vez configurado, GitHub Pages generará automáticamente el sitio web.
+</p>
+
+**Published Access**
+<p align="justify">
+  El Landing Page estará disponible mediante una URL pública con la siguiente estructura:
+  
+  ```
+  https://<usernanme>.github.io/<repository-name>/
+  ```
+
+  Este enlace corresponderá a la versión oficial publicada del producto.
+</p>
+
+**Frontend Deployment (Angular)**
+<p align="justify">
+  La aplicación web desarrollada en Angular será desplegada en plataformas cloud como Firebase Hosting o Vercel, permitiendo alta disponibilidad y tiempos de respuesta óptimos.
+
+  Proceso:
+  - Generación de build de producción:
+
+  ```
+  ng build --prod
+  ```
+
+  - Despliegue en plataforma cloud seleccionada
+</p>
+
+**Backend Deployment (Spring Boot)**
+
+<p align="justify">
+  El backend del sistema será desplegado en servicios cloud como Render, Railway o AWS, permitiendo la ejecución continua de la API REST.
+
+  Proceso:
+
+  - Compilación del proyecto y generación del archivo .jar
+  - Configuración de variables de entorno
+  - Despliegue en servidor cloud
+
+</p>
+
+**System Integration**
+
+<p align="justify">
+  La Web Application se comunica con el backend mediante peticiones HTTP a través de una API REST, permitiendo la gestión de citas, clientes y servicios automotrices en tiempo real.
+
+  Ejemplo:
+
+  **Request:**
+
+  ```
+    GET /api/appointments
+  ```
+
+  **Respuesta (JSON):**
+
+  ```
+    json
+    [
+      {
+        "id": 1,
+        "clientName": "Juan Perez",
+        "service": "Cambio de aceite",
+        "date": "2026-04-20"
+      }
+    ]
+  ```
+</p>
+
+**Updates System**
+
+<p align="justify">
+  Cada modificación realizada en el repositorio principal genera una nueva versión del sistema. Al actualizar la rama principal, los cambios pueden ser desplegados automáticamente o de forma manual, garantizando que la versión publicada se mantenga sincronizada con el código fuente más reciente.
+</p>
 
 ### 5.2. Landing Page, Services & Applications Implementation
 
