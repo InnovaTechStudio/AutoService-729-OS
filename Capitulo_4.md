@@ -404,7 +404,152 @@ El flujo finaliza cuando el administrador obtiene la información necesaria y re
 </div>
 
 #### 4.4.3. Web Applications Mock-ups
-[Pendiente]
+
+El diseño de la aplicación se ha desarrollado bajo un enfoque desktop, considerando una resolución base de 1440px claramente incluido el responsive. Se ha priorizado la claridad visual, la eficiencia en la interacción y la reducción de la carga cognitiva del usuario.
+
+Asimismo, se han diferenciado claramente dos tipos de usuarios: Administrador (staff del taller): enfocado en gestión operativa y el cliente: enfocado en consulta rápida y acciones simples.
+Esta segmentación permitió diseñar experiencias específicas según las necesidades de cada tipo de usuario.
+
+![alt text](docs/assets/chapter4-designUX/mockups-web.png)
+URL del trabajo en Figma: 
+[Link del trabajo](https://www.figma.com/design/rOJ6k8HLfI85lI8Xsik6TN/AUTOSERVICE-AW?node-id=2084-72&t=apoFHJV5bqtx999h-1)
+
+1. Principios de Diseño
+
+Durante el desarrollo de los mock-ups se aplicaron los siguientes principios fundamentales:
+
+<table>
+  <tr>
+    <td>
+      <strong>Contraste:</strong><br>
+      El contraste fue utilizado para guiar la atención del usuario hacia los elementos más importantes de cada interfaz. Por ejemplo, los botones de acción primaria, como “Registrar vehículo”, “Crear orden” o “Consultar estado”, emplean un gradiente azul (#004AC6 – #2563EB), diferenciándose claramente de los elementos secundarios. Asimismo, los estados del sistema (Pendiente, En proceso, Completado) se representan mediante colores diferenciados acompañados de etiquetas textuales, lo que permite identificar rápidamente el estado sin depender únicamente del color. Esto mejora tanto la legibilidad como la accesibilidad.<br>
+      <div align="center"><img src="docs/assets/chapter4-designUX/contraste-ux.png" width="500"></div>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <strong>Repetición:</strong><br>
+      La repetición se utilizó para generar consistencia visual y familiaridad a lo largo de toda la aplicación. Componentes como botones, tarjetas (cards), tablas, etiquetas de estado, barras de progreso y modales mantienen el mismo estilo, tamaño y comportamiento en todas las vistas. Por ejemplo, el mismo estilo de botones y etiquetas de estado se reutiliza en los módulos de Vehículos, Órdenes de trabajo, Tareas y Personal, permitiendo que el usuario reconozca patrones de interacción sin necesidad de reaprender. Además, se mantiene un único sistema de íconos con el mismo estilo visual (línea, grosor, tamaño), reforzando la coherencia del diseño.<br>
+      <div align="center"><img align="center" src="docs/assets/chapter4-designUX/repeticion-ux.png" width="500"></div>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <strong>Alineación:</strong><br>
+      La alineación fue aplicada mediante el uso de estructuras basadas en grid en el figma, garantizando orden y organización visual. Los elementos se distribuyen de manera consistente, ya sea en layouts con sidebar (panel administrador) o en layouts centrados (panel cliente). En pantallas como la Lista de vehículos o Órdenes de trabajo, las tablas presentan una alineación clara de columnas, lo que facilita la lectura de datos. En formularios, los campos están alineados verticalmente, permitiendo un flujo de lectura natural. Esta alineación contribuye a una interfaz más limpia, profesional y fácil de usar<br>
+      <div align="center"><img src="docs/assets/chapter4-designUX/align-ux.png" width="500"></div>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <strong>Proximidad:</strong><br>
+      El principio de proximidad se utilizó para agrupar elementos relacionados y separar aquellos que cumplen funciones distintas. Esto reduce la carga cognitiva y mejora la comprensión de la interfaz. Por ejemplo, en la pantalla de Detalle del vehículo, la información se organiza en secciones claras: datos del cliente, datos del vehículo, orden de trabajo, tareas y progreso. Cada grupo está contenido en tarjetas (cards), lo que facilita la identificación de cada bloque de información. En el caso del cliente, en el Panel principal, los botones de acción (“Consultar estado” y “Agendar cita”) se agrupan visualmente, permitiendo una toma de decisión rápida
+      <div align="center"><img src="docs/assets/chapter4-designUX/proximity-ux.png" width="300"></div>
+    </td>
+  </tr>
+</table>
+2. Elementos de Diseño
+
+Los mock-ups incorporan elementos de diseño modernos y reutilizables, propios de aplicaciones web tipo SaaS, los cuales fueron seleccionados para mejorar la interacción y la claridad visual:
+
+- Botones: utilizados para acciones primarias y secundarias, con estados visuales (hover, focus, disabled) que brindan retroalimentación inmediata al usuario.
+<div align= center><img src="docs/assets/chapter4-designUX/button-hover.png" width="300"></div>
+
+- Tarjetas (Cards): empleadas para agrupar información relacionada, especialmente en informacion de tecnicos, dashboards y vistas de detalle.
+<div align= center><img src="docs/assets/chapter4-designUX/cards.png" width="300"></div>
+
+- Tablas: utilizadas para mostrar grandes volúmenes de datos estructurados (vehículos, órdenes, tareas), optimizando la escaneabilidad.
+- Etiquetas de estado (Tags): permiten identificar rápidamente el estado de procesos (pendiente, en proceso, completado).
+Barras de progreso: representan visualmente el avance de un servicio o conjunto de tareas.
+<div align= center><img src="docs/assets/chapter4-designUX/tags-status.png" width="300"></div>
+
+- Modales: utilizados para acciones rápidas como crear, editar o confirmar eliminación, evitando cambios de contexto innecesarios.
+<div align= center><img src="docs/assets/chapter4-designUX/modal.png" width="300"></div>
+
+
+3. Diseño Inclusivo
+
+El sistema fue desarrollado considerando principios de accesibilidad e inclusión:
+Uso de texto claro y no técnico, especialmente en el módulo cliente
+No dependencia exclusiva del color (uso de íconos + etiquetas)
+Tamaños adecuados de botones y campos para facilitar la interacción
+Contrastes adecuados para garantizar legibilidad
+Formularios con etiquetas visibles y validaciones claras
+
+Esto permite que la aplicación sea usable por un público amplio, incluyendo usuarios no técnicos.
+
+4. Information Architecture
+<table>
+<tr>
+<td>
+Se definió una arquitectura clara y jerárquica basada en los flujos de usuario:
+Panel Administrador:
+- Dashboard
+- Vehículos
+- Órdenes de trabajo
+- Tareas
+- Personal
+- Reportes
+</td>
+<td> <div align="center"><img src="docs/assets/chapter4-designUX/panel-admin.png" width="300"></div></td>
+</tr>
+
+<tr>
+<td>
+Esta estructura permite una navegación lógica y eficiente para la gestión del taller.
+
+Panel Cliente:
+Panel principal (hub de acciones)
+- Consulta de estado del vehículo
+- Agendamiento de citas
+
+Se priorizó una arquitectura minimalista, reduciendo opciones para facilitar la toma de decisiones.
+</td>
+<td><img src="docs/assets/chapter4-designUX/panel-client.png" width="300"></td>
+</tr>
+<table>
+
+5. Design System
+
+Se estableció un Design System consistente que incluye:
+
+- Paleta de colores con énfasis en azul (#004AC6, #2563EB)
+- Tipografía jerarquizada (títulos, subtítulos, cuerpo)
+- Sistema de espaciado basado en múltiplos de 8px
+- Componentes reutilizables (botones, inputs, cards, tablas)
+- Uso consistente de un único set de íconos
+
+Este sistema garantiza coherencia visual, escalabilidad y mantenibilidad del producto.
+
+6. Heuristicas de Usabilidad
+
+- Visibilidad del estado del sistema: El sistema mantiene informado al usuario sobre lo que está ocurriendo en todo momento.
+En el Dashboard, se muestran métricas en tiempo real (vehículos en proceso, tareas pendientes).
+En el Detalle del vehículo, se presenta el progreso mediante barras y estados visibles.
+En el módulo cliente, el estado del vehículo (Pendiente, En proceso, Listo) se muestra de forma clara e inmediata.
+<div align="center"><img src="docs/assets/chapter4-designUX/dashboard-uh.png" width="300"></div>
+
+- Correspondencia entre el sistema y el mundo real: Se utiliza lenguaje comprensible y cercano al usuario.
+
+Términos como “Vehículo”, “Tareas”, “Mecánico” y “Orden de trabajo” reflejan el contexto real de un taller.
+En el módulo cliente, se evita el uso de lenguaje técnico, facilitando la comprensión.
+<div align="center"><img src="docs/assets/chapter4-designUX/panel-admin.png" width="300"></div>
+
+- Control y libertad del usuario: El usuario puede deshacer o cancelar acciones fácilmente.
+En formularios como “Registrar vehículo” o “Crear orden”, se incluye el botón “Cancelar”.
+En la eliminación de tareas, se implementa un modal de confirmación para evitar errores.
+
+- Prevencio de errores: Se diseñaron mecanismos para evitar errores antes de que ocurran.
+Validaciones en formularios (campos obligatorios, formatos correctos).
+Confirmación antes de eliminar tareas (HU-17).
+Restricción de acciones sin datos completos (ej. no crear orden sin vehículo).
+<div align="center"><img src="docs/assets/chapter4-designUX/prevent-bug1.png" width="300"></div>
+<div align="center"><img src="docs/assets/chapter4-designUX/prevent-bug2.png" width="300"></div>
+
+Los mock-ups desarrollados para reflejan una aplicación coherente, usable y alineada a estándares profesionales de diseño UX/UI. Se evidencia la correcta integración entre funcionalidad, estética y experiencia de usuario, logrando una solución clara tanto para la gestión interna del taller como para la interacción con clientes.
 
 #### 4.4.4. Web Applications User Flow Diagrams
 [Pendiente]
