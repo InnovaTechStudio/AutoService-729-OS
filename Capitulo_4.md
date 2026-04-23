@@ -820,7 +820,29 @@ Finalmente, el sistema muestra la vista de detalle del vehículo, donde el admin
 
 
 ### 4.5. Web Applications Prototyping
-[Pendiente]
+
+<p style="text-align: justify;">En esta sección se presenta el prototipo interactivo de la aplicación web AutoService, desarrollado para entornos desktop y mobile, el cual simula la navegación y las principales interacciones del sistema. El prototipo permite evidenciar los flujos definidos en los User Flow Diagrams, así como la correcta implementación de la arquitectura de información y el sistema de navegación propuesto.
+
+Se han considerado criterios clave de interacción, como la claridad en la navegación, la reducción de la carga cognitiva, el uso de retroalimentación inmediata y la consistencia en los componentes. Asimismo, se diferencian dos experiencias de usuario: el panel administrador, con navegación estructurada y orientada a la gestión operativa, y el flujo del cliente, diseñado de forma minimalista para facilitar acciones específicas como la consulta del estado del vehículo y el agendamiento de citas.
+
+El video adjunto demuestra los principales flujos de interacción, evidenciando cómo los usuarios navegan por el sistema, ejecutan tareas clave y reciben retroalimentación del sistema, validando así la usabilidad y coherencia del diseño propuesto.</p>
+
+<div align="center">
+
+<strong>Web Applications Prototyping</strong>
+
+![alt text](docs/assets/chapter-4/screenshot-web-prototype.png)</div>
+
+<p>Url de video: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d185_upc_edu_pe/IQA1Ayp44N2tTZ3f8Qg06ivwAWceAwrAwbUt4oEaa1BBGXw?e=EAr9YX">https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d185_upc_edu_pe/IQA1Ayp44N2tTZ3f8Qg06ivwAWceAwrAwbUt4oEaa1BBGXw?e=EAr9YX</a></p>
+
+
+<div align="center">
+
+<strong>Movil Applications Prototyping</strong>
+
+![alt text](docs/assets/chapter-4/screenshot-mobil-prototype.png)</div>
+
+<p>Url de video: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d185_upc_edu_pe/IQAkMAYXAVMXRqIAboIE6jKsAUqumaok8m0tsxRc5iGhvkY?e=MmRJh3">https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d185_upc_edu_pe/IQAkMAYXAVMXRqIAboIE6jKsAUqumaok8m0tsxRc5iGhvkY?e=MmRJh3</a></p>
 
 ### 4.6. Domain-Driven Software Architecture
 
