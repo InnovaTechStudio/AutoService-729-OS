@@ -808,8 +808,43 @@ Para ilustrar la visualización y las interacciones logradas en este Sprint, se 
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
 <p align="justify">
-Durante el Sprint 1, el equipo priorizó estratégicamente el diseño del dominio (Domain-Driven Design), la elaboración de artefactos UX/UI y el desarrollo e implementación de la Landing Page. De acuerdo con la planificación de nuestro Sprint Backlog y la priorización de valor del producto, la implementación del contenedor API RESTful y su respectiva documentación con OpenAPI (Swagger) han sido programados para sprints futuros. Por tal motivo, en esta iteración inicial no se reportan endpoints implementados ni capturas de interacción de Web Services.
+Durante el Sprint 1, la implementación del contenedor central <b>API RESTful</b> (Backend) de AutoService fue programada estratégicamente para el siguiente sprint. Sin embargo, como parte del alcance funcional y técnico de este primer entregable, se integró y documentó el uso de un Web Service de terceros para habilitar la interactividad de la Landing Page.
 </p>
+
+<p align="justify">
+Se implementó <b>EmailJS</b>, un servicio basado en la nube que permite el envío de correos electrónicos transaccionales mediante peticiones HTTP directamente desde el cliente (Client-side). Esto permite conectar el formulario de contacto de la Landing Page con la bandeja de entrada del equipo, asegurando la comunicación inmediata sin necesidad de desplegar un servidor intermedio.
+</p>
+
+<table style="width: 100%; border-collapse: collapse; text-align: justify; margin-bottom: 1.5em;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Servicio (Endpoint)</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Método</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Descripción</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Payload / Parámetros</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><code>https://api.emailjs.com/api/v1.0/email/send</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><strong>POST</strong></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Procesa y envía los datos del formulario de contacto hacia el correo electrónico configurado por el equipo.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>service_id</code>, <code>template_id</code>, <code>user_id</code> (Public Key), <code>template_params</code> (nombre, email, mensaje)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p align="justify">
+A continuación, se adjunta la evidencia visual de la configuración de este servicio y la interacción exitosa utilizando datos de muestra enviados desde el formulario en producción:
+</p>
+
+<div align="center">
+  <h5 style="margin-bottom: 0.5em;">Evidencia 1: Configuración del Servicio y Template en EmailJS</h5>
+  <img src="docs/assets/chapter-5/emailjs_config.png" alt="EmailJS Dashboard Configuration" width="80%" style="margin-bottom: 1.5em;">
+  
+  <h5 style="margin-bottom: 0.5em;">Evidencia 2: Interacción exitosa (Correo de prueba recibido)</h5>
+  <img src="docs/assets/chapter-5/emailjs_example.png" alt="EmailJS Received Email" width="80%">
+</div>
 
 ---
 
@@ -832,15 +867,15 @@ Para el despliegue, se utilizó <b>GitHub Pages</b>, aprovechando su integració
 <div align="center">
 
   <h5>Evidencia 1: Configuración de GitHub Pages en el Repositorio</h5>
-    <img src="docs/assets/chapter-5/deployment_github_settings.png" alt="GitHub Pages Settings" width="80%">
-  <h5>Evidencia 2: Ejecución Exitosa del Workflow de Despliegue</h5>
-    <img src="docs/assets/chapter-5/deployment_actions_success.png" alt="GitHub Actions Workflow" width="80%">
+    <img src="docs/assets/chapter-5/pages_settings.png" alt="GitHub Pages Settings" width="80%">
+  <h5>Evidencia 2: Workflow para la Landing Page</h5>
+    <img src="docs/assets/chapter-5/landing_pulse.png" alt="GitHub Actions Workflow" width="80%">
   <h5>Evidencia 3: Visualización de la Landing Page en Producción</h5>
-    <img src="docs/assets/chapter-5/deployment_live_url.png" alt="Live Landing Page" width="80%">
+    <img src="docs/assets/chapter-5/landing_ss_1.png" alt="Live Landing Page" width="80%">
 
 </div><p align="justify">
 
-La Landing Page se encuentra actualmente operativa en la siguiente URL: <code>https://innovatechstudio.github.io/AutoService-landing/</code>.
+La Landing Page se encuentra actualmente operativa en la siguiente URL: <code>https://innovatechstudio.github.io/Autoservice-landing-page/</code>.
 </p>
 
 ---
@@ -872,6 +907,7 @@ Como demuestran las gráficas y el resumen de actividad, la carga de trabajo se 
 
 ---
 
+<!--  PENDIENTE PARA ENTREGA FINAL TB2
 ### 5.3. Validation Interviews
 
 #### 5.3.1. Diseño de Entrevistas
@@ -885,3 +921,4 @@ Como demuestran las gráficas y el resumen de actividad, la carga de trabajo se 
 
 ### 5.4. Video About-the-Product
 [Pendiente]
+-->
