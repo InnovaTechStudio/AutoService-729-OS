@@ -28,10 +28,117 @@
 ### 4.3. Landing Page UI Design
 
 #### 4.3.1. Landing Page Wireframe
-[Pendiente]
+
+**-Landing Page**<br><br>
+**1. Header / Navbar**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-wireframe/header-navbar-landing-wireframe.png)
+
+**2. Hero Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-wireframe/hero-section-landing-wireframe.png)
+
+**3. Key Features**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-wireframe/key-features-landing-wireframe.png)
+
+**4. Problem + Solution Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-wireframe/problem+solution-section-landing-wireframe.png)
+
+**5. Tools Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-wireframe/tools-section-landing-wireframe.png)
+
+**6. How it works Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-wireframe/how-it-works-landing-wireframe.png)
+
+**7. Additional Features/ Simplicity Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-wireframe/simplicity-section-landing-wireframe.png)
+
+**8. Pricing Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-wireframe/pricing-section-landing-wireframe.png)
+
+**9. Final Call To Action Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-wireframe/final-call-to-action-landing-wireframe.png)
+
+**10. Footer Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-wireframe/footer-section-landing-wireframe.png)
+
+**-Mobile Web Browser**
+
+![alt text](docs/assets/chapter-4/landing-page-wireframe/Mobile%20Web%20Browser%20Wireframe.png)
 
 #### 4.3.2. Landing Page Mock-up
-[Pendiente]
+
+**1. Header / Navbar**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-mockup/header-landing-mockup.png)
+
+**2. Hero Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-mockup/hero-section-mockup.png)
+
+**3. Key Features**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-mockup/key-features-mockup.png)
+
+**4. Problem + Solution Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-mockup/problem+solution-section-mockup.png)
+
+**5. Tools Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-mockup/tools-section-mockup.png)
+
+**6. How it works Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-mockup/how-it-works-mockup.png)
+
+**7. Additional Features/ Simplicity Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-mockup/simplicity-section-mockup.png)
+
+**8. Pricing Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-mockup/pricing-section-mockup.png)
+
+**9. Final Call To Action Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-mockup/final-call-to-action-mockup.png)
+
+**10. Footer Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-mockup/footer-section-mockup.png)
+
+**-Mobile Web Browser**
+
+![alt text](docs/assets/chapter-4/landing-page-mockup/Mobile%20Web%20Browser%20Mockup.png)
 
 ### 4.4. Web Applications UX/UI Design
 
