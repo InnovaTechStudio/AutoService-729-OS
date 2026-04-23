@@ -938,7 +938,7 @@ El video adjunto demuestra los principales flujos de interacción, evidenciando 
 
 <strong>Web Applications Prototyping</strong>
 
-![alt text](docs/assets/chapter-4/screenshot-web-prototype.png)</div>
+![alt text](docs/assets/chapter4-designUX/screenshot-web-prototype.png)</div>
 
 <p>Url de video: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d185_upc_edu_pe/IQA1Ayp44N2tTZ3f8Qg06ivwAWceAwrAwbUt4oEaa1BBGXw?e=EAr9YX">https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d185_upc_edu_pe/IQA1Ayp44N2tTZ3f8Qg06ivwAWceAwrAwbUt4oEaa1BBGXw?e=EAr9YX</a></p>
 
@@ -947,7 +947,7 @@ El video adjunto demuestra los principales flujos de interacción, evidenciando 
 
 <strong>Movil Applications Prototyping</strong>
 
-![alt text](docs/assets/chapter-4/screenshot-mobil-prototype.png)</div>
+![alt text](docs/assets/chapter4-designUX/screenshot-mobil-prototype.png)</div>
 
 <p>Url de video: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d185_upc_edu_pe/IQAkMAYXAVMXRqIAboIE6jKsAUqumaok8m0tsxRc5iGhvkY?e=MmRJh3">https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d185_upc_edu_pe/IQAkMAYXAVMXRqIAboIE6jKsAUqumaok8m0tsxRc5iGhvkY?e=MmRJh3</a></p>
 
