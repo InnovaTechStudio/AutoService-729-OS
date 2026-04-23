@@ -17,7 +17,7 @@
       <tr>
         <td style="padding: 20px; border: 1px solid #ddd; width: 70%; vertical-align: middle; text-align: left;">
           <strong>Aguilar Aguayo, Jeferson Renzo</strong><br><br>
-          <i>Descripción pendiente...</i>
+          <i>Estudiante del quinto ciclo de Ing. de Software. Mis conocimientos en el código para el aporte al proyecto son HTML, JS, CSS y Phyton. Mis principales fortalezas son el trabajo en equipo, responsabilidad con los entregables del proyecto.</i>
         </td>
         <td style="padding: 10px; border: 1px solid #ddd; width: 30%; text-align: center; vertical-align: middle;">
           <img src="docs/assets/jeferson.png" alt="Jeferson Aguilar" width="150" style="border-radius: 10px; border: 1px solid #ccc;">
