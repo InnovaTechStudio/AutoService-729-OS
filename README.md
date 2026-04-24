@@ -4887,6 +4887,9 @@ A continuación, se presentan las conclusiones derivadas del desarrollo de los p
   <li style="margin-bottom: 0.8em;">
     <strong>Eficacia en el Desarrollo Ágil:</strong> La ejecución exitosa del Sprint 1, evidenciada en el despliegue automático de la Landing Page mediante GitHub Pages y la integración de EmailJS, demuestra una correcta adopción de prácticas de Software Configuration Management, control de versiones con GitFlow y entrega continua por parte del equipo.
   </li>
+  <li style="margin-bottom: 0.8em;">
+    <strong>Gestion de Configuración robusta:</strong> La implementación de una gestión de configuración estructurada y estándares técnicos rigurosos permitió consolidar una base profesional para el desarrollo de AutoService. La adopción de la metodología GitFlow y arquitecturas modulares asegura que el proyecto sea una solución técnica viable y escalable, resolviendo la complejidad de integrar múltiples componentes bajo principios fundamentales de mantenibilidad y legibilidad internacional.
+  </li>
 </ul>
 
 <p align="justify"><b>Recomendaciones:</b></p>
