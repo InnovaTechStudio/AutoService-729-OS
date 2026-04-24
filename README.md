@@ -111,6 +111,7 @@ Abril, 2026
 ## Project Report Collaboration Insights <!-- omit in toc -->
 
 * **URL del Repositorio de GitHub:** https://github.com/InnovaTechStudio/AutoService-729-OS
+* **URL de la Landing Page:** https://github.com/InnovaTechStudio/Autoservice-landing-page
 * **AV1:** - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
 * **Video Exposición AV1:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421866_upc_edu_pe/IQCi0uWoNsyPRJzh7ZdEIz6gAcIxkWA-ddYWYuz4JhW1gQw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xyCAcj
 
