@@ -265,7 +265,11 @@ Abril, 2026
           <b>Lopez Monroy, Rodrigo Alfredo</b> AV1: (ACCIONES REALIZADAS)<br>
           <b>Luis Miranda, Diego Andres</b> AV1: Se realizo el proceso completo de diseño UX/UI, incluyendo la elaboración de wireframes, wireflows, mock-ups y prototipos interactivos en Figma aplicando la principios, elemntos, IA, etc. Asimismo, se explicaron los resultados obtenidos a partir de las entrevistas realizadas, tomando en cuentas las necesidades del usuarios<br>
           <b>Mamani Vilca, Alan Jaivi</b> AV1: Sustenté la arquitectura de software en el modelado del diagrama de clases y el modelo de base de datos, adaptando el lenguaje técnico para asegurar la comprensión del sistema. Además, conduje entrevistas a administradores de taller, demostrando escucha activa para extraer necesidades clave y validar supuestos del Lean UX.<br>
-          <b>Sanchez Cuadrado, Juan Antonio</b> AV1: (ACCIONES REALIZADAS)
+          <b>Sanchez Cuadrado, Juan Antonio</b> AV1: Aporte individual:
+Me encargué del desarrollo del Capítulo I: Introducción, donde se definió el perfil de la startup, la descripción de la solución, el análisis del problema, los segmentos objetivo y el enfoque Lean UX del proyecto 
+  AutoService.
+
+Además, participé en el diseño del mockup de la Landing Page, orientado a presentar el producto de forma clara, atractiva y comercial para talleres automotrices. Posteriormente, apoyé en su implementación utilizando HTML, CSS y JavaScript, integrando secciones como el hero, funcionalidades principales, beneficios, precios, CTA y elementos visuales del sistema.
         </td>
         <td>AV1: Se logró comunicar de manera clara, estructurada y efectiva el proceso de diseño y las funcionalidades del sistema, facilitando la comprensión del proyecto para distintos tipos de audiencia y evidenciando dominio de los conceptos de UX/UI.</td>
       </tr>
@@ -276,7 +280,7 @@ Abril, 2026
           <b>Lopez Monroy, Rodrigo Alfredo</b> AV1: (ACCIONES REALIZADAS)<br>
           <b>Luis Miranda, Diego Andres</b> AV1: Se desarrolló la documentación, incluyendo el análisis de entrevistas para el levantamiento de requerimientos, la definición de historias de usuario y la elaboración de wireframes, mock-ups y prototipos. Se redactaron secciones técnicas relacionadas con principios de diseño, arquitectura de información, diseño inclusivo y decisiones UX/UI, manteniendo un lenguaje claro, estructurado y coherente.<br>
           <b>Mamani Vilca, Alan Jaivi</b> AV1: Documenté la arquitectura, del modelo del diagrama de clases, modelo de datos y hallazgos del Needfinding (User Personas, Empathy/Journey Maps) con precisión técnica y claridad. Utilicé terminología estándar y una estructura lógica para facilitar la implementación y la colaboración efectiva entre los roles de diseño y desarrollo.<br>
-          <b>Sanchez Cuadrado, Juan Antonio</b> AV1: (ACCIONES REALIZADAS)
+          <b>Sanchez Cuadrado, Juan Antonio</b> AV1: Se elaboro documentacion y contribuí en la elaboración de la presentación final en Canva, organizando la información visualmente para facilitar la exposición del proyecto y mantener coherencia con la identidad gráfica de AutoService.
         </td>
         <td>AV1: Se logró presentar información de manera ordenada y comprensible, permitiendo que tanto usuarios técnicos como no técnicos puedan entender el proceso de diseño, las decisiones tomadas y el funcionamiento del sistema de forma clara y efectiva.</td>
       </tr>
