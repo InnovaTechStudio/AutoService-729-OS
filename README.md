@@ -261,7 +261,8 @@ Abril, 2026
       <tr>
         <td>Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
         <td>
-          <b>Aguilar Aguayo, Jeferson Renzo</b> AV1: (ACCIONES REALIZADAS)<br>
+          <b>Aguilar Aguayo, Jeferson Renzo</b> AV1: Se realizó la gestión de configuración y del código fuente mediante la adopción del modelo GitFlow, organizando el desarrollo en ramas específicas (main, develop, feature/, hotfix/) y aplicando la convención de Conventional Commits para asegurar un proceso de trabajo ordenado, colaborativo y escalable
+. Asimismo, se establecieron guías de estilo y convenciones técnicas rigurosas, redactando todo el código y documentación en inglés y aplicando arquitecturas específicas para Angular (basada en componentes) y Spring Boot (por capas), junto con el uso de Gherkin para definir criterios de aceptación que faciliten la comunicación con los interesados<br>
           <b>Lopez Monroy, Rodrigo Alfredo</b> AV1: (ACCIONES REALIZADAS)<br>
           <b>Luis Miranda, Diego Andres</b> AV1: Se realizo el proceso completo de diseño UX/UI, incluyendo la elaboración de wireframes, wireflows, mock-ups y prototipos interactivos en Figma aplicando la principios, elemntos, IA, etc. Asimismo, se explicaron los resultados obtenidos a partir de las entrevistas realizadas, tomando en cuentas las necesidades del usuarios<br>
           <b>Mamani Vilca, Alan Jaivi</b> AV1: Sustenté la arquitectura de software en el modelado del diagrama de clases y el modelo de base de datos, adaptando el lenguaje técnico para asegurar la comprensión del sistema. Además, conduje entrevistas a administradores de taller, demostrando escucha activa para extraer necesidades clave y validar supuestos del Lean UX.<br>
@@ -276,7 +277,7 @@ Además, participé en el diseño del mockup de la Landing Page, orientado a pre
       <tr>
         <td>Comunica por escrito con efectividad a diferentes rangos de audiencia.</td>
         <td>
-          <b>Aguilar Aguayo, Jeferson Renzo</b> AV1: (ACCIONES REALIZADAS)<br>
+          <b>Aguilar Aguayo, Jeferson Renzo</b> AV1: Se elaboró la documentación técnica y contribuí en la implementación de la gestión del código mediante GitFlow, organizando las ramas y estándares de programación en inglés para facilitar el desarrollo colaborativo y mantener coherencia con la arquitectura y el despliegue profesional de AutoService<br>
           <b>Lopez Monroy, Rodrigo Alfredo</b> AV1: (ACCIONES REALIZADAS)<br>
           <b>Luis Miranda, Diego Andres</b> AV1: Se desarrolló la documentación, incluyendo el análisis de entrevistas para el levantamiento de requerimientos, la definición de historias de usuario y la elaboración de wireframes, mock-ups y prototipos. Se redactaron secciones técnicas relacionadas con principios de diseño, arquitectura de información, diseño inclusivo y decisiones UX/UI, manteniendo un lenguaje claro, estructurado y coherente.<br>
           <b>Mamani Vilca, Alan Jaivi</b> AV1: Documenté la arquitectura, del modelo del diagrama de clases, modelo de datos y hallazgos del Needfinding (User Personas, Empathy/Journey Maps) con precisión técnica y claridad. Utilicé terminología estándar y una estructura lógica para facilitar la implementación y la colaboración efectiva entre los roles de diseño y desarrollo.<br>
@@ -4885,6 +4886,9 @@ A continuación, se presentan las conclusiones derivadas del desarrollo de los p
   </li>
   <li style="margin-bottom: 0.8em;">
     <strong>Eficacia en el Desarrollo Ágil:</strong> La ejecución exitosa del Sprint 1, evidenciada en el despliegue automático de la Landing Page mediante GitHub Pages y la integración de EmailJS, demuestra una correcta adopción de prácticas de Software Configuration Management, control de versiones con GitFlow y entrega continua por parte del equipo.
+  </li>
+  <li style="margin-bottom: 0.8em;">
+    <strong>Gestion de Configuración robusta:</strong> La implementación de una gestión de configuración estructurada y estándares técnicos rigurosos permitió consolidar una base profesional para el desarrollo de AutoService. La adopción de la metodología GitFlow y arquitecturas modulares asegura que el proyecto sea una solución técnica viable y escalable, resolviendo la complejidad de integrar múltiples componentes bajo principios fundamentales de mantenibilidad y legibilidad internacional.
   </li>
 </ul>
 
