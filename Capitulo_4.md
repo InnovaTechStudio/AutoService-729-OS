@@ -1202,7 +1202,33 @@ La arquitectura de software de AutoService se fundamenta en los principios de Do
 #### 4.6.1. Design-Level EventStorming
 
 <p align="justify">
-Para profundizar en la lógica de AutoService<, realizamos una sesión de Design-Level Event Storming. Esta técnica nos permitió transitar desde una visión general del negocio hacia un modelo técnico detallado, identificando los procesos críticos, las reglas de negocio y los límites de los módulos que compondrán nuestra arquitectura orientada a servicios.
+Para profundizar en la lógica de <b>AutoService</b>, realizamos una sesión de Design-Level Event Storming. Esta técnica nos permitió transitar desde una visión estratégica del negocio hacia un modelo táctico detallado, identificando no solo procesos técnicos, sino las capacidades de negocio críticas que garantizan la generación de valor. A diferencia de un enfoque tradicional centrado en la persistencia de datos (CRUD), nuestro modelado se enfoca en la orquestación de flujos de trabajo, la transparencia hacia el cliente y la eficiencia operativa.
+</p>
+
+<p align="justify">
+A través de este proceso, hemos redefinido nuestros dominios para asegurar que la arquitectura de software sea un reflejo fiel de la realidad operativa del taller, priorizando los siguientes contextos delimitados:
+</p>
+
+<ul>
+    <li>
+        <b>Workshop Operations (Service Lifecycle & Traceability):</b> Representa el núcleo del negocio. Este dominio no se limita a registrar órdenes, sino que gestiona el ciclo de vida completo de la reparación, asegurando la trazabilidad técnica y el cumplimiento de los workflows de diagnóstico y servicio.
+    </li>
+    <li>
+        <b>Customer Trust & Management:</b> Este contexto aborda directamente la problemática de la desconfianza del sector. Se encarga de la transparencia operacional mediante la gestión de evidencias técnicas (fotos/videos), la aprobación digital de costos adicionales y la comunicación en tiempo real del estado real del vehículo.
+    </li>
+    <li>
+        <b>Staff Coordination & Mechanic Workspace:</b> Enfocado en la continuidad operativa y la asignación dinámica de recursos. Permite una gestión fluida del personal técnico, evitando cuellos de botella y asegurando que cada mecánico cuente con las herramientas digitales necesarias para reportar su progreso sin fricciones.
+    </li>
+    <li>
+        <b>Fleet Management:</b> Especializado en el control técnico y el historial consolidado de las unidades atendidas. Su enfoque principal es la identificación de patrones de falla para transitar de un modelo de reparación reactivo a uno de mantenimiento preventivo y fidelización.
+    </li>
+    <li>
+        <b>Auth & Identity:</b> Un contexto de soporte que garantiza la seguridad y la correcta delimitación de responsabilidades dentro de la plataforma, protegiendo la integridad de la información del taller y del cliente.
+    </li>
+</ul>
+
+<p align="justify">
+Este refinamiento del dominio asegura que el sistema no sea una simple herramienta de registro, sino un ecosistema que facilita la validación técnica, la auditoría operativa y, fundamentalmente, la construcción de una relación de confianza duradera entre el taller y sus clientes.
 </p>
 
 <b>Step 1: Collect Domain Events (Big Picture)</b>
@@ -1212,7 +1238,7 @@ En esta fase inicial, realizamos una lluvia de ideas para identificar todos los 
 
 <div align="center">
 
-![alt text](docs/assets/chapter-4/event_storming_s1.jpg)
+![alt text](docs/assets/chapter-4/event_storming_s1.png)
 </div>
 
 <b>Step 2: Refine Domain Events</b>
@@ -1222,7 +1248,7 @@ Organizamos los eventos identificados en una línea de tiempo horizontal para es
 
 <div align="center">
 
-![alt text](docs/assets/chapter-4/event_storming_s2.jpg)
+![alt text](docs/assets/chapter-4/event_storming_s2.png)
 </div>
 
 <b>Step 3: Track Causes (Process Modelling)</b>
@@ -1232,7 +1258,7 @@ En este paso, modelamos la causalidad de cada evento introduciendo <b>Actors</b>
 
 <div align="center">
 
-![alt text](docs/assets/chapter-4/event_storming_s3.jpg)
+![alt text](docs/assets/chapter-4/event_storming_s3.png)
 </div>
 
 <b>Step 4: Find Aggregates & Bounded Contexts (Software Modelling)</b>
@@ -1242,7 +1268,7 @@ Finalmente, agrupamos los comandos y eventos alrededor de sus <b>Aggregates</b> 
 
 <div align="center">
 
-![alt text](docs/assets/chapter-4/event_storming_s4.jpg)
+![alt text](docs/assets/chapter-4/event_storming_s4.png)
 </div>
 
 #### 4.6.2. Software Architecture Context Diagram
