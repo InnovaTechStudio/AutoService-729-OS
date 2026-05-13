@@ -5,7 +5,7 @@ Universidad Peruana de Ciencias Aplicadas<br>
 Facultad de Ingenería, Carrera de Ingeniería de Software<br>
 **Ciclo:** 2026-10
 
-**AV1 – Sprint Review**
+**TB1 – Stage Review**
 
 **1ASI0730** Desarrollo de Aplicaciones Open Source<br>
 **NRC:** 17952<br>
@@ -13,7 +13,7 @@ Facultad de Ingenería, Carrera de Ingeniería de Software<br>
 
 **Nombre del startup:** InnovaTech<br>
 **Nombre del producto:** AutoService<br>
-Abril, 2026
+Mayo, 2026
 
 #### Relación de integrantes <!-- omit in toc -->
 
@@ -307,7 +307,7 @@ Abril, 2026
           <b>Aguilar Aguayo, Jeferson Renzo</b> AV1: Se realizó la gestión de configuración y del código fuente mediante la adopción del modelo GitFlow, organizando el desarrollo en ramas específicas (main, develop, feature/, hotfix/) y aplicando la convención de Conventional Commits para asegurar un proceso de trabajo ordenado, colaborativo y escalable
 . Asimismo, se establecieron guías de estilo y convenciones técnicas rigurosas, redactando todo el código y documentación en inglés y aplicando arquitecturas específicas para Angular (basada en componentes) y Spring Boot (por capas), junto con el uso de Gherkin para definir criterios de aceptación que faciliten la comunicación con los interesados<br>
           <b>Lopez Monroy, Rodrigo Alfredo</b> AV1: Comuniqué de manera efectiva al equipo el flujo de trabajo basado en GitFlow, adaptando la explicación según el nivel técnico de cada integrante, resolviendo dudas en tiempo real y alineando a todos en el uso correcto de ramas y buenas prácticas. Además, guié reuniones donde se definieron user stories, epics y prioridades del product backlog, y expuse la arquitectura de software mediante diagramas C4 de forma clara, asegurando la comprensión tanto de perfiles técnicos como no técnicos.<br><br>TB1: Se participó activamente en reuniones de coordinación del Sprint, donde se expusieron avances técnicos relacionados con la configuración de los repositorios, despliegue de la Fake API y conexión del frontend con los servicios backend. Durante estas reuniones se explicó de forma clara el estado de las tareas, se resolvieron dudas del equipo y se propusieron mejoras al flujo de trabajo utilizando GitFlow, asegurando una comprensión común entre todos los integrantes del proyecto.<br><br>
-          <b>Luis Miranda, Diego Andres</b> AV1: Se realizo el proceso completo de diseño UX/UI, incluyendo la elaboración de wireframes, wireflows, mock-ups y prototipos interactivos en Figma aplicando la principios, elemntos, IA, etc. Asimismo, se explicaron los resultados obtenidos a partir de las entrevistas realizadas, tomando en cuentas las necesidades del usuarios<br><br>
+          <b>Luis Miranda, Diego Andres</b> AV1: Se realizo el proceso completo de diseño UX/UI, incluyendo la elaboración de wireframes, wireflows, mock-ups y prototipos interactivos en Figma aplicando la principios, elemntos, IA, etc. Asimismo, se explicaron los resultados obtenidos a partir de las entrevistas realizadas, tomando en cuentas las necesidades del usuarios<br><br>TB1: Participé de manera colaborativa en el desarrollo de la interfaz frontend y en la implementación del sistema de tracking para clientes, coordinando tareas con el equipo para mantener coherencia en el desarrollo del proyecto. Asimismo, contribuí en la mejora de la documentación y en la estructuración del sistema, favoreciendo una organización más eficiente del trabajo. La comunicación constante y la disposición para apoyar en la integración con el backend y la Fake API permitieron cumplir los objetivos establecidos dentro de los plazos acordados.<br><br>
           <b>Mamani Vilca, Alan Jaivi</b> AV1: Sustenté la arquitectura de software en el modelado del diagrama de clases y el modelo de base de datos, adaptando el lenguaje técnico para asegurar la comprensión del sistema. Además, conduje entrevistas a administradores de taller, demostrando escucha activa para extraer necesidades clave y validar supuestos del Lean UX.<br><br>TB1: Sustenté la arquitectura del módulo de Customer Tracking, explicando la integración entre el TrackingStore y los servicios de infraestructura mediante un flujo reactivo basado en Angular Signals. Además, realicé presentaciones de avance orientadas a stakeholders, adaptando el lenguaje técnico para comunicar los beneficios operativos de la solución y asegurar la alineación entre la propuesta tecnológica y los objetivos de negocio.<br><br>
           <b>Sanchez Cuadrado, Juan Antonio</b> AV1: Aporte individual:
 Me encargué del desarrollo del Capítulo I: Introducción, donde se definió el perfil de la startup, la descripción de la solución, el análisis del problema, los segmentos objetivo y el enfoque Lean UX del proyecto 
@@ -322,7 +322,7 @@ Además, participé en el diseño del mockup de la Landing Page, orientado a pre
         <td>
           <b>Aguilar Aguayo, Jeferson Renzo</b> AV1: Se elaboró la documentación técnica y contribuí en la implementación de la gestión del código mediante GitFlow, organizando las ramas y estándares de programación en inglés para facilitar el desarrollo colaborativo y mantener coherencia con la arquitectura y el despliegue profesional de AutoService<br>
           <b>Lopez Monroy, Rodrigo Alfredo</b> AV1: Elaboré documentación clara y estructurada del flujo de trabajo en GitHub, incluyendo lineamientos sobre ramas, commits y pull requests, facilitando su comprensión para todo el equipo. Asimismo, redacté user stories, epics y el product backlog utilizando un lenguaje accesible y bien organizado, y documenté la arquitectura de software mediante diagramas C4 acompañados de descripciones comprensibles para distintos tipos de audiencia.<br><br>TB1: Se elaboraron mensajes de commit siguiendo la convención de Conventional Commits, describiendo de manera clara y estructurada cada cambio realizado en el sistema. Asimismo, se contribuyó a la documentación del proyecto mediante la actualización de secciones técnicas en el repositorio, incluyendo configuraciones de despliegue, integración con la Fake API y ajustes en el entorno de producción, asegurando que la información fuera comprensible para cualquier integrante del equipo o evaluador externo.<br><br>
-          <b>Luis Miranda, Diego Andres</b> AV1: Se desarrolló la documentación, incluyendo el análisis de entrevistas para el levantamiento de requerimientos, la definición de historias de usuario y la elaboración de wireframes, mock-ups y prototipos. Se redactaron secciones técnicas relacionadas con principios de diseño, arquitectura de información, diseño inclusivo y decisiones UX/UI, manteniendo un lenguaje claro, estructurado y coherente.<br><br>
+          <b>Luis Miranda, Diego Andres</b> AV1: Se desarrolló la documentación, incluyendo el análisis de entrevistas para el levantamiento de requerimientos, la definición de historias de usuario y la elaboración de wireframes, mock-ups y prototipos. Se redactaron secciones técnicas relacionadas con principios de diseño, arquitectura de información, diseño inclusivo y decisiones UX/UI, manteniendo un lenguaje claro, estructurado y coherente.<br><br>TB1: Contribuí al liderazgo compartido del equipo participando en la planificación y desarrollo de componentes frontend orientados al administrador y al sistema de seguimiento para clientes. Además, colaboré en la integración entre el frontend, el backend y la Fake API, apoyando la coordinación técnica entre los integrantes para asegurar la compatibilidad y funcionamiento del sistema. También promoví la mejora continua de la documentación y la correcta estructuración del proyecto, facilitando la organización del trabajo y el cumplimiento de los objetivos planteados.<br><br>
           <b>Mamani Vilca, Alan Jaivi</b> AV1: Documenté la arquitectura, del modelo del diagrama de clases, modelo de datos y hallazgos del Needfinding (User Personas, Empathy/Journey Maps) con precisión técnica y claridad. Utilicé terminología estándar y una estructura lógica para facilitar la implementación y la colaboración efectiva entre los roles de diseño y desarrollo.<br><br>TB1: Elaboré la documentación técnica del componente de Customer Tracking y de la pasarela de pagos multicanal, detallando el consumo de la API REST y la gestión reactiva mediante RxJS. Además, redacté manuales de integración para el equipo de desarrollo y definí guías UX Copy para la interfaz de pagos con tarjetas, Yape y Plin, asegurando una comunicación técnica precisa en el código y clara para el usuario final, cumpliendo con los estándares de documentación del proyecto.<br><br>
           <b>Sanchez Cuadrado, Juan Antonio</b> AV1: Se elaboro documentacion y contribuí en la elaboración de la presentación final en Canva, organizando la información visualmente para facilitar la exposición del proyecto y mantener coherencia con la identidad gráfica de AutoService.
         </td>
@@ -689,49 +689,70 @@ El Lean UX Process permite definir y validar la solución a partir de la compren
 
 ### 1.3. Segmentos objetivo
 
-<p align="justify">
-Se identifican los tipos de usuarios que interactúan con la solución.
-</p>
+## Segmento 1: Mecánicos Independientes
 
-<h4><i>Segmentos que contratan nuestro servicio (Clientes del sistema)</i></h4>
+Son trabajadores autónomos que brindan servicios de reparación y mantenimiento vehicular de manera independiente.
 
-<p><strong>1. Mecánicos Independientes</strong></p>
-<ul>
-  <li>Trabajan de forma autónoma</li>
-  <li>Manejan pocos clientes</li>
-  <li>Bajo nivel de digitalización</li>
-  <li>Necesitan soluciones simples y económicas</li>
-</ul>
+### Variables demográficas y características
 
-<p align="justify">
-Buscan mejorar organización, control de servicios y ofrecer mayor transparencia.
-</p>
+- Edad: 25 a 50 años
+- Ubicación: Zonas urbanas de Lima Metropolitana y principales ciudades del Perú
+- Nivel socioeconómico: B y C
+- Tamaño del negocio: 1 a 3 trabajadores
+- Nivel de digitalización: Bajo o medio
+- Ingresos variables según demanda de servicios
 
-<p><strong>2. Talleres Automotrices / Empresas</strong></p>
-<ul>
-  <li>Mayor volumen de trabajo</li>
-  <li>Varios mecánicos</li>
-  <li>Necesidad de control administrativo</li>
-  <li>Enfoque en eficiencia y competitividad</li>
-</ul>
+### Necesidades principales
 
-<p align="justify">
-Requieren herramientas más completas para gestionar operaciones.
-</p>
+- Organizar citas y servicios
+- Llevar control de clientes y vehículos
+- Registrar costos y trabajos realizados
+- Mejorar la comunicación con sus clientes
+- Ofrecer mayor transparencia y confianza
 
-<h4><i>Segmento que recibe el servicio (Usuario Final)</i></h4>
+### Mercado objetivo
 
-<p><strong>3. Clientes (Propietarios de Vehículos)</strong></p>
-<ul>
-  <li>Buscan transparencia</li>
-  <li>Desean seguimiento en tiempo real</li>
-  <li>No tienen conocimientos técnicos</li>
-  <li>Valoran claridad y confianza</li>
-</ul>
+En Perú existe una gran cantidad de talleres pequeños y mecánicos independientes que aún manejan sus procesos de manera manual. Este segmento representa una oportunidad de digitalización debido al crecimiento del parque automotor y la necesidad de optimizar la atención al cliente.
 
-<p align="justify">
-Interactúan con la plataforma para consultar el estado del servicio y costos.
-</p>
+---
+
+## Segmento 2: Talleres Automotrices y Empresas de Servicio Vehicular PYMes
+
+Empresas dedicadas al mantenimiento y reparación automotriz con mayor volumen de operaciones y personal técnico.
+
+### Variables demográficas y características
+
+- Tipo de empresa: Micro y pequeñas empresas automotrices
+- Ubicación: Lima Metropolitana y ciudades con alta concentración vehicular
+- Número de trabajadores: 4 a 20 empleados
+- Cantidad de servicios diarios: Media y alta
+- Nivel de digitalización: Medio
+- Capacidad de inversión tecnológica: Media
+
+### Necesidades principales
+
+- Gestionar múltiples órdenes de servicio
+- Supervisar trabajo de varios mecánicos
+- Controlar historial de clientes y vehículos
+- Mejorar tiempos de atención
+- Generar reportes administrativos y operativos
+- Incrementar competitividad y eficiencia
+
+### Mercado objetivo
+
+El crecimiento del sector automotriz y la necesidad de modernización de talleres generan una demanda creciente por soluciones digitales de gestión. Este segmento busca herramientas que les permitan optimizar operaciones y diferenciarse de la competencia mediante una mejor experiencia de servicio.
+
+---
+
+## Mercado al que apunta la solución
+
+La propuesta se enfoca inicialmente en micro y pequeñas empresas automotrices y mecánicos independientes, debido a la alta concentración vehicular y demanda constante de servicios de mantenimiento.
+
+El mercado presenta potencial de crecimiento por:
+- Incremento del parque automotor en Perú
+- Baja digitalización de talleres tradicionales
+- Necesidad de mejorar control operativo y administrativo
+- Mayor exigencia de transparencia por parte de los clientes
 
 ---
 
