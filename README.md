@@ -1,5 +1,3 @@
-# Documentación del Trabajo Final - 1ASI0730 <!-- omit in toc -->
-
 <div align="center">
   
 ![logo](docs/assets/upclogo.png)<br>
