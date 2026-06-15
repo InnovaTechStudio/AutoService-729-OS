@@ -5,7 +5,7 @@ Universidad Peruana de Ciencias Aplicadas<br>
 Facultad de Ingenería, Carrera de Ingeniería de Software<br>
 **Ciclo:** 2026-10
 
-**AV1 – Sprint Review**
+**AV2 – Sprint Review**
 
 **1ASI0730** Desarrollo de Aplicaciones Open Source<br>
 **NRC:** 17952<br>
@@ -105,26 +105,31 @@ Abril, 2026
           Mamani Vilca, Alan Jaivi<br>
           Sanchez Cuadrado, Juan Antonio
         </td>
-        <td>
-          Elaboración de la segunda entrega formal del proyecto (Sprint 2).<br>
-          Incluye la implementación de la Web Application utilizando Angular y TypeScript,<br>
-          integración de módulos funcionales orientados a la gestión operativa del sistema AutoService<br>
-          (gestión de vehículos, órdenes de trabajo, mecánicos y seguimiento de servicios).<br><br>
-          Asimismo, se documenta la implementación y consumo de una Fake REST API desplegada en GCP con JSON Server,<br>
-          permitiendo la interacción dinámica entre frontend y backend simulado.<br>
-          Se incorpora el despliegue continuo mediante Azure Static Web Apps y GitHub Actions,<br>
-          así como la aplicación de GitFlow para la gestión colaborativa del código fuente.<br><br>
-          Finalmente, se evidencia la primera versión funcional del sistema con navegación entre módulos,<br>
-          consumo de servicios HTTP, y despliegue productivo accesible públicamente.
+        <td style="text-align: left;">
+          Elaboración de la segunda entrega formal del proyecto, detallando el Desarrollo del Sprint 2. 
+          Incluye la construcción de la aplicación web del lado del cliente utilizando el marco de trabajo Angular y TypeScript, implementando vistas funcionales para la gestión operativa del sistema AutoService. 
+          Se integra una interfaz de programación de aplicaciones simulada (Fake REST API) para el consumo de datos dinámicos mediante peticiones HTTP. 
+          Asimismo, se establece el flujo de integración y despliegue continuo en el entorno productivo y se presentan las métricas de colaboración mediante ramas de características y Pull Requests en GitHub.
         </td>
       </tr>
-      <!-- 
       <tr>
         <td>V3.0</td>
-        <td>--/--/2026</td>
-        <td>Aguilar Aguayo, Jeferson Renzo<br>Lopez Monroy, Rodrigo Alfredo<br>Luis Miranda, Diego Andres<br>Mamani Vilca, Alan Jaivi<br>Sanchez Cuadrado, Juan Antonio</td>
-        <td style="text-align: left;"><i>Pendiente</i></td>
+        <td>14/06/2026</td>
+        <td>
+          Aguilar Aguayo, Jeferson Renzo<br>
+          Lopez Monroy, Rodrigo Alfredo<br>
+          Luis Miranda, Diego Andres<br>
+          Mamani Vilca, Alan Jaivi<br>
+          Sanchez Cuadrado, Juan Antonio
+        </td>
+        <td style="text-align: left;">
+          Se incorpora la documentación completa del Desarrollo del Sprint 3, detallando la planificación, el Sprint Backlog y el cuadro de distribución de roles. 
+          Se añade la evidencia de desarrollo de los servicios web en Java con el marco de trabajo Spring Boot y la actualización de la aplicación cliente en Angular, incluyendo las pruebas de integración y conectividad entre ambos componentes. 
+          Se incluye la documentación interactiva de los endpoints mediante la especificación OpenAPI (Swagger) y el registro del despliegue en la plataforma en la nube. 
+          Finalmente, se anexan el diseño y registro de las entrevistas de validación con usuarios junto con la evaluación de usabilidad basada en heurísticas.
+        </td>
       </tr>
+      <!--
       <tr>
         <td>V4.0</td>
         <td>--/--/2026</td>
@@ -304,24 +309,24 @@ Abril, 2026
         <td>
           <b>Aguilar Aguayo, Jeferson Renzo</b> AV1: Se realizó la gestión de configuración y del código fuente mediante la adopción del modelo GitFlow, organizando el desarrollo en ramas específicas (main, develop, feature/, hotfix/) y aplicando la convención de Conventional Commits para asegurar un proceso de trabajo ordenado, colaborativo y escalable
 . Asimismo, se establecieron guías de estilo y convenciones técnicas rigurosas, redactando todo el código y documentación en inglés y aplicando arquitecturas específicas para Angular (basada en componentes) y Spring Boot (por capas), junto con el uso de Gherkin para definir criterios de aceptación que faciliten la comunicación con los interesados<br>
-          <b>Lopez Monroy, Rodrigo Alfredo</b> AV1: Comuniqué de manera efectiva al equipo el flujo de trabajo basado en GitFlow, adaptando la explicación según el nivel técnico de cada integrante, resolviendo dudas en tiempo real y alineando a todos en el uso correcto de ramas y buenas prácticas. Además, guié reuniones donde se definieron user stories, epics y prioridades del product backlog, y expuse la arquitectura de software mediante diagramas C4 de forma clara, asegurando la comprensión tanto de perfiles técnicos como no técnicos.<br><br>TB1: Se participó activamente en reuniones de coordinación del Sprint, donde se expusieron avances técnicos relacionados con la configuración de los repositorios, despliegue de la Fake API y conexión del frontend con los servicios backend. Durante estas reuniones se explicó de forma clara el estado de las tareas, se resolvieron dudas del equipo y se propusieron mejoras al flujo de trabajo utilizando GitFlow, asegurando una comprensión común entre todos los integrantes del proyecto.<br><br>
+          <b>Lopez Monroy, Rodrigo Alfredo</b> AV1: Comuniqué de manera efectiva al equipo el flujo de trabajo basado en GitFlow, adaptando la explicación según el nivel técnico de cada integrante, resolviendo dudas en tiempo real y alineando a todos en el uso correcto de ramas y buenas prácticas. Además, guié reuniones donde se definieron user stories, epics y prioridades del product backlog, y expuse la arquitectura de software mediante diagramas C4 de forma clara, asegurando la comprensión tanto de perfiles técnicos como no técnicos.<br><br>TB1: Se participó activamente en reuniones de coordinación del Sprint, donde se expusieron avances técnicos relacionados con la configuración de los repositorios, despliegue de la Fake API y conexión del frontend con los servicios backend. Durante estas reuniones se explicó de forma clara el estado de las tareas, se resolvieron dudas del equipo y se propusieron mejoras al flujo de trabajo utilizando GitFlow, asegurando una comprensión común entre todos los integrantes del proyecto.<br><br>AV2: Comuniqué de manera efectiva los contratos de datos y la arquitectura por capas del backend desarrollado en Java y Spring Boot al equipo de desarrollo frontend, coordinando reuniones síncronas para resolver dudas sobre el consumo de las rutas de la API. Asimismo, participé activamente en la sustentación de los avances técnicos durante las sesiones de revisión de sprint, exponiendo la integración completa ante el equipo.<br><br>
           <b>Luis Miranda, Diego Andres</b> AV1: Se realizo el proceso completo de diseño UX/UI, incluyendo la elaboración de wireframes, wireflows, mock-ups y prototipos interactivos en Figma aplicando la principios, elemntos, IA, etc. Asimismo, se explicaron los resultados obtenidos a partir de las entrevistas realizadas, tomando en cuentas las necesidades del usuarios<br>
           <b>Mamani Vilca, Alan Jaivi</b> AV1: Sustenté la arquitectura de software en el modelado del diagrama de clases y el modelo de base de datos, adaptando el lenguaje técnico para asegurar la comprensión del sistema. Además, conduje entrevistas a administradores de taller, demostrando escucha activa para extraer necesidades clave y validar supuestos del Lean UX.<br>
           <b>Sanchez Cuadrado, Juan Antonio</b> Participe activamente en el desarrollo de la interfaz administrativa del sistema, colaborando con el equipo para asegurar que cada flujo de interacción estuviera alineado con los objetivos y necesidades de los usuarios. Contribuyó proponiendo mejoras en la experiencia e interfaz visual, fomentando la retroalimentación constante y la toma de decisiones conjunta para mantener coherencia en el diseño del proyecto. Asimismo, apoyó en la coordinación de tareas relacionadas con la implementación de la UI, favoreciendo el avance organizado y el cumplimiento de los objetivos establecidos.
   AutoService.
         </td>
-        <td>AV1: Se logró comunicar de manera clara, estructurada y efectiva el proceso de diseño y las funcionalidades del sistema, facilitando la comprensión del proyecto para distintos tipos de audiencia y evidenciando dominio de los conceptos de UX/UI.<br><br>TB1: Se logró comunicar de manera clara, estructurada y efectiva el avance del proceso de implementación del sistema durante el Sprint 2, explicando las funcionalidades desarrolladas en la Web Application en Angular y TypeScript, así como la integración con la Fake REST API. Esto permitió que distintos tipos de audiencia, tanto técnica como no técnica, comprendieran el funcionamiento del sistema, las decisiones de arquitectura frontend y el flujo de consumo de servicios HTTP.</td>
+        <td>AV1: Se logró comunicar de manera clara, estructurada y efectiva el proceso de diseño y las funcionalidades del sistema, facilitando la comprensión del proyecto para distintos tipos de audiencia y evidenciando dominio de los conceptos de UX/UI.<br><br>TB1: Se logró comunicar de manera clara, estructurada y efectiva el avance del proceso de implementación del sistema durante el Sprint 2, explicando las funcionalidades desarrolladas en la Web Application en Angular y TypeScript, así como la integración con la Fake REST API. Esto permitió que distintos tipos de audiencia, tanto técnica como no técnica, comprendieran el funcionamiento del sistema, las decisiones de arquitectura frontend y el flujo de consumo de servicios HTTP.<br><br>AV2: El equipo consolidó una comunicación oral fluida y estructurada al sustentar las demostraciones de integración del sistema y justificar las decisiones técnicas del backend en Spring Boot ante perfiles con distintos niveles de conocimiento técnico, demostrando claridad y dominio conceptual en las revisiones del sprint.</td>
       </tr>
       <tr>
         <td>Comunica por escrito con efectividad a diferentes rangos de audiencia.</td>
         <td>
           <b>Aguilar Aguayo, Jeferson Renzo</b> AV1: Se elaboró la documentación técnica y contribuí en la implementación de la gestión del código mediante GitFlow, organizando las ramas y estándares de programación en inglés para facilitar el desarrollo colaborativo y mantener coherencia con la arquitectura y el despliegue profesional de AutoService<br>
-          <b>Lopez Monroy, Rodrigo Alfredo</b> AV1: Elaboré documentación clara y estructurada del flujo de trabajo en GitHub, incluyendo lineamientos sobre ramas, commits y pull requests, facilitando su comprensión para todo el equipo. Asimismo, redacté user stories, epics y el product backlog utilizando un lenguaje accesible y bien organizado, y documenté la arquitectura de software mediante diagramas C4 acompañados de descripciones comprensibles para distintos tipos de audiencia.<br><br>TB1: Se elaboraron mensajes de commit siguiendo la convención de Conventional Commits, describiendo de manera clara y estructurada cada cambio realizado en el sistema. Asimismo, se contribuyó a la documentación del proyecto mediante la actualización de secciones técnicas en el repositorio, incluyendo configuraciones de despliegue, integración con la Fake API y ajustes en el entorno de producción, asegurando que la información fuera comprensible para cualquier integrante del equipo o evaluador externo.<br><br>
+          <b>Lopez Monroy, Rodrigo Alfredo</b> AV1: Elaboré documentación clara y estructurada del flujo de trabajo en GitHub, incluyendo lineamientos sobre ramas, commits y pull requests, facilitando su comprensión para todo el equipo. Asimismo, redacté user stories, epics y el product backlog utilizando un lenguaje accesible y bien organizado, y documenté la arquitectura de software mediante diagramas C4 acompañados de descripciones comprensibles para distintos tipos de audiencia.<br><br>TB1: Se elaboraron mensajes de commit siguiendo la convención de Conventional Commits, describiendo de manera clara y estructurada cada cambio realizado en el sistema. Asimismo, se contribuyó a la documentación del proyecto mediante la actualización de secciones técnicas en el repositorio, incluyendo configuraciones de despliegue, integración con la Fake API y ajustes en el entorno de producción, asegurando que la información fuera comprensible para cualquier integrante del equipo o evaluador externo.<br><br>AV2: Elaboré la documentación técnica detallada de los servicios web en la especificación OpenAPI (Swagger), especificando la sintaxis de las llamadas HTTP, los parámetros requeridos y las estructuras de las respuestas en formato JSON para cada endpoint del sistema. Adicionalmente, redacté las guías de configuración de variables de entorno y persistencia para facilitar el despliegue del backend en la nube.<br><br>
           <b>Luis Miranda, Diego Andres</b> AV1: Se desarrolló la documentación, incluyendo el análisis de entrevistas para el levantamiento de requerimientos, la definición de historias de usuario y la elaboración de wireframes, mock-ups y prototipos. Se redactaron secciones técnicas relacionadas con principios de diseño, arquitectura de información, diseño inclusivo y decisiones UX/UI, manteniendo un lenguaje claro, estructurado y coherente.<br>
           <b>Mamani Vilca, Alan Jaivi</b> AV1: Documenté la arquitectura, del modelo del diagrama de clases, modelo de datos y hallazgos del Needfinding (User Personas, Empathy/Journey Maps) con precisión técnica y claridad. Utilicé terminología estándar y una estructura lógica para facilitar la implementación y la colaboración efectiva entre los roles de diseño y desarrollo.<br>
           <b>Sanchez Cuadrado, Juan Antonio</b>La comunicacion lidero la colaboracion en el diseño e implementación completa de la interfaz administrativa, manteniendo una comunicación constante con el equipo para asegurar la correcta integración de los flujos y funcionalidades del sistema. Participó en la mejora continua de la interfaz, considerando la experiencia del usuario y los objetivos definidos en las historias de usuario. Además, cumplió con las tareas asignadas dentro de los plazos acordados, contribuyendo al desarrollo ordenado y eficiente del proyecto.
         </td>
-        <td>AV1: Se logró presentar información de manera ordenada y comprensible, permitiendo que tanto usuarios técnicos como no técnicos puedan entender el proceso de diseño, las decisiones tomadas y el funcionamiento del sistema de forma clara y efectiva.<br><br>TB1: Se presentó y documentó información técnica de manera ordenada y comprensible mediante commits, reportes y documentación del repositorio, facilitando la interpretación del proceso de desarrollo, la configuración del entorno de despliegue y la integración con servicios en la nube (Azure Static Web Apps y GCP). Esto permitió una comunicación efectiva entre los miembros del equipo y la correcta trazabilidad de las decisiones técnicas tomadas durante el Sprint.</td>
+        <td>AV1: Se logró presentar información de manera ordenada y comprensible, permitiendo que tanto usuarios técnicos como no técnicos puedan entender el proceso de diseño, las decisiones tomadas y el funcionamiento del sistema de forma clara y efectiva.<br><br>TB1: Se presentó y documentó información técnica de manera ordenada y comprensible mediante commits, reportes y documentación del repositorio, facilitando la interpretación del proceso de desarrollo, la configuración del entorno de despliegue y la integración con servicios en la nube (Azure Static Web Apps y GCP). Esto permitió una comunicación efectiva entre los miembros del equipo y la correcta trazabilidad de las decisiones técnicas tomadas durante el Sprint.<br><br>AV2: Se logró generar un informe técnico ordenado y riguroso mediante la documentación exhaustiva de los contratos de la API en Swagger y el mapeo del despliegue en la nube, permitiendo que audiencias técnicas y de negocio comprendan con precisión el flujo de datos y la arquitectura distribuida del producto.</td>
       </tr>
     </tbody>
   </table>
@@ -6012,6 +6017,754 @@ El repositorio principal utilizado para el trabajo colaborativo durante este Spr
 </p>
 
 ---
+
+#### 5.2.3. Sprint 3
+
+##### 5.2.3.1. Sprint Planning 3
+
+<div align="center">
+  <table style="margin: auto; width: 100%; border-collapse: collapse; text-align: left;">
+    <thead>
+      <tr>
+        <th colspan="2" style="text-align: center; background-color: #f2f2f2; font-size: 1.2em; padding: 10px; border: 1px solid #ddd;">Sprint #3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td colspan="2" style="background-color: #fafafa; font-weight: bold; text-align: center; padding: 10px; border: 1px solid #ddd;">Sprint Planning Background</td>
+      </tr>
+      <tr>
+        <td style="width: 30%; font-weight: bold; padding: 10px; border: 1px solid #ddd;">Date</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">2026-06-03</td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Time</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">10:00 AM</td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Location</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Reunión presencial en la UPC. (Pabellón I, piso 6, cubículo 5)</td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Prepared By</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">López Monroy, Rodrigo Alfredo</td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Attendees (to planning meeting)</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">
+          Aguilar Aguayo, Jeferson Renzo / López Monroy, Rodrigo Alfredo / Luis Miranda, Diego Andres / Mamani Vilca, Alan Jaivi / Sanchez Cuadrado, Juan Antonio
+        </td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Sprint 2 Review Summary</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">
+          Durante el Sprint 2, el equipo logró desarrollar la aplicación web cliente (Frontend) en Angular, integrando exitosamente el consumo de datos a través de un entorno simulado (Fake REST API). Además, se configuró el flujo de integración y despliegue continuo hacia entornos de producción, logrando una versión interactiva para la gestión operativa.
+        </td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Sprint 2 Retrospective Summary</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">
+          El equipo destacó la eficiencia en el flujo de trabajo mediante ramas de características en GitHub. Como punto de mejora, se identificó la necesidad de definir los contratos de datos y la documentación OpenAPI antes de programar la lógica de negocio, garantizando así una conexión fluida y sin reprocesos entre el nuevo backend en Spring Boot y el frontend en Angular.
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" style="background-color: #fafafa; font-weight: bold; text-align: center; padding: 10px; border: 1px solid #ddd;">Sprint Goal & User Stories</td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Sprint 3 Goal</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">
+          <strong>Our focus is on</strong> developing the backend Web Services using Java and Spring Boot, preparing the cloud deployment, and establishing a successful connection with the updated Angular frontend application.<br><br>
+          <strong>We believe it delivers</strong> a fully integrated and robust software solution that manages real business logic and persistent data using JPA, effectively replacing the temporary mock API environment.<br><br>
+          <strong>This will be confirmed when</strong> the frontend successfully communicates with the backend endpoints, all services are documented via Swagger, and the end-to-end functionality is verified through usability evaluation interviews.
+        </td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Sprint 3 Velocity</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">37 Story Points</td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Sum of Story Points</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">
+          37 Story Points (US-11: 2, US-12: 3, US-25: 3, US-26: 2, US-27: 2, TS-03: 3, TS-05: 5, TS-06: 3, TS-07: 5, TS-08: 3, TS-09: 3, TS-12: 2).
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+##### 5.2.3.2. Aspect Leaders and Collaborators
+
+En el presente Sprint 3, el alcance funcional y técnico se ha dividido en cuatro aspectos principales para garantizar una entrega eficiente:
+1. **Backend Development:** Desarrollo de la API RESTful y lógica de negocio mediante Java y Spring Boot.
+2. **Backend Deployment:** Preparación, contenerización y configuración de servicios para el despliegue del Backend.
+3. **Frontend Adaptations:** Ajustes en la aplicación cliente en Angular para el consumo de los endpoints reales.
+4. **Validation Interviews:** Diseño y ejecución de las entrevistas de validación y usabilidad con usuarios finales.
+
+<div align="center">
+  <table style="margin: auto; width: 100%; border-collapse: collapse; text-align: center;">
+    <thead>
+      <tr style="background-color: #f2f2f2;">
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Team Member (Last Name, First Name)</th>
+        <th style="padding: 10px; border: 1px solid #ddd;">GitHub Username</th>
+        <th style="padding: 10px; border: 1px solid #ddd;">Backend Development<br><small>Leader (L) / Collaborator (C)</small></th>
+        <th style="padding: 10px; border: 1px solid #ddd;">Backend Deployment<br><small>Leader (L) / Collaborator (C)</small></th>
+        <th style="padding: 10px; border: 1px solid #ddd;">Frontend Adaptations<br><small>Leader (L) / Collaborator (C)</small></th>
+        <th style="padding: 10px; border: 1px solid #ddd;">Validation Interviews<br><small>Leader (L) / Collaborator (C)</small></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ddd; text-align: left;">Aguilar Aguayo, Jeferson Renzo</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">JeferSomBlan</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ddd; text-align: left;">López Monroy, Rodrigo Alfredo</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">rodrigolopezu</td>
+        <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2e7d32;">L</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ddd; text-align: left;">Luis Miranda, Diego Andres</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Andrewdmr</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2e7d32;">L</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ddd; text-align: left;">Mamani Vilca, Alan Jaivi</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">AlanMamaniV</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2e7d32;">L</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ddd; text-align: left;">Sanchez Cuadrado, Juan Antonio</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">juansancuad</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2e7d32;">L</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+##### 5.2.3.3. Sprint Backlog 3
+
+El presente Sprint Backlog detalla la descomposición técnica de las historias de usuario y técnicas seleccionadas para la tercera iteración. El objetivo principal es desarrollar el Backend mediante servicios RESTful en Java con Spring Boot, establecer la persistencia de datos con Spring Data JPA, conectar el Frontend actualizado con los nuevos endpoints y preparar el despliegue.
+
+<div align="center">
+  <img src="docs/assets/sprint3_jira_os.png" alt="Sprint 3 Jira Board" width="80%">
+</div>
+
+<br>
+
+<div align="center">
+  <table style="margin: auto; width: 100%; border-collapse: collapse; text-align: left; font-size: 13px; border: 1px solid #ddd;">
+    <thead>
+      <tr style="background-color: #e0e0e0; font-weight: bold;">
+        <th style="padding: 10px; text-align: center; border: 1px solid #ddd;">Sprint #</th>
+        <th colspan="7" style="padding: 10px; text-align: left; border: 1px solid #ddd;">3</th>
+      </tr>
+      <tr style="background-color: #f2f2f2;">
+        <th colspan="2" style="text-align: center; border: 1px solid #ddd; padding: 10px;">User Story</th>
+        <th colspan="6" style="text-align: center; border: 1px solid #ddd; padding: 10px;">Work-Item / Task</th>
+      </tr>
+      <tr style="background-color: #fafafa; text-align: center;">
+        <th style="border: 1px solid #ddd; padding: 5px; width: 6%;">Id</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 15%;">Title</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 6%;">Id</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 15%;">Title</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 30%;">Description</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 8%;">Estimation (Hours)</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 12%;">Assigned To</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 8%;">Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">US-11</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px;">Actualizar estado del vehículo</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-32</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Adaptación UI de estado</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Actualizar componentes de Angular para enviar cambios de estado a la nueva API en Spring.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Luis, Diego</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-33</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Endpoint PATCH estado</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Crear RestController en Java para actualizar la etapa del vehículo.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">López, Rodrigo</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">US-12</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px;">Visualizar detalle del vehículo</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-34</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Integración GET detalle</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Consumir el endpoint real para poblar la vista de detalles.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Aguilar, Jeferson</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-35</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Lógica de negocio detalle</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Implementar Service en backend que consolide datos de cliente y vehículo.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Sanchez, Juan</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">US-25</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px;">Visualizar tareas del vehículo</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-36</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Endpoint tareas por orden</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Exponer lista de tareas asociadas a una orden mediante JPQL/Queries.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Mamani, Alan</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-37</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Componente tareas cliente</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Desarrollar componente en Angular de solo lectura.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Luis, Diego</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">US-26</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px;">Visualizar fechas estimadas</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-38</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Cálculo de fechas API</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Lógica en Spring Boot para proyectar y retornar fechas de entrega.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">López, Rodrigo</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-39</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Renderizado de fechas</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Formatear y mostrar fechas en el componente TypeScript.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Aguilar, Jeferson</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">US-27</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px;">Visualizar costos del servicio</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-40</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Agregación de costos</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Servicio Java para sumar costos de tareas planificadas.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Mamani, Alan</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-41</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">UI desglose de costos</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Mostrar tabla de presupuesto y total estimado.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Sanchez, Juan</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">TS-03</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px;">Estructurar backend modular</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-42</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Arquitectura de Capas</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Separar el proyecto Spring en Controllers, Services, Repositories y Entities.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">López, Rodrigo</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-43</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Inyección de Dependencias</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Anotar componentes con @Service, @Repository para el contenedor IoC.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Sanchez, Juan</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">TS-05</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px;">Implementar persistencia de datos</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-44</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Configuración JPA</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Configurar application.properties y dependencias de Spring Data JPA.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Mamani, Alan</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-45</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Creación de Tablas</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Definir propiedades de auto-generación y dialecto de base de datos.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">López, Rodrigo</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">TS-06</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px;">Gestionar relaciones entre entidades</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-46</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Anotaciones Relacionales</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Mapear @OneToMany y @ManyToOne en las entidades de dominio.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Mamani, Alan</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-47</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Repositorios JpaRepository</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Crear interfaces extendiendo JpaRepository para acceso a datos.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Sanchez, Juan</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">TS-07</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px;">Consumir y Documentar APIs</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-48</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Manejo de CORS WebMvc</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Habilitar configuraciones globales de CORS en Spring.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">López, Rodrigo</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-49</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Implementación Swagger/OpenAPI</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Configurar Springdoc OpenAPI para exponer la documentación de la API.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Aguilar, Jeferson</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">TS-08</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px;">Manejar respuestas de API</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-50</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Implementación de DTOs</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Crear clases Record/DTO para transferir datos de forma segura.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Luis, Diego</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-51</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Validación de Entrada</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Asegurar correcto parseo y uso de @Valid en los datos entrantes.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Mamani, Alan</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">TS-09</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px;">Implementar manejo de errores</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-52</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">ControllerAdvice Excepciones</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Capturar errores con @ExceptionHandler a nivel global en la API.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">López, Rodrigo</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-53</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Formatos de error HTTP</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Estandarizar ResponseEntity para 400 y 404 hacia el cliente web.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Sanchez, Juan</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">TS-12</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px;">Configurar hosting y dominio</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-54</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Preparación Dockerfile</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Crear contenedor para publicar la aplicación Spring Boot.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Luis, Diego</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-55</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Configuración de Despliegue</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Asegurar la conexión de red y variables de entorno productivas.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Aguilar, Jeferson</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+##### 5.2.3.4. Development Evidence for Sprint Review
+
+<p align="justify">
+Durante el Sprint 3, el equipo se enfocó en la implementación funcional de los Web Services utilizando el lenguaje Java y el marco de trabajo Spring Boot, logrando reemplazar exitosamente el entorno simulado empleado en la iteración anterior. Asimismo, se consolidó la arquitectura del software basada en Domain-Driven Design (DDD), estableciendo contextos delimitados (Bounded Contexts) claros y desacoplados para la gestión operativa del taller automotriz.<br>
+
+Entre los principales avances de este sprint se destacan la implementación de la persistencia de datos relacional mediante Spring Data JPA e Hibernate, la exposición de endpoints RESTful mediante controladores especializados para la gestión de inventario, órdenes de trabajo (Work Orders), vehículos (Fleet Management) y el sistema de tracking público. Además, se desarrollaron las pruebas de autenticación y la configuración técnica final para la sincronización entre el cliente web en Angular y los servicios en Java.<br>
+
+En la siguiente tabla se presentan commits que representan hitos clave del desarrollo de este sprint en el repositorio del backend:
+</p>
+
+<table style="width: 100%; border-collapse: collapse; text-align: justify;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="border: 1px solid #ddd; padding: 8px;">Repository</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Branch</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Commit Id</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Commit Message</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Commit Message Body</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Committed on (Date)</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-729-OS-Backend</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/inventory-management-context</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>1cabdd2</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">feat:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">add domain entity inventorymanagement</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">06/06/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-729-OS-Backend</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/workshop-operations-context</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>f822de2</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">feat:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">add entity task and work order</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">07/06/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-729-OS-Backend</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/workshop-operations-context</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>878eb98</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">feat:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">add controller logical resources interfaces task and work order</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">08/06/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-729-OS-Backend</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/fleet-management-bounded-context</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>50bead4</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">feat(fleet-management):</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">add Vehicle aggregate and service interfaces</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">09/06/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-729-OS-Backend</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/staff-tenant-contexts</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>3136a85</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">feat:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">add tenant management workshop endpoints</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">10/06/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-729-OS-Backend</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/staff-tenant-contexts</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>a6aed30</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">feat:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">add staff coordination mechanic endpoints</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">11/06/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-729-OS-Backend</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/final-backend-sync</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>ab530a6</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">feature:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Creation of publictracking bounded context</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">12/06/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-729-OS-Backend</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/tracking-authentication-fix</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>4926c2e</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">fix:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">tracking authentication issues</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">13/06/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-729-OS-Backend</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/final-backend-sync</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>edfe3d9</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">chore:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">final backend synchronization</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">13/06/2026</td>
+    </tr>
+  </tbody>
+</table>
+
+##### 5.2.3.5. Execution Evidence for Sprint Review
+
+<p align="justify">
+Durante el Sprint 3, el equipo logró exitosamente la integración completa entre el Frontend actualizado en Angular y los nuevos Web Services desarrollados en Java (Spring Boot). Se reemplazó por completo la dependencia del entorno simulado, permitiendo que la aplicación web consuma, registre y actualice datos reales alojados en una base de datos relacional. 
+<br><br>
+Los principales logros de ejecución incluyen la correcta visualización del detalle de los vehículos, el cálculo dinámico de costos y la capacidad de actualizar el estado operativo de los vehículos en el taller, reflejando estos cambios en tiempo real en el panel del cliente.
+</p>
+
+<div align="center">
+  <h5>Captura de Integración: Vista de Datos Dinámicos en Frontend</h5>
+  <img src="docs/assets/execution_frontend_integration_os.png" alt="Angular Frontend Integration with Java Backend" width="80%">
+</div>
+
+<br>
+
+<p align="justify">
+Para ilustrar la navegación y el correcto funcionamiento de estos flujos integrados, se ha preparado un video demostrativo. En el siguiente enlace se evidencia la interacción del usuario final con las nuevas funcionalidades y el consumo exitoso de los servicios integrados:
+</p>
+
+<ul>
+  <li><b>Video de Ejecución (Sprint 3):</b> <a href="ENLACE_PENDIENTE_DE_YOUTUBE" target="_blank">Ver demostración de integración Front-Back</a></li>
+</ul>
+
+##### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+<p align="justify">
+Para garantizar la correcta adopción, mantenimiento y consumo de los Web Services desarrollados en el presente hito, se implementó la documentación interactiva de la API utilizando la especificación OpenAPI a través de las dependencias de Springdoc para Spring Boot. Esta interfaz permite a los desarrolladores de las aplicaciones cliente visualizar de manera transparente la estructura de las rutas, los esquemas de los recursos y los parámetros requeridos para las solicitudes HTTP.
+<br><br>
+A continuación, se presenta el registro detallado y completo de las acciones implementadas en la arquitectura orientada a servicios del sistema AutoService, extraídas del documento de especificación JSON:
+</p>
+
+<ul>
+  <li><b>Repositorio de Web Services:</b> <a href="https://github.com/InnovaTechStudio/AutoService-729-OS-Backend" target="_blank">AutoService-729-OS-Backend</a></li>
+  <li><b>Documentación Interactiva (Swagger UI):</b> <a href="http://localhost:8080/swagger-ui/index.html" target="_blank">AutoService API Documentation (Entorno Local - Despliegue en proceso)</a></li>
+</ul>
+
+<div align="center">
+  <table style="margin: auto; width: 100%; border-collapse: collapse; text-align: left; font-size: 12px; border: 1px solid #ddd;">
+    <thead>
+      <tr style="background-color: #f2f2f2;">
+        <th style="padding: 8px; border: 1px solid #ddd; text-align: center; width: 25%;">Endpoint / Verbo HTTP</th>
+        <th style="padding: 8px; border: 1px solid #ddd; width: 30%;">Descripción de la Acción</th>
+        <th style="padding: 8px; border: 1px solid #ddd; width: 25%;">Parámetros Requeridos</th>
+        <th style="padding: 8px; border: 1px solid #ddd; width: 20%;">Respuesta Esperada (JSON)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background-color: #fafafa; font-weight: bold;"><td colspan="4" style="padding: 6px; border: 1px solid #ddd;">Módulo de Autenticación (Authentication)</td></tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>POST</strong><br><code>/api/v1/auth/sign-in</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Validación de credenciales y generación de token de acceso para la plataforma.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Body:</b> <code>SignInResource</code> (email, password).</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Retorna confirmación y accesos.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>POST</strong><br><code>/api/v1/auth/sign-up</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Registra un nuevo usuario con rol asignado y asociación a un taller específico.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Body:</b> <code>SignUpResource</code> (email, password, role, workshopId).</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Confirmación de creación.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>POST</strong><br><code>/api/v1/auth/register-workshop</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Inicializa un nuevo entorno de taller (tenant) junto con su cuenta administrativa.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Body:</b> <code>SignUpWorkshopResource</code> (workshopName, email, password).</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Datos del taller creado.</td>
+      </tr>
+      <tr style="background-color: #fafafa; font-weight: bold;"><td colspan="4" style="padding: 6px; border: 1px solid #ddd;">Módulo de Seguimiento Público (Public Tracking)</td></tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>GET</strong><br><code>/api/v1/tracking/workorders</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Permite la consulta pública del estado general de una orden mediante código de seguimiento.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Query:</b> <code>trackingCode</code> (string).</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Estado consolidado.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>GET</strong><br><code>/api/v1/tracking/vehicles/{id}</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Expone de forma segura la etapa actual de revisión o reparación de un vehículo.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Path:</b> <code>id</code> (integer).</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Ubicación y estatus.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>GET</strong><br><code>/api/v1/tracking/tasks</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Lista en tiempo real el progreso técnico de las tareas planificadas para el cliente.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Query:</b> <code>workOrderId</code> (integer).</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Colección de tareas.</td>
+      </tr>
+      <tr style="background-color: #fafafa; font-weight: bold;"><td colspan="4" style="padding: 6px; border: 1px solid #ddd;">Módulos Administrativos (Work Orders & Inventory)</td></tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>POST</strong><br><code>/api/v1/workorders</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Genera el expediente principal vinculando vehículo, cliente y mecánico líder.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Body:</b> <code>CreateWorkOrderResource</code>.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Orden registrada.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>PUT</strong><br><code>/api/v1/workorders/{id}</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Actualiza diagnósticos, precios calculados y estados de entrega finales.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Path:</b> <code>id</code> (integer)<br><b>Body:</b> <code>UpdateWorkOrderResource</code>.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Orden modificada.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>PATCH</strong><br><code>/api/v1/tasks/{id}</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Aplica modificaciones parciales a diagnósticos técnicos y validaciones de tareas.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Path:</b> <code>id</code> (integer)<br><b>Body:</b> <code>PatchTaskResource</code>.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Tarea actualizada.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>GET</strong><br><code>/api/v1/inventoryitems</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Recupera el catálogo completo de repuestos y su disponibilidad física.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Ninguno.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Lista de inventario.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<br>
+
+<p align="justify">
+A continuación, se presentan las capturas correspondientes que evidencian la disponibilidad de la interfaz interactiva, demostrando la consistencia de los contratos de datos mapeados en el servidor Java.
+</p>
+
+<div align="center">
+  <h5>Vista General de los Endpoints Documentados en Spring Boot</h5>
+  <img src="docs/assets/swagger_general_os.png" alt="Swagger UI General View" width="80%">
+</div>
+
+<br>
+
+<div align="center">
+  <h5>Detalle de Parámetros y Esquemas en Endpoint POST</h5>
+  <img src="docs/assets/swagger_endpoint_detail_os.png" alt="Swagger UI Endpoint Detail" width="80%">
+</div>
+
+<br>
+
+<div align="center">
+  <h5>Prueba de Ejecución (Try it out) e Interacción con el API</h5>
+  <img src="docs/assets/swagger_tryitout_os.png" alt="Swagger UI Endpoint Try it out" width="80%">
+</div>
+
+##### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+<p align="justify">
+En el presente apartado se detallan los procesos técnicos y las configuraciones ejecutadas para el despliegue de los distintos componentes de la solución de software desarrollada para el curso Open Source. Las actividades abarcaron desde la automatización de los flujos de integración continua (CI/CD) hasta la preparación del servidor Java para su publicación en la nube.
+</p>
+
+---
+
+###### A. Componentes Desplegados y Entornos Cloud
+
+<p align="justify">
+Para garantizar el funcionamiento de la arquitectura distribuida, se gestionó la publicación de los artefactos en diferentes plataformas:
+</p>
+
+<ul>
+  <li>
+    <b>Landing Page (Sitio Web Estático):</b> Alojada y distribuida mediante GitHub Pages, garantizando una entrega rápida de la página promocional del producto.
+    <br><b>URL:</b> <a href="https://innovatechstudio.github.io/Autoservice-landing-page-os/" target="_blank">https://innovatechstudio.github.io/Autoservice-landing-page-aw/</a>
+  </li>
+  <li>
+    <b>Web Application (Frontend Angular):</b> Desplegada en la plataforma Microsoft Azure utilizando el servicio Azure Static Web Apps, integrado con flujos automatizados de compilación.
+    <br><b>URL:</b> <a href="https://agreeable-grass-0b8f49a10.7.azurestaticapps.net/login" target="_blank">https://agreeable-grass-0b8f49a10.7.azurestaticapps.net/login</a>
+  </li>
+  <li>
+    <b>Web Services (Backend Spring Boot):</b> Hospedados en la plataforma Cloud de Render mediante la construcción y ejecución automatizada de un contenedor aislado, exponiendo la lógica del lado del servidor desarrollada en Java con persistencia relacional.
+    <br><b>URL:</b> <a href="https://autoservice-os-backend.onrender.com/swagger-ui/index.html" target="_blank">https://autoservice-os-backend.onrender.com/swagger-ui/index.html</a>
+  </li>
+</ul>
+
+---
+
+###### B. Configuración Paso a Paso del Proceso de Despliegue
+
+<p align="justify">
+A continuación, se describen de manera secuencial los pasos realizados para materializar el entorno productivo:
+</p>
+
+**Paso 1: Despliegue de la Landing Page (GitHub Pages)**
+<p align="justify">
+Se configuró el repositorio de la Landing Page habilitando la rama principal (main) para su compilación y exposición estática directa a través de los servidores de GitHub.
+</p>
+
+**Paso 2: Automatización del Frontend en Azure (Angular)**
+<p align="justify">
+Para la aplicación SPA (Single Page Application) construida en Angular, se provisionó un recurso dentro de Azure. Esto generó un flujo de GitHub Actions que intercepta los <i>Pull Requests</i> hacia la rama main, ejecutando el comando <code>ng build</code> para compilar los artefactos estáticos TypeScript a JavaScript, desplegándolos en los servidores de Azure.
+</p>
+
+**Paso 3: Contenerización y Despliegue del Backend en Render**
+<p align="justify">
+Se estructuró un archivo <code>Dockerfile</code> optimizado para el ecosistema Java utilizando una compilación multi-etapa (multi-stage build) con Maven y el entorno de ejecución de OpenJDK. En el panel de administración de Render, se creó un recurso de tipo <i>Web Service</i> apuntando al repositorio del backend, configurando el método de construcción basado en Docker. La plataforma automatiza el despliegue ante cada actualización en la rama principal, inyectando de forma segura las variables de entorno para la conexión con la base de datos productiva.
+</p>
+
+---
+
+###### C. Evidencias Gráficas de Despliegue Exitoso
+
+<div align="center">
+  <h5>Evidencia 1: Flujo de Compilación y Despliegue Exitoso en Azure (Frontend Angular)</h5>
+  <img src="docs/assets/deployment_frontend_success_os.png" alt="Azure Static Web Apps Deployment Evidence" width="80%">
+</div>
+
+<br>
+
+<div align="center">
+  <h5>Evidencia 2: Preparación de Entorno para Servicios Spring Boot</h5>
+  <img src="docs/assets/deployment_render_success_os.png" alt="Backend Deployment Status" width="80%">
+</div>
+
+##### 5.2.3.8. Team Collaboration Insights during Sprint
+
+<p align="justify">
+Durante el Sprint 3, el equipo mantuvo un flujo de trabajo colaborativo enfocado primordialmente en la consolidación de la arquitectura por capas en Java (Spring Boot) y la actualización de los módulos y componentes en Angular. Para garantizar la organización técnica, se aplicó estrictamente la estrategia GitFlow.
+</p>
+
+<p align="justify">
+Cada integrante trabajó sobre ramas <i>feature/*</i> vinculadas directamente a la creación de los Bounded Contexts en el servidor, integrando posteriormente sus avances mediante Pull Requests hacia la rama <code>develop</code>. Tras las validaciones de las pruebas, los cambios se consolidaron hacia <code>main</code> para el despliegue automático del lado del cliente.
+</p>
+
+<p align="justify">
+La colaboración se evidenció principalmente en la conexión de JPA Repositories con las bases de datos relacionales, la creación de DTOs para la transferencia segura de la información y la adaptación de los servicios HTTP en Angular. El uso riguroso de convenciones de versionamiento (Conventional Commits) garantizó la trazabilidad de la lógica de negocio.
+</p>
+
+<div align="center">
+  <h5>Evidencia 1: Gráfico de contribuciones por integrante del equipo</h5>
+  <img src="docs/assets/sprint3_contributors_graph_os.png" alt="Sprint 3 Contributors Graph" width="80%">
+
+  <h5>Evidencia 2: Resumen de actividad del Sprint mediante GitHub Pulse</h5>
+  <img src="docs/assets/sprint3_pulse_activity_os.png"  alt="Sprint 3 Pulse Activity" width="80%">
+
+  <h5>Evidencia 3: Gestión colaborativa mediante Pull Requests y merges</h5>
+  <img src="docs/assets/sprint3_closed_pull_requests_os.png" alt="Sprint 3 Closed Pull Requests" width="80%">
+
+  <h5>Evidencia 4: Organización de ramas bajo estrategia GitFlow</h5>
+  <img src="docs/assets/sprint3_gitflow_branches_os.png" alt="Sprint 3 GitFlow Branches" width="80%">
+</div>
+
+<br>
+
+<p align="justify">
+Entre las actividades colaborativas más relevantes realizadas de forma conjunta durante este Sprint destacan:
+</p>
+
+<ul style="text-align: justify;">
+  <li>Estructuración del proyecto Spring Boot y definición de Entidades con anotaciones JPA (<code>@Entity</code>, <code>@OneToMany</code>).</li>
+  <li>Implementación de Repositorios, Servicios y Controladores REST para los dominios de Taller y Flotas.</li>
+  <li>Documentación interactiva de la API con Springdoc OpenAPI (Swagger).</li>
+  <li>Consumo de APIs desde el lado del cliente utilizando RxJS y el módulo HttpClient de Angular.</li>
+  <li>Configuración de flujos automatizados de despliegue continuo en Microsoft Azure para la interfaz gráfica.</li>
+</ul>
+
+<p align="justify">
+Los repositorios principales utilizados para el trabajo colaborativo en este Sprint fueron:
+</p>
+
+<p align="center">
+  <b>Backend:</b> <code><a href="https://github.com/InnovaTechStudio/AutoService-729-OS-Backend" target="_blank">https://github.com/InnovaTechStudio/AutoService-729-OS-Backend</a></code><br>
+  <b>Frontend:</b> <code><a href="https://github.com/InnovaTechStudio/AutoService-729-OS-Frontend" target="_blank">https://github.com/InnovaTechStudio/AutoService-729-OS-Frontend</a></code>
+</p>
 
 ## Conclusiones
 
