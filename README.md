@@ -6715,6 +6715,30 @@ Se estructuró un archivo <code>Dockerfile</code> optimizado para el ecosistema 
   <img src="docs/assets/deployment_render_success_os.png" alt="Backend Deployment Status" width="80%">
 </div>
 
+ <p align="justify">
+A continuación, se presentan la configuracion para el despligue del backend Web Services en Render.
+</p>
+
+<div align="center">
+  <h5>Se enlazó el repositorio de GitHub y se definieron los parámetros esenciales de compilación. Se apuntó a la rama estable (main). Se seleccionó el entorno de contenedores Docker para guiar correctamente al motor de Render hacia el subdirectorio donde reside la configuración de empaquetado del proyecto API</h5>
+  <img src="docs/assets/evidence-config/os-back1.png" alt="back-config1" width="40%">
+</div>
+<div align="center">
+  <h5>Configuración de la pestaña Variables de entorno para desacoplar datos sensibles en producción</h5>
+  <img src="docs/assets/evidence-config/os-back2.png" alt="back-config2" width="80%">
+</div>
+<br>
+<div align="center">
+  <h5>Muestra el flujo de integración continua. Se destaca el despliegue exitoso (Deploy live) del ajuste clave en el archivo DockerFile, (app.jar) encargado del auto mapeo del sistema.</h5>
+  <img src="docs/assets/evidence-config/os-back.png" alt="back-config" width="80%">
+</div>
+<br>
+<div align="center">
+  <h5>Vista final de la pestaña Data que valida el éxito de la arquitectura. Al iniciar el contenedor, cre de forma física el historial de migraciones  y la estructura completa de tablas requeridas por los contextos de negocio del sistema</h5>
+  <img src="docs/assets/evidence-config/os-back3.png" alt="back-config3" width="80%">
+</div>
+<br>
+
 ##### 5.2.3.8. Team Collaboration Insights during Sprint
 
 <p align="justify">
