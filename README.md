@@ -6808,11 +6808,46 @@ Los repositorios principales utilizados para el trabajo colaborativo en este Spr
 ### 5.3. Validation Interviews
 
 #### 5.3.1. Diseño de Entrevistas
-[Pendiente]
+
+<strong>SEGMENTO 1: Mecánicoos Independientes</strong>
+<ol>
+  <li>Después de ver la página de AutoService, ¿cuál seria tu comemtatio principal sobre el problema que resolvemos para talleres como el tuyo? ¿Qué elemento o frase de la página te llamó más la atención y por qué? 
+</li>
+  <li>Para crear una orden de trabajo, ¿dónde buscarías la opción? ¿Qué datos son los más importantes para empezar?</li>
+  <li>Al añadir una tarea y elegir materiales del inventario, ¿es fácil? ¿Qué información del material necesitas ver sí o sí?</li>
+  <li>Qué 3 indicadores del dashboard revisarías cada mañana? ¿Falta alguno?</li>
+  <li>Si te falta una pieza en medio de una reparación, ¿qué funcionalidad del inventario te ayudaría más?</li>
+  <li>¿Estarias dispuesto a pagar por un plan que ofrece el sistema? ¿Qué plan de precios (Gratis, Pro, Business) elegirías para tu taller?</li>
+  <li>¿Qué fue lo más confuso y lo más útil? Si cambiaras una cosa, ¿qué sería?</li>
+
+</ol>
 
 #### 5.3.2. Registro de Entrevistas
-[Pendiente]
 
+#### Entrevista 1: Técnico Independiente
+
+- **Nombre:** David Klisman Paredes
+- **Edad:** 24
+- **Residencia:** Lima, Surco 
+- **Ocupación:** Técnico Mecánico Automotriz  
+
+- **Inicio:** 0:34 
+- **Duración:** 6:13 
+
+**Link:**  
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d185_upc_edu_pe/IQBDv0iKhKtESLAQ9iFYBZ-7Abkdhh1HzTCEaXD5VrUCK_0?e=fnTCzd)
+
+---
+**Resumen:**
+<p style="text-align: justify;">
+
+</p>
+
+---
+
+**Evidencia:**
+
+![Entrevista Tencnico Taller](docs/assets/interview-validate/inter-validate-m1.png)
 #### 5.3.3. Evaluaciones según heurísticas
 [Pendiente]
 
