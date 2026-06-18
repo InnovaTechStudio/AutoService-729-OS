@@ -285,6 +285,15 @@ Abril, 2026
       - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint-1)
+    - [5.2.3. Sprint 3](#523-sprint-3)
+      - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+      - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+      - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint-3)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
 - [Bibliografía](#bibliografía)
@@ -6801,31 +6810,38 @@ A continuación, se presentan las conclusiones derivadas del desarrollo de los p
 <p align="justify"><b>Conclusiones:</b></p>
 <ul style="text-align: justify; margin-top: 0.5em; margin-bottom: 1.5em; padding-left: 1.5em;">
   <li style="margin-bottom: 0.8em;">
-    <strong>Validación del modelo de negocio:</strong> La aplicación de la metodología Lean UX y el proceso de Needfinding permitió corroborar una necesidad crítica en el sector de mantenimiento automotriz: la falta de transparencia y la ineficiencia en la comunicación entre los talleres y los propietarios de vehículos. AutoService se perfila como una solución viable y centrada en el usuario para resolver este "pain point" identificado en los segmentos objetivo.
+    <strong>Implementación Integral de la Solución:</strong> Se logró desarrollar e integrar exitosamente una arquitectura compuesta por un frontend en Angular y un backend en Spring Boot, permitiendo la comunicación entre ambas capas mediante servicios REST y garantizando el funcionamiento integral de la plataforma.
   </li>
   <li style="margin-bottom: 0.8em;">
-    <strong>Solidez Arquitectónica:</strong> La utilización conjunta del EventStorming y el enfoque Domain-Driven Design (DDD) facilitó una transición estructurada desde la lógica de negocio hacia una arquitectura de software orientada a servicios (C4 Model). Esto asegura que el sistema sea escalable, mantenible y modular desde su concepción técnica inicial.
+    <strong>Arquitectura Escalable y Mantenible:</strong> La aplicación de Domain-Driven Design (DDD) y la organización mediante Bounded Contexts permitió estructurar adecuadamente los dominios del negocio, favoreciendo la mantenibilidad, modularidad y escalabilidad del sistema.
   </li>
   <li style="margin-bottom: 0.8em;">
-    <strong>Eficacia en el Desarrollo Ágil:</strong> La ejecución exitosa del Sprint 1, evidenciada en el despliegue automático de la Landing Page mediante GitHub Pages y la integración de EmailJS, demuestra una correcta adopción de prácticas de Software Configuration Management, control de versiones con GitFlow y entrega continua por parte del equipo.
+    <strong>Automatización y Despliegue Continuo:</strong> La integración de GitHub con las plataformas de despliegue permitió automatizar los procesos de construcción y publicación de la aplicación, facilitando la entrega continua y la disponibilidad del sistema.
   </li>
   <li style="margin-bottom: 0.8em;">
-    <strong>Gestion de Configuración robusta:</strong> La implementación de una gestión de configuración estructurada y estándares técnicos rigurosos permitió consolidar una base profesional para el desarrollo de AutoService. La adopción de la metodología GitFlow y arquitecturas modulares asegura que el proyecto sea una solución técnica viable y escalable, resolviendo la complejidad de integrar múltiples componentes bajo principios fundamentales de mantenibilidad y legibilidad internacional.
+    <strong>Persistencia y Gestión de Datos:</strong> La implementación de una base de datos relacional mediante Spring Data JPA permitió garantizar la persistencia y gestión consistente de la información del sistema.
+  </li>
+  <li style="margin-bottom: 0.8em;">
+    <strong>Madurez en la Gestión del Desarrollo:</strong> El uso de GitFlow, Pull Requests, Conventional Commits y documentación de APIs contribuyó a mantener un proceso de desarrollo colaborativo, organizado y alineado con buenas prácticas de ingeniería de software.
   </li>
 </ul>
 
 <p align="justify"><b>Recomendaciones:</b></p>
 <ul style="text-align: justify; margin-top: 0.5em; margin-bottom: 1.5em; padding-left: 1.5em;">
   <li style="margin-bottom: 0.8em;">
-    <strong>Mantenimiento de Estándares:</strong> Se recomienda mantener la rigurosidad en las ceremonias ágiles y en la revisión de Pull Requests para los siguientes sprints, garantizando que el código de la Web Application (Angular) y el Backend (Spring Boot) mantengan los estándares de calidad y convenciones definidos en la guía de estilos.
+    <strong>Fortalecimiento de la Seguridad:</strong> Implementar mecanismos avanzados de autenticación, autorización y gestión de roles para garantizar la protección de los recursos de la plataforma.
   </li>
   <li style="margin-bottom: 0.8em;">
-    <strong>Validación Temprana:</strong> Realizar pruebas de usabilidad tempranas utilizando el prototipo interactivo en Figma y la Landing Page desplegada para recolectar retroalimentación de usuarios reales antes de iniciar la programación masiva de los módulos operativos del Core Domain.
+    <strong>Incorporación de Pruebas Automatizadas:</strong> Ampliar la cobertura de pruebas unitarias, de integración y de aceptación para incrementar la confiabilidad del sistema.
   </li>
   <li style="margin-bottom: 0.8em;">
-    <strong>Priorización Técnica:</strong> Se sugiere priorizar la implementación de la capa de seguridad (IAM Context) y la configuración de la persistencia de datos en el inicio del Sprint 2, para establecer las bases de autenticación requeridas por los distintos actores (Administrador, Mecánico y Cliente) de la plataforma.
+    <strong>Monitoreo y Observabilidad:</strong> Incorporar herramientas de monitoreo, registro de eventos y seguimiento de errores para mejorar la estabilidad operativa de la solución.
+  </li>
+  <li style="margin-bottom: 0.8em;">
+    <strong>Evolución Funcional:</strong> Continuar incorporando funcionalidades y mejoras basadas en la retroalimentación de los usuarios y las necesidades del negocio.
   </li>
 </ul>
+
 
 ---
 
