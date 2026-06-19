@@ -6853,10 +6853,35 @@ Los repositorios principales utilizados para el trabajo colaborativo en este Spr
 - **Ocupación:** Técnico Mecánico Automotriz  
 
 - **Inicio:** 0:34 
-- **Duración:** 6:13 
+- **Duración:** 
 
 **Link:**  
 [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d185_upc_edu_pe/IQBDv0iKhKtESLAQ9iFYBZ-7Abkdhh1HzTCEaXD5VrUCK_0?e=fnTCzd)
+
+---
+**Resumen:**
+<p style="text-align: justify;">
+Durante la entrevista, el participante identificó que la plataforma AutoService resuelve principalmente el desorden operativo y la pérdida de tiempo en los talleres, destacando la gestión centralizada de tareas, órdenes de trabajo e inventario. Valoró positivamente la propuesta de control y confianza transmitida en la landing page, así como la estructura visual de la plataforma. Sugirió hacer más visible la creación de órdenes de trabajo mediante accesos directos o favoritos, incorporar autocompletado para tareas repetitivas y facilitar la consulta rápida del stock de repuestos. Los indicadores más relevantes para él son la cantidad de vehículos en el taller, las entradas programadas y los ingresos generados. Respecto a los planes, optaría inicialmente por el plan gratuito para evaluar la herramienta antes de migrar a una opción superior según sus necesidades. Como mejora, recomendó implementar un modo oscuro y reforzar algunas funcionalidades relacionadas con la gestión de inventario y compras.
+</p>
+
+---
+
+**Evidencia:**
+
+![Entrevista Tencnico Taller](docs/assets/interview-validate/inter-validate-m1.png)
+
+#### Entrevista 2: Técnico Independiente
+
+- **Nombre:** Antenor Ayala
+- **Edad:** 32
+- **Residencia:** Ayacucho, Huamanga
+- **Ocupación:** Técnico Mecánico Automotriz  
+
+- **Inicio:** 0:24 
+- **Duración:** 8:40
+
+**Link:**  
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d185_upc_edu_pe/IQBXMt0MwDxHTrXJ1c65IOT7AcAH-dWDwYEQ1vPeY50nAzE?e=TIxuLC)
 
 ---
 **Resumen:**
@@ -6868,7 +6893,7 @@ Los repositorios principales utilizados para el trabajo colaborativo en este Spr
 
 **Evidencia:**
 
-![Entrevista Tencnico Taller](docs/assets/interview-validate/inter-validate-m1.png)
+![Entrevista Tencnico Taller](docs/assets/interview-validate/inter-validate-m2.png)
 #### 5.3.3. Evaluaciones según heurísticas
 [Pendiente]
 
