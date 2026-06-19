@@ -7190,8 +7190,13 @@ La barra de navegación superior de la landing page ("Inicio", "Funciones", "Có
 Implementar detección de sección activa basada en la posición del scroll usando la API `IntersectionObserver`, que aplica la clase CSS activa al ítem del navbar cuya sección ancla esté actualmente en el viewport del usuario. Esta es la técnica estándar para este tipo de navegación y no requiere librerías externas. El indicador visual (subrayado o color) debe actualizarse de forma fluida conforme el usuario hace scroll entre secciones.
 
 ### 5.4. Video About-the-Product
-[Pendiente]
+<p align="justify">
+A continuación, daremos inicio a la sección 'About the Product', donde detallaremos la propuesta de valor y la arquitectura de nuestra solución, AutoService.
 
+En este bloque, les presentaremos cómo hemos estructurado el ecosistema de software para resolver las necesidades reales de nuestro segmento objetivo. Explicaremos las características principales del producto, el valor diferencial que ofrecemos frente al mercado actual y, además, realizaremos un recorrido visual por los prototipos de alta fidelidad. El objetivo es mostrarles de manera clara cómo la interfaz y el flujo de usuario se alinean perfectamente para transformar la gestión del mantenimiento vehicular.
+
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20251b991_upc_edu_pe/IQANCNwFHCHvQayDK_nvaiytAbrxcccxU3qLC0zn97VoBUE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2hIWM4)
+</p>
 
 ## Conclusiones
 
