@@ -6858,18 +6858,16 @@ Los repositorios principales utilizados para el trabajo colaborativo en este Spr
 **Link:**  
 [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d185_upc_edu_pe/IQBDv0iKhKtESLAQ9iFYBZ-7Abkdhh1HzTCEaXD5VrUCK_0?e=fnTCzd)
 
----
 **Resumen:**
 <p style="text-align: justify;">
 Durante la entrevista, el participante identificó que la plataforma AutoService resuelve principalmente el desorden operativo y la pérdida de tiempo en los talleres, destacando la gestión centralizada de tareas, órdenes de trabajo e inventario. Valoró positivamente la propuesta de control y confianza transmitida en la landing page, así como la estructura visual de la plataforma. Sugirió hacer más visible la creación de órdenes de trabajo mediante accesos directos o favoritos, incorporar autocompletado para tareas repetitivas y facilitar la consulta rápida del stock de repuestos. Los indicadores más relevantes para él son la cantidad de vehículos en el taller, las entradas programadas y los ingresos generados. Respecto a los planes, optaría inicialmente por el plan gratuito para evaluar la herramienta antes de migrar a una opción superior según sus necesidades. Como mejora, recomendó implementar un modo oscuro y reforzar algunas funcionalidades relacionadas con la gestión de inventario y compras.
 </p>
 
----
-
 **Evidencia:**
 
 ![Entrevista Tencnico Taller](docs/assets/interview-validate/inter-validate-m1.png)
 
+---
 #### Entrevista 2: Técnico Independiente
 
 - **Nombre:** Antenor Ayala
@@ -6883,17 +6881,15 @@ Durante la entrevista, el participante identificó que la plataforma AutoService
 **Link:**  
 [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d185_upc_edu_pe/IQBXMt0MwDxHTrXJ1c65IOT7AcAH-dWDwYEQ1vPeY50nAzE?e=TIxuLC)
 
----
 **Resumen:**
 <p style="text-align: justify;">
-
+El entrevistado mostró una percepción muy positiva de AutoService, destacando que la plataforma puede ayudar a organizar mejor las tareas, el inventario y la gestión diaria del taller. Consideró que el sistema sería útil para complementar el trabajo manual y facilitar el control de repuestos y procesos. Como sugerencia principal, indicó que la plataforma debería ser más accesible y fácil de conocer para usuarios con poca experiencia en herramientas digitales, además de mejorar su difusión. Valoró especialmente la posibilidad de consultar inventarios y propuso funciones como la ubicación exacta de piezas dentro del taller y acceso rápido a proveedores cuando no haya stock disponible. Respecto a los planes, manifestó que inicialmente probaría una versión gratuita, pero estaría dispuesto a migrar al plan Pro si percibe beneficios claros y genera confianza. Finalmente, resaltó que la interfaz es atractiva, organizada e innovadora, aunque considera importante simplificar el acceso para usuarios menos familiarizados con la tecnología y ampliar las funcionalidades del plan básico.
 </p>
-
----
 
 **Evidencia:**
 
 ![Entrevista Tencnico Taller](docs/assets/interview-validate/inter-validate-m2.png)
+
 #### 5.3.3. Evaluaciones según heurísticas
 [Pendiente]
 
