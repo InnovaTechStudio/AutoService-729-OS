@@ -6204,10 +6204,6 @@ En el presente Sprint 3, el alcance funcional y técnico se ha dividido en cuatr
 
 El presente Sprint Backlog detalla la descomposición técnica de las historias de usuario y técnicas seleccionadas para la tercera iteración. El objetivo principal es desarrollar el Backend mediante servicios RESTful en Java con Spring Boot, establecer la persistencia de datos con Spring Data JPA, conectar el Frontend actualizado con los nuevos endpoints y preparar el despliegue.
 
-<div align="center">
-  <img src="docs/assets/sprint3_jira_os.png" alt="Sprint 3 Jira Board" width="80%">
-</div>
-
 <br>
 
 <div align="center">
