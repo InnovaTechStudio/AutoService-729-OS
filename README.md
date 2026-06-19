@@ -13,7 +13,7 @@ Facultad de Ingenería, Carrera de Ingeniería de Software<br>
 
 **Nombre del startup:** InnovaTech<br>
 **Nombre del producto:** AutoService<br>
-Abril, 2026
+Mayo, 2026
 
 #### Relación de integrantes <!-- omit in toc -->
 
@@ -704,49 +704,70 @@ El Lean UX Process permite definir y validar la solución a partir de la compren
 
 ### 1.3. Segmentos objetivo
 
-<p align="justify">
-Se identifican los tipos de usuarios que interactúan con la solución.
-</p>
+## Segmento 1: Mecánicos Independientes
 
-<h4><i>Segmentos que contratan nuestro servicio (Clientes del sistema)</i></h4>
+Son trabajadores autónomos que brindan servicios de reparación y mantenimiento vehicular de manera independiente.
 
-<p><strong>1. Mecánicos Independientes</strong></p>
-<ul>
-  <li>Trabajan de forma autónoma</li>
-  <li>Manejan pocos clientes</li>
-  <li>Bajo nivel de digitalización</li>
-  <li>Necesitan soluciones simples y económicas</li>
-</ul>
+### Variables demográficas y características
 
-<p align="justify">
-Buscan mejorar organización, control de servicios y ofrecer mayor transparencia.
-</p>
+- Edad: 25 a 50 años
+- Ubicación: Zonas urbanas de Lima Metropolitana y principales ciudades del Perú
+- Nivel socioeconómico: B y C
+- Tamaño del negocio: 1 a 3 trabajadores
+- Nivel de digitalización: Bajo o medio
+- Ingresos variables según demanda de servicios
 
-<p><strong>2. Talleres Automotrices / Empresas</strong></p>
-<ul>
-  <li>Mayor volumen de trabajo</li>
-  <li>Varios mecánicos</li>
-  <li>Necesidad de control administrativo</li>
-  <li>Enfoque en eficiencia y competitividad</li>
-</ul>
+### Necesidades principales
 
-<p align="justify">
-Requieren herramientas más completas para gestionar operaciones.
-</p>
+- Organizar citas y servicios
+- Llevar control de clientes y vehículos
+- Registrar costos y trabajos realizados
+- Mejorar la comunicación con sus clientes
+- Ofrecer mayor transparencia y confianza
 
-<h4><i>Segmento que recibe el servicio (Usuario Final)</i></h4>
+### Mercado objetivo
 
-<p><strong>3. Clientes (Propietarios de Vehículos)</strong></p>
-<ul>
-  <li>Buscan transparencia</li>
-  <li>Desean seguimiento en tiempo real</li>
-  <li>No tienen conocimientos técnicos</li>
-  <li>Valoran claridad y confianza</li>
-</ul>
+En Perú existe una gran cantidad de talleres pequeños y mecánicos independientes que aún manejan sus procesos de manera manual. Este segmento representa una oportunidad de digitalización debido al crecimiento del parque automotor y la necesidad de optimizar la atención al cliente.
 
-<p align="justify">
-Interactúan con la plataforma para consultar el estado del servicio y costos.
-</p>
+---
+
+## Segmento 2: Talleres Automotrices y Empresas de Servicio Vehicular PYMes
+
+Empresas dedicadas al mantenimiento y reparación automotriz con mayor volumen de operaciones y personal técnico.
+
+### Variables demográficas y características
+
+- Tipo de empresa: Micro y pequeñas empresas automotrices
+- Ubicación: Lima Metropolitana y ciudades con alta concentración vehicular
+- Número de trabajadores: 4 a 20 empleados
+- Cantidad de servicios diarios: Media y alta
+- Nivel de digitalización: Medio
+- Capacidad de inversión tecnológica: Media
+
+### Necesidades principales
+
+- Gestionar múltiples órdenes de servicio
+- Supervisar trabajo de varios mecánicos
+- Controlar historial de clientes y vehículos
+- Mejorar tiempos de atención
+- Generar reportes administrativos y operativos
+- Incrementar competitividad y eficiencia
+
+### Mercado objetivo
+
+El crecimiento del sector automotriz y la necesidad de modernización de talleres generan una demanda creciente por soluciones digitales de gestión. Este segmento busca herramientas que les permitan optimizar operaciones y diferenciarse de la competencia mediante una mejor experiencia de servicio.
+
+---
+
+## Mercado al que apunta la solución
+
+La propuesta se enfoca inicialmente en micro y pequeñas empresas automotrices y mecánicos independientes, debido a la alta concentración vehicular y demanda constante de servicios de mantenimiento.
+
+El mercado presenta potencial de crecimiento por:
+- Incremento del parque automotor en Perú
+- Baja digitalización de talleres tradicionales
+- Necesidad de mejorar control operativo y administrativo
+- Mayor exigencia de transparencia por parte de los clientes
 
 ---
 
