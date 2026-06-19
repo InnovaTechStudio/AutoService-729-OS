@@ -144,9 +144,12 @@ Mayo, 2026
 ---
 
 ## Enlaces del Proyecto <!-- omit in toc -->
-* **URL del Repositorio de Documentación en GitHub:** https://github.com/InnovaTechStudio/AutoService-729-OS
-* **URL del Repositorio de la Landing Page en GitHub:** https://github.com/InnovaTechStudio/AutoService-729-OS-Frontend
-* **URL del Repositorio del Frontend en GitHub:** https://github.com/InnovaTechStudio/Autoservice-landing-page-os
+* **URL del Repositorio de Documentación:** https://github.com/InnovaTechStudio/AutoService-729-OS
+* **URL del Repositorio de la Landing Page:** https://github.com/InnovaTechStudio/AutoService-729-OS-Frontend
+* **URL del Repositorio del Frontend:** https://github.com/InnovaTechStudio/Autoservice-landing-page-os
+* **URL del Repositorio del Backend:** https://github.com/InnovaTechStudio/AutoService-729-OS-Backend
+* **URL del Frontend Desplegado:** https://agreeable-grass-0b8f49a10.7.azurestaticapps.net/login
+* **URL de la documentación del Backend (Swagger):** https://autoservice-os-backend.onrender.com/swagger-ui/index.html
 * **Video Exposición TB1:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421866_upc_edu_pe/IQD7gXWIMtFPRb-Pw7N31LfvAZTcegivJeKUQsuXvMDTBV4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dLFpFy
 
 ## Project Report Collaboration Insights <!-- omit in toc -->
