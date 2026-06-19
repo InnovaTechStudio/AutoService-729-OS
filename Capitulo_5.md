@@ -2659,6 +2659,60 @@ Los repositorios principales utilizados para el trabajo colaborativo en este Spr
 
 #### 5.3.1. Diseño de Entrevistas
 
+<strong>SEGMENTO 1: Mecánicoos Independientes</strong>
+<ol>
+  <li>Después de ver la página de AutoService, ¿cuál seria tu comemtatio principal sobre el problema que resolvemos para talleres como el tuyo? ¿Qué elemento o frase de la página te llamó más la atención y por qué? 
+</li>
+  <li>Para crear una orden de trabajo, ¿dónde buscarías la opción? ¿Qué datos son los más importantes para empezar?</li>
+  <li>Al añadir una tarea y elegir materiales del inventario, ¿es fácil? ¿Qué información del material necesitas ver sí o sí?</li>
+  <li>Qué 3 indicadores del dashboard revisarías cada mañana? ¿Falta alguno?</li>
+  <li>Si te falta una pieza en medio de una reparación, ¿qué funcionalidad del inventario te ayudaría más?</li>
+  <li>¿Estarias dispuesto a pagar por un plan que ofrece el sistema? ¿Qué plan de precios (Gratis, Pro, Business) elegirías para tu taller?</li>
+  <li>¿Qué fue lo más confuso y lo más útil? Si cambiaras una cosa, ¿qué sería?</li>
+
+</ol>
+
+<p><strong>SEGMENTO 2: Dueños de Talleres</strong></p>
+<p><em>Este segmento evalúa el contexto del negocio, la percepción del Landing Page, la usabilidad de los flujos principales y la retroalimentación general sobre la solución propuesta.</em></p>
+<ol>
+  <li><strong>¿Podrías contarme brevemente cómo está organizado tu taller o empresa y qué tamaño tiene el equipo?</strong>
+    <br><em>Evalúa:</em> Contexto organizacional y tamaño del negocio para validar los segmentos de mercado objetivo.</li>
+  <li><strong>¿Qué herramienta(s) usan actualmente para gestionar clientes, vehículos y órdenes de trabajo?</strong>
+    <br><em>Evalúa:</em> Competencia actual y hábitos de trabajo para identificar oportunidades de diferenciación.</li>
+  <li><strong>¿Qué problema principal enfrentan al coordinar trabajos y comunicar el avance a los clientes?</strong>
+    <br><em>Evalúa:</em> Validación del problema central que AutoService busca resolver.</li>
+  <li><strong>¿Cuál crees que es el propósito principal del Landing Page de AutoService?</strong>
+    <br><em>Evalúa:</em> Claridad del mensaje y propuesta de valor transmitida en el Landing Page.</li>
+  <li><strong>¿Qué entendiste que ofrece AutoService?</strong>
+    <br><em>Evalúa:</em> Comprensión de las funcionalidades y beneficios clave de la plataforma.</li>
+  <li><strong>¿Te pareció claro cuál es el siguiente paso después de ver el Landing Page?</strong>
+    <br><em>Evalúa:</em> Efectividad del Call to Action y claridad del funnel de conversión.</li>
+  <li><strong>¿Qué parte del Landing Page te resultó más útil?</strong>
+    <br><em>Evalúa:</em> Identificación de los elementos más valiosos para el usuario.</li>
+  <li><strong>¿Qué parte del Landing Page te pareció confusa o difícil de entender?</strong>
+    <br><em>Evalúa:</em> Detección de áreas de mejora en la comunicación y diseño del Landing Page.</li>
+  <li><strong>¿Cómo describirías el proceso de registro o acceso a la aplicación?</strong>
+    <br><em>Evalúa:</em> Intuición y facilidad del flujo de onboarding.</li>
+  <li><strong>¿Te parece claro qué datos debes ingresar para iniciar sesión o registrarte?</strong>
+    <br><em>Evalúa:</em> Claridad de los campos requeridos en el formulario de autenticación.</li>
+  <li><strong>Si quisieras crear una orden de trabajo, ¿sabes qué información debes ingresar?</strong>
+    <br><em>Evalúa:</em> Comprensión de los datos mínimos necesarios para crear una orden de trabajo.</li>
+  <li><strong>¿Te resulta fácil identificar dónde agregar cliente, vehículo y servicio?</strong>
+    <br><em>Evalúa:</em> Usabilidad de la navegación y jerarquía de información en la interfaz.</li>
+  <li><strong>¿Puedes ver con claridad el estado actual de una orden de trabajo?</strong>
+    <br><em>Evalúa:</em> Visibilidad y claridad del seguimiento de estados de las órdenes.</li>
+  <li><strong>¿Quedó claro cómo se actualiza el progreso de un trabajo?</strong>
+    <br><em>Evalúa:</em> Comprensión del flujo de actualización de tareas y su reflejo en el progreso.</li>
+  <li><strong>¿Entendiste cómo se notifica al cliente sobre el avance del servicio?</strong>
+    <br><em>Evalúa:</em> Claridad del sistema de notificaciones y comunicación con el cliente.</li>
+  <li><strong>¿Qué aspecto cambiarías primero para que la aplicación sea más útil?</strong>
+    <br><em>Evalúa:</em> Identificación de prioridades de mejora desde la perspectiva del dueño de taller.</li>
+  <li><strong>¿Usarías AutoService si estuviera disponible hoy? ¿Por qué?</strong>
+    <br><em>Evalúa:</em> Intención de uso y percepción general de valor de la solución.</li>
+</ol>
+
+#### 5.3.2. Registro de Entrevistas
+
 #### Entrevista 1: Técnico Independiente
 
 - **Nombre:** David Klisman Paredes
