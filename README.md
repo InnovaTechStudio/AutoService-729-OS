@@ -143,13 +143,20 @@ Mayo, 2026
 
 ---
 
-## Project Report Collaboration Insights <!-- omit in toc -->
-
-* **URL del Repositorio de Documentación en GitHub:** https://github.com/InnovaTechStudio/AutoService-729-OS
-* **URL del Repositorio de la Landing Page en GitHub:** https://github.com/InnovaTechStudio/AutoService-729-OS-Frontend
-* **URL del Repositorio del Frontend en GitHub:** https://github.com/InnovaTechStudio/Autoservice-landing-page-os
-* **AV1:** - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+## Enlaces del Proyecto <!-- omit in toc -->
+* **URL del Repositorio de Documentación:** https://github.com/InnovaTechStudio/AutoService-729-OS
+* **URL del Repositorio de la Landing Page:** https://github.com/InnovaTechStudio/AutoService-729-OS-Frontend
+* **URL del Repositorio del Frontend:** https://github.com/InnovaTechStudio/Autoservice-landing-page-os
+* **URL del Repositorio del Backend:** https://github.com/InnovaTechStudio/AutoService-729-OS-Backend
+* **URL del Frontend Desplegado:** https://agreeable-grass-0b8f49a10.7.azurestaticapps.net/login
+* **URL de la documentación del Backend (Swagger):** https://autoservice-os-backend.onrender.com/swagger-ui/index.html
 * **Video Exposición TB1:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421866_upc_edu_pe/IQD7gXWIMtFPRb-Pw7N31LfvAZTcegivJeKUQsuXvMDTBV4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dLFpFy
+
+## Project Report Collaboration Insights <!-- omit in toc -->
+* **AV1:** - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+* **TB1:** - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+* **AV2:** - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+
 
 ---
 
@@ -284,7 +291,7 @@ Mayo, 2026
       - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
       - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
-      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint-1)
+      - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
     - [5.2.3. Sprint 3](#523-sprint-3)
       - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
       - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
@@ -293,7 +300,7 @@ Mayo, 2026
       - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
       - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
       - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
-      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint-3)
+      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -326,7 +333,7 @@ Mayo, 2026
           <b>Lopez Monroy, Rodrigo Alfredo</b> AV1: Comuniqué de manera efectiva al equipo el flujo de trabajo basado en GitFlow, adaptando la explicación según el nivel técnico de cada integrante, resolviendo dudas en tiempo real y alineando a todos en el uso correcto de ramas y buenas prácticas. Además, guié reuniones donde se definieron user stories, epics y prioridades del product backlog, y expuse la arquitectura de software mediante diagramas C4 de forma clara, asegurando la comprensión tanto de perfiles técnicos como no técnicos.<br><br>TB1: Se participó activamente en reuniones de coordinación del Sprint, donde se expusieron avances técnicos relacionados con la configuración de los repositorios, despliegue de la Fake API y conexión del frontend con los servicios backend. Durante estas reuniones se explicó de forma clara el estado de las tareas, se resolvieron dudas del equipo y se propusieron mejoras al flujo de trabajo utilizando GitFlow, asegurando una comprensión común entre todos los integrantes del proyecto.<br><br>AV2: Comuniqué de manera efectiva los contratos de datos y la arquitectura por capas del backend desarrollado en Java y Spring Boot al equipo de desarrollo frontend, coordinando reuniones síncronas para resolver dudas sobre el consumo de las rutas de la API. Asimismo, participé activamente en la sustentación de los avances técnicos durante las sesiones de revisión de sprint, exponiendo la integración completa ante el equipo.<br><br>
           <b>Luis Miranda, Diego Andres</b> AV1: Se realizo el proceso completo de diseño UX/UI, incluyendo la elaboración de wireframes, wireflows, mock-ups y prototipos interactivos en Figma aplicando la principios, elemntos, IA, etc. Asimismo, se explicaron los resultados obtenidos a partir de las entrevistas realizadas, tomando en cuentas las necesidades del usuarios<br><br>TB1:  Contribuí al liderazgo compartido del equipo participando en la planificación y desarrollo de componentes frontend orientados al administrador y al sistema de seguimiento para clientes. Además, colaboré en la integración entre el frontend, el backend y la Fake API, apoyando la coordinación técnica entre los integrantes para asegurar la compatibilidad y funcionamiento del sistema. También promoví la mejora continua de la documentación y la correcta estructuración del proyecto, facilitando la organización del trabajo y el cumplimiento de los objetivos planteados.<br><br>
           AV2: Asumí un rol activo en la integración y consolidación del sistema backend Java y Spring Boot, mediante la implementación de bounded contexts, asegurando la coherencia entre los diferentes módulos del proyecto. Además, lideré el despliegue del backend en producción utilizando la plataforma Render, configurando el entorno, variables de ejecución y verificando su correcto funcionamiento en un entorno real. Complementariamente, participé en las entrevistas de validación con usuarios, contribuyendo a la obtención de retroalimentación directa para confirmar requerimientos y mejorar el sistema desarrollado.<br><br>
-          <b>Mamani Vilca, Alan Jaivi</b> AV1: Sustenté la arquitectura de software en el modelado del diagrama de clases y el modelo de base de datos, adaptando el lenguaje técnico para asegurar la comprensión del sistema. Además, conduje entrevistas a administradores de taller, demostrando escucha activa para extraer necesidades clave y validar supuestos del Lean UX.<br>
+          <b>Mamani Vilca, Alan Jaivi</b> AV1: Sustenté la arquitectura de software en el modelado del diagrama de clases y el modelo de base de datos, adaptando el lenguaje técnico para asegurar la comprensión del sistema. Además, conduje entrevistas a administradores de taller, demostrando escucha activa para extraer necesidades clave y validar supuestos del Lean UX.<br><br>TB1: Sustenté la arquitectura del módulo de Customer Tracking, explicando la integración entre el TrackingStore y los servicios de infraestructura mediante un flujo reactivo basado en Angular Signals. Además, realicé presentaciones de avance orientadas a stakeholders, adaptando el lenguaje técnico para comunicar los beneficios operativos de la solución y asegurar la alineación entre la propuesta tecnológica y los objetivos de negocio.<br><br>AV2: Participé activamente en la sustentación de la arquitectura del sistema basada en Domain-Driven Design (DDD), explicando los bounded contexts, diagramas de clases y relaciones del modelo de datos a los integrantes del equipo y evaluadores. Asimismo, conduje entrevistas de validación con propietarios y administradores de talleres automotrices, adaptando el lenguaje técnico a una audiencia no especializada para obtener retroalimentación sobre el Landing Page y los flujos principales de la aplicación. Esto permitió validar la comprensión de la propuesta de valor y recopilar oportunidades de mejora para el producto.<br><br>
           <b>Sanchez Cuadrado, Juan Antonio</b> Participe activamente en el desarrollo de la interfaz administrativa del sistema, colaborando con el equipo para asegurar que cada flujo de interacción estuviera alineado con los objetivos y necesidades de los usuarios. Contribuyó proponiendo mejoras en la experiencia e interfaz visual, fomentando la retroalimentación constante y la toma de decisiones conjunta para mantener coherencia en el diseño del proyecto. Asimismo, apoyó en la coordinación de tareas relacionadas con la implementación de la UI, favoreciendo el avance organizado y el cumplimiento de los objetivos establecidos.
   AutoService.
         </td>
@@ -338,7 +345,7 @@ Mayo, 2026
           <b>Aguilar Aguayo, Jeferson Renzo</b> AV1: Se elaboró la documentación técnica y contribuí en la implementación de la gestión del código mediante GitFlow, organizando las ramas y estándares de programación en inglés para facilitar el desarrollo colaborativo y mantener coherencia con la arquitectura y el despliegue profesional de AutoService<br>
           <b>Lopez Monroy, Rodrigo Alfredo</b> AV1: Elaboré documentación clara y estructurada del flujo de trabajo en GitHub, incluyendo lineamientos sobre ramas, commits y pull requests, facilitando su comprensión para todo el equipo. Asimismo, redacté user stories, epics y el product backlog utilizando un lenguaje accesible y bien organizado, y documenté la arquitectura de software mediante diagramas C4 acompañados de descripciones comprensibles para distintos tipos de audiencia.<br><br>TB1: Se elaboraron mensajes de commit siguiendo la convención de Conventional Commits, describiendo de manera clara y estructurada cada cambio realizado en el sistema. Asimismo, se contribuyó a la documentación del proyecto mediante la actualización de secciones técnicas en el repositorio, incluyendo configuraciones de despliegue, integración con la Fake API y ajustes en el entorno de producción, asegurando que la información fuera comprensible para cualquier integrante del equipo o evaluador externo.<br><br>AV2: Elaboré la documentación técnica detallada de los servicios web en la especificación OpenAPI (Swagger), especificando la sintaxis de las llamadas HTTP, los parámetros requeridos y las estructuras de las respuestas en formato JSON para cada endpoint del sistema. Adicionalmente, redacté las guías de configuración de variables de entorno y persistencia para facilitar el despliegue del backend en la nube.<br><br>
           <b>Luis Miranda, Diego Andres</b> AV1: Se desarrolló la documentación, incluyendo el análisis de entrevistas para el levantamiento de requerimientos, la definición de historias de usuario y la elaboración de wireframes, mock-ups y prototipos. Se redactaron secciones técnicas relacionadas con principios de diseño, arquitectura de información, diseño inclusivo y decisiones UX/UI, manteniendo un lenguaje claro, estructurado y coherente.<br><br>TB1: Contribuí al liderazgo compartido del equipo participando en la planificación y desarrollo de componentes frontend orientados al administrador y al sistema de seguimiento para clientes. Además, colaboré en la integración entre el frontend, el backend y la Fake API, apoyando la coordinación técnica entre los integrantes para asegurar la compatibilidad y funcionamiento del sistema. También promoví la mejora continua de la documentación y la correcta estructuración del proyecto, facilitando la organización del trabajo y el cumplimiento de los objetivos planteados.<br><br>AV2: Participé en la planificación y ejecución de tareas clave del proyecto, incluyendo la implementación de bounded contexts, el despliegue del backend en producción en Render y la realización de entrevistas de validación con usuarios. Estas actividades requirieron coordinación constante con el equipo para cumplir con los objetivos establecidos, resolver dependencias técnicas y asegurar la correcta entrega del sistema en un entorno funcional.<br><br>
-          <b>Mamani Vilca, Alan Jaivi</b> AV1: Documenté la arquitectura, del modelo del diagrama de clases, modelo de datos y hallazgos del Needfinding (User Personas, Empathy/Journey Maps) con precisión técnica y claridad. Utilicé terminología estándar y una estructura lógica para facilitar la implementación y la colaboración efectiva entre los roles de diseño y desarrollo.<br>
+          <b>Mamani Vilca, Alan Jaivi</b> AV1: Documenté la arquitectura, del modelo del diagrama de clases, modelo de datos y hallazgos del Needfinding (User Personas, Empathy/Journey Maps) con precisión técnica y claridad. Utilicé terminología estándar y una estructura lógica para facilitar la implementación y la colaboración efectiva entre los roles de diseño y desarrollo.<br><br>TB1: Elaboré la documentación técnica del componente de Customer Tracking y de la pasarela de pagos multicanal, detallando el consumo de la API REST y la gestión reactiva mediante RxJS. Además, redacté manuales de integración para el equipo de desarrollo y definí guías UX Copy para la interfaz de pagos con tarjetas, Yape y Plin, asegurando una comunicación técnica precisa en el código y clara para el usuario final, cumpliendo con los estándares de documentación del proyecto.<br><br>AV2:Elaboré y actualicé la documentación técnica del proyecto relacionada con los bounded contexts, diagramas UML, modelo entidad-relación, arquitectura DDD y resultados de las entrevistas de validación. Además, redacté las secciones correspondientes al diseño y registro de entrevistas, organizando la información obtenida de los usuarios en un formato estructurado y comprensible tanto para audiencias técnicas como académicas. La documentación generada facilitó la trazabilidad de las decisiones de diseño y la comunicación entre los equipos de análisis, desarrollo y validación.<br><br>
           <b>Sanchez Cuadrado, Juan Antonio</b>La comunicacion lidero la colaboracion en el diseño e implementación completa de la interfaz administrativa, manteniendo una comunicación constante con el equipo para asegurar la correcta integración de los flujos y funcionalidades del sistema. Participó en la mejora continua de la interfaz, considerando la experiencia del usuario y los objetivos definidos en las historias de usuario. Además, cumplió con las tareas asignadas dentro de los plazos acordados, contribuyendo al desarrollo ordenado y eficiente del proyecto.
         </td>
         <td>AV1: Se logró presentar información de manera ordenada y comprensible, permitiendo que tanto usuarios técnicos como no técnicos puedan entender el proceso de diseño, las decisiones tomadas y el funcionamiento del sistema de forma clara y efectiva.<br><br>TB1: Se presentó y documentó información técnica de manera ordenada y comprensible mediante commits, reportes y documentación del repositorio, facilitando la interpretación del proceso de desarrollo, la configuración del entorno de despliegue y la integración con servicios en la nube (Azure Static Web Apps y GCP). Esto permitió una comunicación efectiva entre los miembros del equipo y la correcta trazabilidad de las decisiones técnicas tomadas durante el Sprint.<br><br>AV2: Se logró generar un informe técnico ordenado y riguroso mediante la documentación exhaustiva de los contratos de la API en Swagger y el mapeo del despliegue en la nube, permitiendo que audiencias técnicas y de negocio comprendan con precisión el flujo de datos y la arquitectura distribuida del producto.</td>
@@ -3824,51 +3831,49 @@ Este diagrama profundiza en el contenedor API RESTful para exponer los bloques e
 ### 4.7. Software Object-Oriented Design
 
 <p align="justify">
-  En esta sección se presenta el diseño orientado a objetos del sistema <strong>AutoService</strong>, 
-  alineado con los principios de <strong>Domain-Driven Design (DDD)</strong> y 
-  <strong>Clean Architecture</strong>.
+En esta sección se presenta el diseño orientado a objetos del sistema <strong>AutoService</strong>, alineado con los principios de <strong>Domain-Driven Design (DDD)</strong> y <strong>Clean Architecture</strong>.
 </p>
 
 <p align="justify">
-  Los diagramas de clases modelan la estructura estática de cada 
-  <strong>Bounded Context</strong> identificado en el <strong>Event Storming</strong>, 
-  asegurando una clara separación de responsabilidades, alta cohesión y bajo acoplamiento.
+Los diagramas de clases muestran los elementos de implementación de cada bounded context, incluyendo clases, interfaces, enumeraciones, atributos, métodos y sus scopes. También se detallan las relaciones entre elementos, con multiplicidad, dirección y nombres de rol cuando aplica.
 </p>
 
-<table>
-  <thead>
-    <tr>
-      <th>Característica</th>
-      <th>Descripción</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Notación UML Estándar</td>
-      <td align="justify">Se utiliza la sintaxis oficial de diagramas de clases.</td>
-    </tr>
-    <tr>
-      <td>Visibilidad (Scope)</td>
-      <td align="justify">- private, + public, # protected – encapsulamiento.</td>
-    </tr>
-    <tr>
-      <td>Tipos de Datos Java</td>
-      <td align="justify">UUID, String, LocalDateTime, BigDecimal, boolean, int, enum – tipado nativo Java.</td>
-    </tr>
-    <tr>
-      <td>Relaciones Explícitas</td>
-      <td align="justify">Nombre de rol, dirección de navegación y multiplicidad (1, 0..1, *).</td>
-    </tr>
-    <tr>
-      <td>Optimización para Persistencia</td>
-      <td align="justify">Entidades consolidadas para mapeo directo al modelo relacional de 16 tablas (JPA/Hibernate).</td>
-    </tr>
-    <tr>
-      <td>Patrones y Principios</td>
-      <td align="justify">SOLID (SRP, DIP), Repository, Factory, Strategy, Domain Events.</td>
-    </tr>
-  </tbody>
-</table>
+<div style="overflow-x: auto;">
+  <table>
+    <thead>
+      <tr>
+        <th>Característica</th>
+        <th>Descripción</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Notación UML Estándar</td>
+        <td style="text-align: justify;">Se utiliza la sintaxis oficial de diagramas de clases para representar clases, interfaces y enums.</td>
+      </tr>
+      <tr>
+        <td>Visibilidad (Scope)</td>
+        <td style="text-align: justify;">- private, + public, # protected – encapsulamiento de atributos y operaciones.</td>
+      </tr>
+      <tr>
+        <td>Miembros de Clase</td>
+        <td style="text-align: justify;">Atributos, métodos y constructores definidos con tipo de dato, scope y propósito.</td>
+      </tr>
+      <tr>
+        <td>Enumeraciones</td>
+        <td style="text-align: justify;">Estados, roles y tipos representados como enums en el modelo de dominio.</td>
+      </tr>
+      <tr>
+        <td>Relaciones Explícitas</td>
+        <td style="text-align: justify;">Asociaciones, agregaciones, composiciones y dependencias con multiplicidad y dirección.</td>
+      </tr>
+      <tr>
+        <td>Patrones y Principios</td>
+        <td style="text-align: justify;">SOLID, Repository, Factory, Strategy, Domain Events y separación clara de bounded contexts.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 
 #### 4.7.1. Class Diagrams
@@ -3876,147 +3881,169 @@ Este diagrama profundiza en el contenedor API RESTful para exponer los bloques e
 ##### Diagrama de Clases General - AutoService
 
 <div align="center">
-<img src="docs/assets/chapter-4/class-diagrams/class-diagram-autoservice.png"width="1000">
+<img src="docs/assets/chapter-4/class-diagrams/bounded-contexts-dc.png" width="1000">
 </div>
 
-
-##### Identity & Profile Context
+##### 1. Tenant Management Context
 
 ###### Responsabilidades Principales
-- Autenticación de usuarios mediante credenciales seguras (hash de contraseñas)
-- Gestión de roles y asignación a usuarios
-- Control de acceso multi-tenant mediante **WorkshopId**
-- Auditoría de asignación de roles (fecha de asignación)
+- Gestión centralizada de talleres (inquilinos) en la plataforma multi-taller SaaS
+- Registro y configuración de información de cada taller
+- Almacenamiento de ubicaciones y datos corporativos
+- Generación de identificadores únicos (tenant_id) para aislamiento de datos
 
 ###### Reglas de Negocio Clave
-- Cada usuario pertenece a un único taller (**WorkshopId**), asegurando aislamiento multi-tenant
-- Los roles disponibles son: **Admin**, **Mechanic**, **Client**
-- Un usuario puede tener múltiples roles simultáneamente
-- La asignación de roles registra la fecha para trazabilidad
-- Solo usuarios activos (**IsActive = true**) pueden autenticarse
+- Cada taller posee un tenant_id único que lo identifica en todo el sistema
+- Un taller puede tener una única dirección oficial registrada
+- El contexto expone puertos para crear, consultar y actualizar talleres
+- Es consumido por todos los demás contextos para garantizar multitenencia
+- Los índices optimizan búsquedas frecuentes por tenant_id
 
 <div align="center">
-<img src="docs/assets/chapter-4/class-diagrams/class-diagram-identity-&-profile-context.png"width="400">
+<img src="docs/assets/chapter-4/class-diagrams/tenant-management.png">
 </div>
 
-
-##### Workshop Operations Context (Core Domain)
+##### 2. Customer Management Context
 
 ###### Responsabilidades Principales
-- Gestión del ciclo de vida completo de las órdenes de trabajo
-- Registro y mantenimiento de información de clientes y vehículos
-- Desglose operativo de servicios en tareas asignables a mecánicos
-- Seguimiento del estado de servicios y auditoría de cambios
+- Registro y mantenimiento de información de clientes del taller
+- Almacenamiento de datos de identificación y contacto
+- Gestión de múltiples direcciones por cliente
+- Aislamiento de clientes por taller mediante workshop_id
+
+###### Reglas de Negocio Clave
+- Cada cliente está vinculado a un único taller (workshop_id)
+- El campo dni es único dentro del sistema para evitar duplicados
+- Un cliente puede tener múltiples direcciones registradas (relación 1-a-N)
+- Las restricciones de unicidad en email garantizan una única vía de contacto por cliente
+- El contexto expone puertos para crear, consultar, actualizar y eliminar clientes
+
+<div align="center">
+<img src="docs/assets/chapter-4/class-diagrams/customer-management.png">
+</div>
+
+##### 3. Fleet Management Context
+
+###### Responsabilidades Principales
+- Gestión del inventario de vehículos y sus características técnicas
+- Registro y seguimiento del historial de mantenimiento y servicios
+- Asociación de vehículos a clientes específicos
+- Control del estado operativo de cada unidad
+
+###### Reglas de Negocio Clave
+- Cada vehículo tiene una placa única (plate) que lo identifica
+- Un vehículo pertenece a un único cliente (customer_id)
+- Cada vehículo puede tener múltiples registros de servicio históricos
+- El contexto mantiene información de marca, modelo, año, color y estado
+- Los índices en plate y customer_id optimizan búsquedas operacionales
+
+<div align="center">
+<img src="docs/assets/chapter-4/class-diagrams/fleet-management.png">
+</div>
+
+##### 4. Staff Coordination Context
+
+###### Responsabilidades Principales
+- Registro y administración de información laboral de mecánicos
+- Gestión de horarios y turnos de trabajo
+- Control de disponibilidad y asignación de capacidad máxima
+- Coordinación de especialidades técnicas por mecánico
+
+###### Reglas de Negocio Clave
+- Cada mecánico está asociado a un taller específico (workshop_id)
+- Un mecánico puede tener múltiples franjas horarias (mechanic_schedule)
+- Las restricciones evitan solapamientos de turnos para el mismo mecánico
+- El campo max_capacity limita el número de tareas asignables simultáneamente
+- El contexto es consumido por workshop_operations para asignar tareas
+
+<div align="center">
+<img src="docs/assets/chapter-4/class-diagrams/staff-coordination.png">
+</div>
+
+##### 5. Inventory Management Context
+
+###### Responsabilidades Principales
+- Gestión centralizada de ítems de repuesto e insumos
+- Control de stock mínimo y disponibilidad de materiales
+- Administración de categorías y proveedores de repuestos
+- Generación automática de códigos SKU únicos
+
+###### Reglas de Negocio Clave
+- Cada ítem posee un sku único que lo identifica globalmente
+- Los ítems se agrupan en categorías para facilitar la búsqueda
+- El sistema registra el precio unitario y la cantidad en stock
+- Las restricciones de validación aseguran que unit_price >= 0 y stock >= 0
+- El contexto expone puertos para crear, consultar y actualizar ítems
+
+<div align="center">
+<img src="docs/assets/chapter-4/class-diagrams/inventory-management.png">
+</div>
+
+##### 6. IAM (Identity & Access Management) Context
+
+###### Responsabilidades Principales
+- Autenticación de usuarios mediante credenciales seguras
+- Gestión de roles y permisos para control de acceso
+- Generación y validación de tokens JWT para sesiones
+- Aislamiento multi-tenant mediante asociación usuario-taller
+
+###### Reglas de Negocio Clave
+- Cada usuario (User) está vinculado a un único taller (workshop_id)
+- Los roles disponibles incluyen: Admin, Mechanic, Client
+- Las contraseñas se almacenan como hashes seguros (pwd_hash)
+- Solo usuarios con permisos pueden acceder a módulos específicos
+- El contexto integra con tenantmanagement durante el registro de nuevas cuentas
+
+<div align="center">
+<img src="docs/assets/chapter-4/class-diagrams/iam.png">
+</div>
+
+##### 7. Workshop Operations Context (Core Domain)
+
+###### Responsabilidades Principales
+- Gestión del ciclo de vida completo de órdenes de trabajo
+- Modelado de tareas técnicas asignables a mecánicos
+- Registro y auditoría de cambios de estado
 - Generación de códigos de seguimiento para transparencia al cliente
 
 ###### Reglas de Negocio Clave
-- Cada orden de trabajo debe estar asociada a un vehículo y un taller
-- Los vehículos deben tener un único propietario (cliente) registrado
-- El estado de la orden sigue un flujo definido: **PENDING → IN_PROGRESS → COMPLETED → DELIVERED** (con soporte para **CANCELLED**)
-- Cada cambio de estado se registra en **StatusHistory** para auditoría
-- Cada orden genera un código de seguimiento único para consulta del cliente
-- El monto total de la orden se calcula a partir de los costos de sus tareas
+- Una orden de trabajo (WorkOrder) está asociada a un vehículo y cliente
+- El estado sigue un flujo: PENDING --> IN_PROGRESS --> COMPLETED --> DELIVERED (o CANCELLED)
+- Una orden puede contener múltiples tareas (Task) asignables a mecánicos
+- Cada cambio de estado se registra en el historial para auditoría
+- El monto total de la orden se calcula desde los ítems y tareas relacionadas
 
 <div align="center">
-<img src="docs/assets/chapter-4/class-diagrams/class-diagram-workshop-operations-context-core.png"width="800">
+<img src="docs/assets/chapter-4/class-diagrams/workshop-operations.png" >
 </div>
 
-
-##### Staff Management Context (Supporting Domain)
+##### 8. Public Tracking Context (Read-Only Interface)
 
 ###### Responsabilidades Principales
-- Registro y gestión de información laboral de mecánicos
-- Asignación y control de turnos de trabajo
-- Validación de conflictos de horarios
-- Cálculo de métricas laborales (ingresos semanales)
-- Verificación de disponibilidad del personal técnico
+- Provisión de datos públicos sobre el progreso de reparaciones
+- Integración de información de múltiples contextos sin autenticación requerida
+- Ensamblado de recursos de seguimiento visible al cliente final
+- Consumo de datos desde contextos operacionales
 
 ###### Reglas de Negocio Clave
-- Cada mecánico está asociado a un usuario del sistema (**UserId**) para autenticación
-- Un mecánico pertenece a un único taller (**WorkshopId**)
-- Los turnos de un mismo mecánico no pueden superponerse en el tiempo (**IsOverlapping()**)
-- El estado **IsActive** determina si el mecánico está disponible para asignación
-- Los tipos de turno son: **MORNING**, **AFTERNOON**, **NIGHT**, **OVERTIME**
+- Este contexto es solo lectura y no define entidades propias
+- Consume datos de Fleet Management, Customer Management, Tenant Management y Workshop Operations
+- La interfaz es accesible públicamente sin requerir token JWT
+- Agrupa información relacionada al vehículo, cliente y estado de orden en una vista consolidada
+- Facilita la transparencia operacional sin comprometer la seguridad de datos sensibles
 
 <div align="center">
-<img src="docs/assets/chapter-4/class-diagrams/class-diagram-staff-management-context.png"width="300">
-</div>
-
-
-##### Billing & Payment Context (Supporting Domain)
-
-###### Responsabilidades Principales
-- Generación de facturas y comprobantes fiscales
-- Cálculo de subtotales, impuestos y totales
-- Gestión de ítems detallados por factura
-- Registro de pagos con múltiples métodos
-- Procesamiento y seguimiento de transacciones
-- Soporte para cancelación y reembolsos
-
-###### Reglas de Negocio Clave
-- Cada factura puede estar asociada a una orden de trabajo (relación opcional **0..1**)
-- Los totales se calculan automáticamente a partir de los ítems y la tasa de impuesto
-- Una factura puede recibir un solo pago (relación **0..1**), simplificando el modelo
-- Se soportan múltiples métodos de pago: **efectivo**, **tarjeta crédito/débito**, **transferencia**
-- Los pagos tienen un ciclo de vida: **PENDING → PROCESSING → COMPLETED / FAILED**
-- Las facturas pueden estar en estado: **DRAFT**, **ISSUED**, **PAID**, **CANCELLED** o **OVERDUE**
-
-<div align="center">
-<img src="docs/assets/chapter-4/class-diagrams/class-diagram-billing-&-payment-context.png"width="500">
-</div>
-
-
-##### Customer Tracking & Notification Context (Supporting Domain)
-
-###### Responsabilidades Principales
-- Registro de notificaciones enviadas a clientes
-- Envío de notificaciones a través de múltiples canales (Email, SMS, Push, WhatsApp)
-- Seguimiento del estado de entrega de notificaciones
-- Trazabilidad completa de la comunicación por cliente y orden de trabajo
-- Soporte para notificaciones automáticas basadas en eventos del sistema
-
-###### Reglas de Negocio Clave
-- Cada notificación se registra antes de ser enviada, garantizando trazabilidad
-- Las notificaciones se vinculan al cliente destinatario (**ClientId**)
-- Opcionalmente, una notificación puede asociarse a una orden de trabajo (**WorkOrderId**)
-- Los tipos de notificación incluyen: **actualización de estado**, **orden completada**, **pago recibido** y **recordatorios**
-- El sistema soporta múltiples canales: **Email**, **SMS**, **Push Notification** y **WhatsApp**
-- El ciclo de vida de una notificación es: **PENDING → SENT → DELIVERED / FAILED**
-
-<div align="center">
-<img src="docs/assets/chapter-4/class-diagrams/class-diagram-customer-tracking-&-notification-context.png"width="450">
-</div>
-
-
-##### Reporting & Analytics Context (Supporting Domain)
-
-###### Responsabilidades Principales
-- Generación de reportes bajo demanda o programada
-- Almacenamiento de metadata de reportes generados (tipo, rango de fechas, URL del archivo)
-- Exportación de reportes en múltiples formatos (PDF, Excel)
-- Trazabilidad de quién generó cada reporte y cuándo
-
-###### Regla de Negocio Clave
-- Los reportes pueden generarse por rango de fechas personalizado
-- Cada reporte está asociado a un taller específico (**WorkshopId**)
-- Los tipos de reporte disponibles son: ingresos diarios, productividad semanal, resumen mensual y desempeño de mecánicos
-- Los reportes generados se almacenan como archivos (PDF/Excel) con una URL de acceso
-- La lógica de cálculo de métricas se ejecuta al momento de generar el reporte, consultando datos en vivo
-
-<div align="center">
-<img src="docs/assets/chapter-4/class-diagrams/class-diagram-reporting-&-analytics-context.png"width="300">
+<img src="docs/assets/chapter-4/class-diagrams/public-tracking.png">
 </div>
 
 
 ### 4.8. Database Design
 
 <p align="justify">
-En esta sección se presenta el diseño de la base de datos relacional para el <strong>AutoService</strong>, alineado con los <strong>Bounded Contexts</strong> identificados en el análisis de <strong>Domain-Driven Design (DDD)</strong> y optimizado para cumplir con el alcance del proyecto.
+En esta sección se presenta el diseño de la base de datos relacional para el <strong>AutoService</strong>, alineado con los <strong>Bounded Contexts</strong> identificados en el análisis de <strong>Domain-Driven Design (DDD)</strong>. Aquí se explican los diagramas que muestran las tablas, columnas, claves primarias, foráneas y las relaciones entre objetos de datos.
 </p>
 
-
 #### Características Principales del Diseño
-
 
 <div style="overflow-x: auto;">
   <table>
@@ -4029,119 +4056,134 @@ En esta sección se presenta el diseño de la base de datos relacional para el <
     <tbody>
       <tr>
         <td>Motor de Base de Datos</td>
-        <td style="text-align: justify;">
-          PostgreSQL 15+ / SQL Server 2019+ (según configuración del entorno).
-        </td>
+        <td style="text-align: justify;">PostgreSQL 15+ / SQL Server 2019+ (según configuración del entorno).</td>
       </tr>
       <tr>
         <td>Normalización</td>
-        <td style="text-align: justify;">
-          Tercera Forma Normal (3NF) para eliminar redundancias y garantizar integridad referencial.
-        </td>
+        <td style="text-align: justify;">Tercera Forma Normal (3NF) para eliminar redundancias y garantizar integridad referencial.</td>
       </tr>
       <tr>
         <td>Claves Primarias</td>
-        <td style="text-align: justify;">
-          Todas las tablas utilizan Guid/UUID como clave primaria para escalabilidad distribuida y evitar conflictos en entornos multi-tenant.
-        </td>
+        <td style="text-align: justify;">Todas las tablas utilizan Guid/UUID como clave primaria para escalabilidad distribuida y evitar conflictos en entornos multi-tenant.</td>
       </tr>
       <tr>
         <td>Claves Foráneas</td>
-        <td style="text-align: justify;">
-          Relaciones explícitas con restricciones ON DELETE CASCADE o ON DELETE RESTRICT según la lógica de negocio y preservación de datos históricos.
-        </td>
+        <td style="text-align: justify;">Relaciones explícitas con restricciones ON DELETE CASCADE o ON DELETE RESTRICT según la lógica de negocio y preservación de datos históricos.</td>
       </tr>
       <tr>
         <td>Índices</td>
-        <td style="text-align: justify;">
-          Índices en columnas de búsqueda frecuente (Plate, Email, OrderNumber, StatusEnum, WorkshopId) para optimizar consultas.
-        </td>
+        <td style="text-align: justify;">Índices en columnas de búsqueda frecuente (Plate, Email, OrderNumber, StatusEnum, WorkshopId) para optimizar consultas.</td>
       </tr>
       <tr>
         <td>Soft Delete</td>
-        <td style="text-align: justify;">
-          Columna IsActive o IsArchived en entidades críticas para preservación histórica sin eliminación física.
-        </td>
+        <td style="text-align: justify;">Columna IsActive o IsArchived en entidades críticas para preservación histórica sin eliminación física.</td>
       </tr>
       <tr>
         <td>Auditoría Básica</td>
-        <td style="text-align: justify;">
-          Columnas CreatedAt, UpdatedAt en tablas transaccionales para trazabilidad temporal.
-        </td>
+        <td style="text-align: justify;">Columnas CreatedAt, UpdatedAt en tablas transaccionales para trazabilidad temporal.</td>
       </tr>
       <tr>
         <td>Enumeraciones</td>
-        <td style="text-align: justify;">
-          Campos INT con valores controlados para estados (WorkOrderStatus, PaymentStatus) garantizando consistencia de datos a nivel de aplicación.
-        </td>
+        <td style="text-align: justify;">Campos INT con valores controlados para estados (WorkOrderStatus, PaymentStatus) garantizando consistencia de datos a nivel de aplicación.</td>
       </tr>
       <tr>
         <td>Multi-tenancy</td>
-        <td style="text-align: justify;">
-          Columna WorkshopId en tablas operativas para aislamiento lógico entre talleres (modelo SaaS), con políticas de Row-Level Security (RLS) opcionales.
-        </td>
+        <td style="text-align: justify;">Columna WorkshopId en tablas operativas para aislamiento lógico entre talleres (modelo SaaS), con políticas de Row-Level Security (RLS) opcionales.</td>
       </tr>
     </tbody>
   </table>
 </div>
-
 
 #### 4.8.1. Database Diagrams
 
 ##### Diagrama de Base de Datos General - AutoService
 
 <div align="center">
-
-![alt text](docs/assets/chapter-4/database-diagram/database-diagram-autoservice.png)
+<img src="docs/assets/chapter-4/database-diagram/global-database-diagram.png" width="1000">
 </div>
 
+<p align="justify;">
+El diagrama general muestra cómo se conectan los datos de los distintos bounded contexts mediante claves foráneas y cómo se garantiza la integridad referencial entre los módulos principales.
+</p>
 
-##### Identity & Profile Context
-Este contexto gestiona la autenticación, autorización y configuración multi-tenant del sistema.
+##### 1. Tenant Management Context
+
+<p align="justify;">
+Gestiona el registro y configuración de talleres (tenants) como entidades centrales en la plataforma SaaS. Cada taller tiene un workshop_id único, información corporativa y una dirección principal.
+</p>
 
 <div align="center">
-<img src="docs/assets/chapter-4/database-diagram/database-diagram-identity-&-profile-context.png"width="600">
+<img src="docs/assets/chapter-4/database-diagram/db-tenant-management.png" width="600">
 </div>
 
+##### 2. Customer Management Context
 
-##### Workshop Operations Context (Core Domain)
-El núcleo del negocio: gestión de órdenes de trabajo, tareas y seguimiento.
+<p align="justify;">
+Administra clientes asociados a talleres específicos con datos de identificación personal, contacto y múltiples direcciones registradas. Cada cliente está vinculado a un workshop_id para garantizar multitenencia.
+</p>
 
 <div align="center">
-<img src="docs/assets/chapter-4/database-diagram/database-diagram-workshop-operations-context-core.png"width="1000">
+<img src="docs/assets/chapter-4/database-diagram/db-customer-management.png" width="600">
 </div>
 
+##### 3. Fleet Management Context
 
-##### Staff Management Context (Supporting Domain)
-Administra el personal técnico, sus turnos y disponibilidad operativa.
+<p align="justify;">
+Registra información técnica de vehículos como placa, marca, modelo, año y color. Cada vehículo pertenece a un cliente y puede tener un historial de servicios asociados.
+</p>
 
 <div align="center">
-<img src="docs/assets/chapter-4/database-diagram/database-diagram-staff-management-context.png"width="600">
+<img src="docs/assets/chapter-4/database-diagram/db-fleet-management.png" width="600">
 </div>
 
+##### 4. Staff Coordination Context
 
-##### Billing & Payment Context (Supporting Domain)
-Gestiona la facturación, comprobantes y registro de transacciones económicas.
+<p align="justify;">
+Organiza mecánicos por taller con información de contacto, especialidades y horarios de disponibilidad. Permite gestionar turnos y evitar solapamientos de asignaciones.
+</p>
 
 <div align="center">
-<img src="docs/assets/chapter-4/database-diagram/database-diagram-billing-&-payment-context.png"width="800">
+<img src="docs/assets/chapter-4/database-diagram/db-staff-coordination.png" width="600">
 </div>
 
+##### 5. Inventory Management Context
 
-##### Customer Tracking & Notification Context (Supporting Domain)
-Facilita la comunicación proactiva con el cliente final y el seguimiento externo.
+<p align="justify;">
+Centraliza el control de repuestos e insumos con categorización, proveedores, SKU únicos y control de stock. Genera códigos de referencia para integración con órdenes de trabajo.
+</p>
 
 <div align="center">
-<img src="docs/assets/chapter-4/database-diagram/database-diagram-customer-tracking-&-notification-context.png"width="500">
+<img src="docs/assets/chapter-4/database-diagram/db-inventory-management.png" width="600">
 </div>
 
+##### 6. IAM (Identity & Access Management) Context
 
-##### Reporting & Analytics Context (Supporting Domain)
-El contexto de Reporting se alimenta de las siguientes tablas operativas distribuidas en otros Bounded Contexts como Customer & Assets Context
-Gestiona la información de clientes propietarios y sus vehículos registrados.
+<p align="justify;">
+Gestiona usuarios, roles, permisos y credenciales para autenticación y autorización. Cada usuario está vinculado a un taller específico asegurando el aislamiento multi-tenant.
+</p>
 
 <div align="center">
-<img src="docs/assets/chapter-4/database-diagram/database-diagram-customer-&-assets-context.png"width="350">
+<img src="docs/assets/chapter-4/database-diagram/db-iam.png" width="600">
+</div>
+
+##### 7. Workshop Operations Context (Core Domain)
+
+<p align="justify;">
+Núcleo operativo del sistema. Gestiona órdenes de trabajo (WorkOrder), tareas técnicas (Task), cambios de estado y auditoría de operaciones. Integra datos de vehículos, clientes, mecánicos e ítems de inventario.
+</p>
+
+<div align="center">
+<img src="docs/assets/chapter-4/database-diagram/db-workshop-operations.png" width="1000">
+</div>
+
+##### 8. Public Tracking Context (Read-Only)
+
+<p align="justify;">
+Proporciona una interfaz pública sin autenticación para que clientes finales consulten el progreso de reparaciones. Consume datos desde Fleet Management, Customer Management y Workshop Operations sin exponer información sensible.
+</p>
+
+<div align="center">
+<img src="docs/assets/chapter-4/database-diagram/db-public-tracking.png" width="600">
 </div>
 
 ---
@@ -6197,10 +6239,6 @@ En el presente Sprint 3, el alcance funcional y técnico se ha dividido en cuatr
 
 El presente Sprint Backlog detalla la descomposición técnica de las historias de usuario y técnicas seleccionadas para la tercera iteración. El objetivo principal es desarrollar el Backend mediante servicios RESTful en Java con Spring Boot, establecer la persistencia de datos con Spring Data JPA, conectar el Frontend actualizado con los nuevos endpoints y preparar el despliegue.
 
-<div align="center">
-  <img src="docs/assets/sprint3_jira_os.png" alt="Sprint 3 Jira Board" width="80%">
-</div>
-
 <br>
 
 <div align="center">
@@ -6843,6 +6881,46 @@ Los repositorios principales utilizados para el trabajo colaborativo en este Spr
 
 </ol>
 
+
+<p><strong>SEGMENTO 2: Dueños de Talleres</strong></p>
+<p><em>Este segmento evalúa el contexto del negocio, la percepción del Landing Page, la usabilidad de los flujos principales y la retroalimentación general sobre la solución propuesta.</em></p>
+<ol>
+  <li><strong>¿Podrías contarme brevemente cómo está organizado tu taller o empresa y qué tamaño tiene el equipo?</strong>
+    <br><em>Evalúa:</em> Contexto organizacional y tamaño del negocio para validar los segmentos de mercado objetivo.</li>
+  <li><strong>¿Qué herramienta(s) usan actualmente para gestionar clientes, vehículos y órdenes de trabajo?</strong>
+    <br><em>Evalúa:</em> Competencia actual y hábitos de trabajo para identificar oportunidades de diferenciación.</li>
+  <li><strong>¿Qué problema principal enfrentan al coordinar trabajos y comunicar el avance a los clientes?</strong>
+    <br><em>Evalúa:</em> Validación del problema central que AutoService busca resolver.</li>
+  <li><strong>¿Cuál crees que es el propósito principal del Landing Page de AutoService?</strong>
+    <br><em>Evalúa:</em> Claridad del mensaje y propuesta de valor transmitida en el Landing Page.</li>
+  <li><strong>¿Qué entendiste que ofrece AutoService?</strong>
+    <br><em>Evalúa:</em> Comprensión de las funcionalidades y beneficios clave de la plataforma.</li>
+  <li><strong>¿Te pareció claro cuál es el siguiente paso después de ver el Landing Page?</strong>
+    <br><em>Evalúa:</em> Efectividad del Call to Action y claridad del funnel de conversión.</li>
+  <li><strong>¿Qué parte del Landing Page te resultó más útil?</strong>
+    <br><em>Evalúa:</em> Identificación de los elementos más valiosos para el usuario.</li>
+  <li><strong>¿Qué parte del Landing Page te pareció confusa o difícil de entender?</strong>
+    <br><em>Evalúa:</em> Detección de áreas de mejora en la comunicación y diseño del Landing Page.</li>
+  <li><strong>¿Cómo describirías el proceso de registro o acceso a la aplicación?</strong>
+    <br><em>Evalúa:</em> Intuición y facilidad del flujo de onboarding.</li>
+  <li><strong>¿Te parece claro qué datos debes ingresar para iniciar sesión o registrarte?</strong>
+    <br><em>Evalúa:</em> Claridad de los campos requeridos en el formulario de autenticación.</li>
+  <li><strong>Si quisieras crear una orden de trabajo, ¿sabes qué información debes ingresar?</strong>
+    <br><em>Evalúa:</em> Comprensión de los datos mínimos necesarios para crear una orden de trabajo.</li>
+  <li><strong>¿Te resulta fácil identificar dónde agregar cliente, vehículo y servicio?</strong>
+    <br><em>Evalúa:</em> Usabilidad de la navegación y jerarquía de información en la interfaz.</li>
+  <li><strong>¿Puedes ver con claridad el estado actual de una orden de trabajo?</strong>
+    <br><em>Evalúa:</em> Visibilidad y claridad del seguimiento de estados de las órdenes.</li>
+  <li><strong>¿Quedó claro cómo se actualiza el progreso de un trabajo?</strong>
+    <br><em>Evalúa:</em> Comprensión del flujo de actualización de tareas y su reflejo en el progreso.</li>
+  <li><strong>¿Entendiste cómo se notifica al cliente sobre el avance del servicio?</strong>
+    <br><em>Evalúa:</em> Claridad del sistema de notificaciones y comunicación con el cliente.</li>
+  <li><strong>¿Qué aspecto cambiarías primero para que la aplicación sea más útil?</strong>
+    <br><em>Evalúa:</em> Identificación de prioridades de mejora desde la perspectiva del dueño de taller.</li>
+  <li><strong>¿Usarías AutoService si estuviera disponible hoy? ¿Por qué?</strong>
+    <br><em>Evalúa:</em> Intención de uso y percepción general de valor de la solución.</li>
+</ol>
+
 #### 5.3.2. Registro de Entrevistas
 
 #### Entrevista 1: Técnico Independiente
@@ -6889,6 +6967,106 @@ El entrevistado mostró una percepción muy positiva de AutoService, destacando 
 **Evidencia:**
 
 ![Entrevista Tencnico Taller](docs/assets/interview-validate/inter-validate-m2.png)
+
+---
+#### Entrevista 3: Administrador
+
+- **Nombre y Apellido:** Juan Calisaya
+- **Edad:** 30 años
+- **Distrito de Residencia:** Santa Anita, Lima
+- **Ocupación:** Propietario y Administrador de Taller Automotriz
+- **Fecha:** 18 de junio de 2026
+- **Inicio de la Entrevista:** 00:01
+- **Duración:** 12:49
+
+**URL del Video (Microsoft Stream):**  
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e299_upc_edu_pe/IQAKH0LwbS9hR6iCQO9yvjKpAQVicbqjpS3d1hd_KQnQm9o?e=3eALzP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
+
+<p style="text-align: justify;">
+Juan Calisaya es propietario y administrador de un taller automotriz que cuenta con cuatro colaboradores y atiende entre 15 y 20 vehículos por semana. Actualmente gestiona la información mediante registros manuales, hojas de cálculo en Excel y comunicación con clientes a través de WhatsApp.
+
+Durante la validación, comprendió correctamente que AutoService es una solución orientada a la gestión digital de talleres automotrices, permitiendo centralizar la información de clientes, vehículos y órdenes de trabajo. Consideró que el Landing Page comunica adecuadamente la propuesta de valor y facilita la comprensión de los beneficios ofrecidos por la plataforma.
+
+Respecto a la aplicación, destacó la facilidad del proceso de registro y la organización intuitiva de los módulos. Logró identificar sin dificultad los procesos de registro de clientes, vehículos y órdenes de trabajo, así como los mecanismos de asignación de tareas y seguimiento de servicios. Asimismo, comprendió claramente los estados de avance de las órdenes de trabajo y el funcionamiento del sistema de notificaciones para mantener informados a los clientes.
+
+Como sugerencia de mejora, propuso incorporar reportes de productividad y estadísticas operativas para apoyar la toma de decisiones dentro del taller. Finalmente, manifestó que utilizaría AutoService debido a los beneficios relacionados con la centralización de la información, la mejora de la comunicación con los clientes y la optimización de los procesos administrativos.
+</p>
+
+**Evidencia:** 
+![Entrevista Administrador](docs/assets/interview-validate/inter-validate-admin1.png)
+
+---
+#### Entrevista 4: Administrador
+
+- **Nombre y Apellido:** Sebastián Rojas
+- **Edad:** 24 años
+- **Distrito de Residencia:** Villa El Salvador, Lima
+- **Ocupación:** Administrador y Encargado de Logística de Taller Automotriz
+- **Fecha:** 18 de junio de 2026
+- **Inicio de la Entrevista:** 00:04
+- **Duración:** 10:55
+
+**URL del Video (Microsoft Stream):** 
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e299_upc_edu_pe/IQDAeIojk9-qRp0t-QPDNmzpAb58CmafSrSigXD0jIsM48U?e=nucE9d&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
+<p style="text-align: justify;">
+Sebastián Rojas se desempeña como administrador y encargado de logística de un taller automotriz que atiende aproximadamente entre 15 y 20 vehículos por semana. Actualmente la gestión de información se realiza principalmente mediante hojas de cálculo en Excel, registros en WhatsApp y documentación física para respaldar procesos administrativos y operativos.
+
+Durante la evaluación del Landing Page, identificó correctamente que AutoService busca digitalizar y optimizar la gestión de talleres automotrices mediante herramientas que permiten organizar clientes, vehículos, órdenes de trabajo y procesos internos. Consideró que la propuesta de valor es clara y que la plataforma puede contribuir a reducir errores relacionados con el manejo de información y la coordinación de actividades.
+
+En la validación de la aplicación, destacó la simplicidad del proceso de registro y la facilidad para comprender el flujo de trabajo propuesto por el sistema. Logró identificar correctamente las etapas necesarias para registrar clientes, asociar vehículos y crear órdenes de trabajo. Asimismo, valoró positivamente la posibilidad de asignar tareas a los mecánicos, realizar seguimiento al avance de los servicios y mantener una visión centralizada de la operación del taller.
+
+Respecto al monitoreo de servicios, comprendió cómo se actualizan los estados de las órdenes de trabajo y cómo los avances registrados por los colaboradores pueden utilizarse para informar a los clientes sobre el progreso de sus vehículos. Consideró que esta funcionalidad mejora la transparencia y facilita la comunicación entre el taller y sus clientes.
+
+Como principal sugerencia de mejora, recomendó incorporar reportes avanzados relacionados con ingresos, productividad de colaboradores, rendimiento operativo y estadísticas para la toma de decisiones estratégicas. Finalmente, indicó que utilizaría AutoService debido a que ofrece una gestión más colaborativa, organizada y eficiente que las herramientas que emplea actualmente.
+</p>
+
+**Evidencia:** 
+![Entrevista Administrador](docs/assets/interview-validate/inter-validate-admin2.png)
+
+
+---
+#### Entrevista 5: Administrador
+
+- **Nombre y Apellido:** Jaime Ruiz
+- **Edad:** 30 años
+- **Distrito de Residencia:** Puno, Puno
+- **Ocupación:** Dueño y Administrador de Taller Automotriz
+- **Fecha:** 18 de junio de 2026
+- **Inicio de la Entrevista:** 00:14
+- **Duración:** 15:18
+
+**URL del Video (Microsoft Stream):** 
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e299_upc_edu_pe/IQASv_VScko6S7Lj2qfoNu1NASDn0X3oJZCkGj95LjlQ0j8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=FNLJy0)
+
+
+<p style="text-align: justify;">
+Jaime Ruiz es dueño y administrador de un taller automotriz ubicado en la ciudad de Puno. Su negocio atiende aproximadamente entre 15 y 20 vehículos por semana y cuenta con personal encargado de atención al cliente y actividades operativas relacionadas con el mantenimiento y reparación de vehículos. Actualmente, la gestión de la información se realiza principalmente mediante hojas de cálculo en Excel, comunicación por WhatsApp y registros manuales para el seguimiento de clientes y servicios.
+
+Durante la validación del Landing Page, el entrevistado identificó correctamente que AutoService es una plataforma orientada a mejorar la gestión y organización de talleres automotrices. Comprendió que la solución permite realizar un seguimiento más eficiente de los vehículos, mejorar la comunicación con los clientes y optimizar el control de los procesos internos del negocio. Asimismo, destacó especialmente la funcionalidad relacionada con el seguimiento de órdenes de trabajo y el monitoreo del estado de los vehículos, ya que considera que los clientes valoran conocer el progreso de los servicios realizados.
+
+Respecto a la aplicación web, indicó que el proceso de registro e inicio de sesión es sencillo, intuitivo y accesible para usuarios con conocimientos tecnológicos básicos. Señaló que los formularios presentan claramente la información requerida y permiten comprender fácilmente el flujo general de la plataforma.
+
+Durante la evaluación de los módulos principales, Jaime logró identificar correctamente el proceso para registrar clientes, asociar vehículos y generar órdenes de trabajo. Comprendió que la plataforma permite almacenar información relevante del cliente, incluyendo datos de contacto, información del vehículo y detalles relacionados con las fallas o servicios solicitados. Asimismo, destacó la posibilidad de asignar mecánicos responsables y realizar un seguimiento detallado de cada trabajo realizado.
+
+El entrevistado también valoró positivamente la organización de la información dentro de la plataforma, indicando que facilita el acceso a los datos de clientes recurrentes y contribuye a fortalecer la relación con ellos mediante un mejor control de los servicios realizados. Consideró que esta funcionalidad puede favorecer la fidelización de clientes y mejorar la calidad del servicio brindado por el taller.
+
+En relación con el monitoreo de órdenes de trabajo, manifestó que los estados de avance son claros y permiten identificar rápidamente si un servicio se encuentra pendiente, en proceso o finalizado. Además, destacó que esta información facilita la supervisión del trabajo realizado por los colaboradores y mejora la coordinación interna del taller.
+
+Respecto al flujo general de la aplicación, indicó que la estructura basada en clientes, vehículos y órdenes de trabajo resulta lógica y fácil de comprender. Consideró que la secuencia de operaciones refleja adecuadamente el proceso real que se sigue dentro de un taller automotriz y permite mantener un mejor control sobre cada servicio realizado.
+
+Como sugerencia de mejora, propuso incorporar reportes de productividad y estadísticas relacionadas con los servicios ejecutados, con el objetivo de apoyar la toma de decisiones y proporcionar una visión más completa del desempeño del negocio. Consideró que este tipo de información sería valiosa para optimizar la gestión operativa y administrativa del taller.
+
+Finalmente, Jaime Ruiz manifestó que utilizaría AutoService si estuviera disponible comercialmente, ya que considera que la plataforma le permitiría centralizar la información de clientes, colaboradores, vehículos y repuestos en un único sistema. Asimismo, destacó que la solución contribuiría a mejorar la comunicación con los clientes, reducir el tiempo destinado a tareas administrativas y aumentar la eficiencia de las operaciones diarias del taller.
+</p>
+
+**Evidencia:** 
+![Entrevista Administrador](docs/assets/interview-validate/inter-validate-admin3.png)
+
+
 
 #### 5.3.3. Evaluaciones según heurísticas
 # UX Heuristics & Principles Evaluation
