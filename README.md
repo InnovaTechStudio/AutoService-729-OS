@@ -5,7 +5,7 @@ Universidad Peruana de Ciencias Aplicadas<br>
 Facultad de Ingenería, Carrera de Ingeniería de Software<br>
 **Ciclo:** 2026-10
 
-**AV2 – Sprint Review**
+**TB2 – Release Review**
 
 **1ASI0730** Desarrollo de Aplicaciones Open Source<br>
 **NRC:** 17952<br>
@@ -129,14 +129,20 @@ Mayo, 2026
           Finalmente, se anexan el diseño y registro de las entrevistas de validación con usuarios junto con la evaluación de usabilidad basada en heurísticas.
         </td>
       </tr>
-      <!--
       <tr>
         <td>V4.0</td>
-        <td>--/--/2026</td>
-        <td>Aguilar Aguayo, Jeferson Renzo<br>Lopez Monroy, Rodrigo Alfredo<br>Luis Miranda, Diego Andres<br>Mamani Vilca, Alan Jaivi<br>Sanchez Cuadrado, Juan Antonio</td>
-        <td style="text-align: left;"><i>Pendiente</i></td>
+        <td>05/07/2026</td>
+        <td>
+          Aguilar Aguayo, Jeferson Renzo<br>
+          Lopez Monroy, Rodrigo Alfredo<br>
+          Luis Miranda, Diego Andres<br>
+          Mamani Vilca, Alan Jaivi<br>
+          Sanchez Cuadrado, Juan Antonio
+        </td>
+        <td style="text-align: left;">
+          Se incorpora la documentación correspondiente al Desarrollo del Sprint 4, incluyendo la planificación, el Sprint Backlog y la distribución final de responsabilidades del equipo. Se documentan las actividades de estabilización y refinamiento de la aplicación, la implementación y validación del sistema de autenticación basado en Identity and Access Management (IAM) mediante JWT, así como la actualización de la documentación de los servicios REST. Además, se presentan las evidencias de la validación del entorno desplegado, la mitigación de observaciones identificadas en revisiones anteriores, la consolidación del producto final y las métricas de colaboración del equipo durante la fase de cierre del proyecto.
+        </td>
       </tr>
-      -->
     </tbody>
   </table>
 </div>
@@ -301,6 +307,15 @@ Mayo, 2026
       - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
       - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+    - [5.2.4. Sprint 4](#524-sprint-4)
+        - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+        - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+        - [5.2.4.3. Sprint Backlog 4](#5233-sprint-backlog-4)
+        - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+        - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+        - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+        - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+        - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -331,9 +346,10 @@ Mayo, 2026
         <td>Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
         <td>
           <b>Aguilar Aguayo, Jeferson Renzo</b> AV1: Se realizó la gestión de configuración y del código fuente mediante la adopción del modelo GitFlow, organizando el desarrollo en ramas específicas (main, develop, feature/, hotfix/) y aplicando la convención de Conventional Commits para asegurar un proceso de trabajo ordenado, colaborativo y escalable. Asimismo, se establecieron guías de estilo y convenciones técnicas rigurosas, redactando todo el código y documentación en inglés y aplicando arquitecturas específicas para Angular (basada en componentes) y Spring Boot (por capas), junto con el uso de Gherkin para definir criterios de aceptación que faciliten la comunicación con los interesados.<br><br>
-  <b>Lopez Monroy, Rodrigo Alfredo</b> AV1: Comuniqué de manera efectiva al equipo el flujo de trabajo basado en GitFlow, adaptando la explicación según el nivel técnico de cada integrante, resolviendo dudas en tiempo real y alineando a todos en el uso correcto de ramas y buenas prácticas. Además, guié reuniones donde se definieron user stories, epics y prioridades del product backlog, y expuse la arquitectura de software mediante diagramas C4 de forma clara, asegurando la comprensión tanto de perfiles técnicos como no técnicos.<br><br>
+          <b>Lopez Monroy, Rodrigo Alfredo</b> AV1: Comuniqué de manera efectiva al equipo el flujo de trabajo basado en GitFlow, adaptando la explicación según el nivel técnico de cada integrante, resolviendo dudas en tiempo real y alineando a todos en el uso correcto de ramas y buenas prácticas. Además, guié reuniones donde se definieron user stories, epics y prioridades del product backlog, y expuse la arquitectura de software mediante diagramas C4 de forma clara, asegurando la comprensión tanto de perfiles técnicos como no técnicos.<br><br>
           TB1: Se participó activamente en reuniones de coordinación del Sprint, donde se expusieron avances técnicos relacionados con la configuración de los repositorios, despliegue de la Fake API y conexión del frontend con los servicios backend. Durante estas reuniones se explicó de forma clara el estado de las tareas, se resolvieron dudas del equipo y se propusieron mejoras al flujo de trabajo utilizando GitFlow, asegurando una comprensión común entre todos los integrantes del proyecto.<br><br>
           AV2: Comuniqué de manera efectiva los contratos de datos y la arquitectura por capas del backend desarrollado en Java y Spring Boot al equipo de desarrollo frontend, coordinando reuniones síncronas para resolver dudas sobre el consumo de las rutas de la API. Asimismo, participé activamente en la sustentación de los avances técnicos durante las sesiones de revisión de sprint, exponiendo la integración completa ante el equipo.<br><br>
+          TB2: Participé en la sustentación final del proyecto, explicando la arquitectura del sistema, la integración entre el frontend y el backend, el flujo de autenticación con JWT y las principales funcionalidades implementadas durante el Sprint 4, adaptando la explicación según la audiencia.<br><br>
           <b>Luis Miranda, Diego Andres</b> AV1: Se realizo el proceso completo de diseño UX/UI, incluyendo la elaboración de wireframes, wireflows, mock-ups y prototipos interactivos en Figma aplicando la principios, elemntos, IA, etc. Asimismo, se explicaron los resultados obtenidos a partir de las entrevistas realizadas, tomando en cuentas las necesidades del usuarios.<br><br>
           TB1: Contribuí al liderazgo compartido del equipo participando en la planificación y desarrollo de componentes frontend orientados al administrador y al sistema de seguimiento para clientes. Además, colaboré en la integración entre el frontend, el backend y la Fake API, apoyando la coordinación técnica entre los integrantes para asegurar la compatibilidad y funcionamiento del sistema. También promoví la mejora continua de la documentación y la correcta estructuración del proyecto, facilitando la organización del trabajo y el cumplimiento de los objetivos planteados.<br><br>
         AV2: Asumí un rol activo en la integración y consolidación del sistema backend Java y Spring Boot, mediante la implementación de bounded contexts, asegurando la coherencia entre los diferentes módulos del proyecto. Además, lideré el despliegue del backend en producción utilizando la plataforma Render, configurando el entorno, variables de ejecución y verificando su correcto funcionamiento en un entorno real. Complementariamente, participé en las entrevistas de validación con usuarios, contribuyendo a la obtención de retroalimentación directa para confirmar requerimientos y mejorar el sistema desarrollado.<br><br>
@@ -347,6 +363,8 @@ Mayo, 2026
           AV1: Se logró comunicar de manera clara, estructurada y efectiva el proceso de diseño y las funcionalidades del sistema, facilitando la comprensión del proyecto para distintos tipos de audiencia y evidenciando dominio de los conceptos de UX/UI.<br><br>
           TB1: Se logró comunicar de manera clara, estructurada y efectiva el avance del proceso de implementación del sistema durante el Sprint 2, explicando las funcionalidades desarrolladas en la Web Application en Angular y TypeScript, así como la integración con la Fake REST API. Esto permitió que distintos tipos de audiencia, tanto técnica como no técnica, comprendieran el funcionamiento del sistema, las decisiones de arquitectura frontend y el flujo de consumo de servicios HTTP.<br><br>
           AV2: El equipo consolidó una comunicación oral fluida y estructurada al sustentar las demostraciones de integración del sistema y justificar las decisiones técnicas del backend en Spring Boot ante perfiles con distintos niveles de conocimiento técnico, demostrando claridad y dominio conceptual en las revisiones del sprint.
+          <br><br>
+          TB2: El equipo comunicó de forma clara y organizada el desarrollo y los resultados del proyecto, sustentando las decisiones técnicas y demostrando el funcionamiento del sistema para audiencias tanto técnicas como no técnicas.
         </td>
       </tr>
       <tr>
@@ -355,7 +373,7 @@ Mayo, 2026
           <b>Aguilar Aguayo, Jeferson Renzo</b> AV1: Se elaboró la documentación técnica y contribuí en la implementación de la gestión del código mediante GitFlow, organizando las ramas y estándares de programación en inglés para facilitar el desarrollo colaborativo y mantener coherencia con la arquitectura y el despliegue profesional de AutoService.<br><br>
           <b>Lopez Monroy, Rodrigo Alfredo</b> AV1: Elaboré documentación clara y estructurada del flujo de trabajo en GitHub, incluyendo lineamientos sobre ramas, commits y pull requests, facilitando su comprensión para todo el equipo. Asimismo, redacté user stories, epics y el product backlog utilizando un lenguaje accesible y bien organizado, y documenté la arquitectura de software mediante diagramas C4 acompañados de descripciones comprensibles para distintos tipos de audiencia.<br><br>
           TB1: Se elaboraron mensajes de commit siguiendo la convención de Conventional Commits, describiendo de manera clara y estructurada cada cambio realizado en el sistema. Asimismo, se contribuyó a la documentación del proyecto mediante la actualización de secciones técnicas en el repositorio, incluyendo configuraciones de despliegue, integración con la Fake API y ajustes en el entorno de producción, asegurando que la información fuera comprensible para cualquier integrante del equipo o evaluador externo.<br><br>
-          AV2: Elaboré la documentación técnica detallada de los servicios web en la especificación OpenAPI (Swagger), especificando la sintaxis de las llamadas HTTP, los parámetros requeridos y las estructuras de las respuestas en formato JSON para cada endpoint del sistema. Adicionalmente, redacté las guías de configuración de variables de entorno y persistencia para facilitar el despliegue del backend en la nube.<br><br>
+          AV2: Elaboré la documentación técnica detallada de los servicios web en la especificación OpenAPI (Swagger), especificando la sintaxis de las llamadas HTTP, los parámetros requeridos y las estructuras de las respuestas en formato JSON para cada endpoint del sistema. Adicionalmente, redacté las guías de configuración de variables de entorno y persistencia para facilitar el despliegue del backend en la nube.<br><br>TB2: Elaboré y consolidé la documentación final del proyecto, incluyendo la planificación del Sprint 4, evidencias de desarrollo, despliegue, documentación técnica de los servicios y las conclusiones, manteniendo una redacción clara y estructurada.<br><br>
           <b>Luis Miranda, Diego Andres</b> AV1: Se desarrolló la documentación, incluyendo el análisis de entrevistas para el levantamiento de requerimientos, la definición de historias de usuario y la elaboración de wireframes, mock-ups y prototipos. Se redactaron secciones técnicas relacionadas con principios de diseño, arquitectura de información, diseño inclusivo y decisiones UX/UI, manteniendo un lenguaje claro, estructurado y coherente.<br><br>
           TB1: Contribuí al liderazgo compartido del equipo participando en la planificación y desarrollo de componentes frontend orientados al administrador y al sistema de seguimiento para clientes. Además, colaboré en la integración entre el frontend, el backend y la Fake API, apoyando la coordinación técnica entre los integrantes para asegurar la compatibilidad y funcionamiento del sistema. También promoví la mejora continua de la documentación y la correcta estructuración del proyecto, facilitando la organización del trabajo y el cumplimiento de los objetivos planteados.<br><br>
           AV2: Participé en la planificación y ejecución de tareas clave del proyecto, incluyendo la implementación de bounded contexts, el despliegue del backend en producción en Render y la realización de entrevistas de validación con usuarios. Estas actividades requirieron coordinación constante con el equipo para cumplir con los objetivos establecidos, resolver dependencias técnicas y asegurar la correcta entrega del sistema en un entorno funcional.<br><br>
@@ -368,7 +386,8 @@ Mayo, 2026
         <td>
           AV1: Se logró presentar información de manera ordenada y comprensible, permitiendo que tanto usuarios técnicos como no técnicos puedan entender el proceso de diseño, las decisiones tomadas y el funcionamiento del sistema de forma clara y efectiva.<br><br>
           TB1: Se presentó y documentó información técnica de manera ordenada y comprensible mediante commits, reportes y documentación del repositorio, facilitando la interpretación del proceso de desarrollo, la configuración del entorno de despliegue y la integración con servicios en la nube (Azure Static Web Apps y GCP). Esto permitió una comunicación efectiva entre los miembros del equipo y la correcta trazabilidad de las decisiones técnicas tomadas durante el Sprint.<br><br>
-          AV2: Se logró generar un informe técnico ordenado y riguroso mediante la documentación exhaustiva de los contratos de la API en Swagger y el mapeo del despliegue en la nube, permitiendo que audiencias técnicas y de negocio comprendan con precisión el flujo de datos y la arquitectura distribuida del producto.
+          AV2: Se logró generar un informe técnico ordenado y riguroso mediante la documentación exhaustiva de los contratos de la API en Swagger y el mapeo del despliegue en la nube, permitiendo que audiencias técnicas y de negocio comprendan con precisión el flujo de datos y la arquitectura distribuida del producto.<br><br>
+          TB2: El equipo generó una documentación completa y organizada del proyecto, permitiendo registrar el proceso de desarrollo, las decisiones técnicas y los resultados obtenidos de manera clara para distintos tipos de audiencia.
         </td>
       </tr>
     </tbody>
@@ -6882,6 +6901,626 @@ Los repositorios principales utilizados para el trabajo colaborativo en este Spr
 <p align="center">
   <b>Backend:</b> <code><a href="https://github.com/InnovaTechStudio/AutoService-729-OS-Backend" target="_blank">https://github.com/InnovaTechStudio/AutoService-729-OS-Backend</a></code><br>
   <b>Frontend:</b> <code><a href="https://github.com/InnovaTechStudio/AutoService-729-OS-Frontend" target="_blank">https://github.com/InnovaTechStudio/AutoService-729-OS-Frontend</a></code>
+</p>
+
+#### 5.2.4. Sprint 4
+
+##### 5.2.4.1. Sprint Planning 4
+
+<div align="center">
+  <table style="margin: auto; width: 100%; border-collapse: collapse; text-align: left;">
+    <thead>
+      <tr>
+        <th colspan="2" style="text-align: center; background-color: #f2f2f2; font-size: 1.2em; padding: 10px; border: 1px solid #ddd;">Sprint #4</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td colspan="2" style="background-color: #fafafa; font-weight: bold; text-align: center; padding: 10px; border: 1px solid #ddd;">Sprint Planning Background</td>
+      </tr>
+      <tr>
+        <td style="width: 30%; font-weight: bold; padding: 10px; border: 1px solid #ddd;">Date</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">2026-06-24</td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Time</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">10:00 AM</td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Location</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Reunión presencial en la UPC. (Pabellón I, piso 6, cubículo 4)</td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Prepared By</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Luis Miranda, Diego Andres</td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Attendees (to planning meeting)</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">
+          Aguilar Aguayo, Jeferson Renzo / López Monroy, Rodrigo Alfredo / Luis Miranda, Diego Andres / Mamani Vilca, Alan Jaivi / Sanchez Cuadrado, Juan Antonio
+        </td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Sprint 3 Review Summary</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">
+          Durante el Sprint 3, el equipo logró implementar la primera versión funcional del backend utilizando Java y Spring Boot, desarrollando la lógica de negocio, los servicios REST y el mapeo de las entidades mediante JPA para garantizar la persistencia de la información en la base de datos. Asimismo, se integró el frontend con los nuevos endpoints, reemplazando el entorno basado en Fake REST API por una arquitectura completamente funcional desplegada en la nube.
+        </td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Sprint 3 Retrospective Summary</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">
+          El equipo destacó la organización del desarrollo mediante la división del trabajo por Bounded Contexts, permitiendo implementar de forma paralela las distintas entidades y reglas de negocio del dominio. Como principal aprendizaje, se reforzó la importancia de validar continuamente la integración entre contextos y revisar de manera colaborativa las reglas de negocio para asegurar la consistencia del modelo antes del despliegue final.
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" style="background-color: #fafafa; font-weight: bold; text-align: center; padding: 10px; border: 1px solid #ddd;">Sprint Goal & User Stories</td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Sprint 4 Goal</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">
+          <strong>Our focus is on</strong> completing the remaining application features, refining the user experience, implementing the final technical improvements, and addressing the feedback received during the previous sprint in preparation for the final product delivery.<br><br>
+          <strong>We believe it delivers</strong> a stable, polished and production-ready software solution, with all planned functionalities fully integrated, improved usability, secure authentication, and a consistent user experience across the entire platform.<br><br>
+          <strong>This will be confirmed when</strong> all remaining user stories have been completed, the application operates correctly in the production environment, the requested improvements have been implemented, and the final version is successfully demonstrated during the project presentation.
+        </td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Sprint 4 Velocity</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">33 Story Points</td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Sum of Story Points</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">
+          Sum of Story Points: 33 Story Points (US-05: 5, US-06: 5, US-13: 3, US-15: 5, US-18: 3, US-20: 3, US-28: 5, US-29: 3, TS-02: 1).
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+##### 5.2.4.2. Aspect Leaders and Collaborators
+
+En el presente Sprint 4, el equipo orientó el trabajo hacia la consolidación de la versión final del producto, priorizando la mejora de la experiencia de usuario, la implementación de las funcionalidades pendientes y la preparación de la entrega final. Para ello, el alcance se dividió en tres aspectos principales:
+
+1. **Application Refinement:** Corrección de observaciones, optimización de la interfaz y mejora de la experiencia de usuario.
+2. **Feature Completion & Integration:** Implementación de las funcionalidades pendientes e integración completa entre frontend, backend y servicios externos.
+3. **Final Validation & Deployment:** Validación funcional de la aplicación, pruebas finales y preparación de la versión desplegada para la entrega.
+
+<div align="center">
+  <table style="margin: auto; width: 100%; border-collapse: collapse; text-align: center;">
+    <thead>
+      <tr style="background-color: #f2f2f2;">
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Team Member (Last Name, First Name)</th>
+        <th style="padding: 10px; border: 1px solid #ddd;">GitHub Username</th>
+        <th style="padding: 10px; border: 1px solid #ddd;">Application Refinement<br><small>Leader (L) / Collaborator (C)</small></th>
+        <th style="padding: 10px; border: 1px solid #ddd;">Feature Completion & Integration<br><small>Leader (L) / Collaborator (C)</small></th>
+        <th style="padding: 10px; border: 1px solid #ddd;">Final Validation & Deployment<br><small>Leader (L) / Collaborator (C)</small></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ddd; text-align: left;">Aguilar Aguayo, Jeferson Renzo</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">JeferSomBlan</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ddd; text-align: left;">López Monroy, Rodrigo Alfredo</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">rodrigolopezu</td>
+        <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2e7d32;">L</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ddd; text-align: left;">Luis Miranda, Diego Andres</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Andrewdmr</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2e7d32;">L</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ddd; text-align: left;">Mamani Vilca, Alan Jaivi</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">AlanMamaniV</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ddd; text-align: left;">Sanchez Cuadrado, Juan Antonio</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">juansancuad</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2e7d32;">L</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+##### 5.2.4.3. Sprint Backlog 4
+
+El presente Sprint Backlog reúne las historias de usuario priorizadas para la última iteración del proyecto. El objetivo principal es completar las funcionalidades de mayor valor para el producto, implementar la autenticación y autorización de usuarios, optimizar la experiencia de uso, integrar los últimos servicios pendientes y realizar el refinamiento general de la aplicación antes de su entrega final.
+
+<br>
+
+<div align="center">
+  <table style="margin: auto; width: 100%; border-collapse: collapse; text-align: left; font-size: 13px; border: 1px solid #ddd;">
+    <thead>
+      <tr style="background-color: #e0e0e0; font-weight: bold;">
+        <th style="padding: 10px; text-align: center; border: 1px solid #ddd;">Sprint #</th>
+        <th colspan="7" style="padding: 10px; text-align: left; border: 1px solid #ddd;">4</th>
+      </tr>
+      <tr style="background-color: #f2f2f2;">
+        <th colspan="2" style="text-align: center; border: 1px solid #ddd; padding: 10px;">User Story</th>
+        <th colspan="6" style="text-align: center; border: 1px solid #ddd; padding: 10px;">Work-Item / Task</th>
+      </tr>
+      <tr style="background-color: #fafafa; text-align: center;">
+        <th style="border: 1px solid #ddd; padding: 5px; width: 6%;">Id</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 15%;">Title</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 6%;">Id</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 15%;">Title</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 30%;">Description</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 8%;">Estimation (Hours)</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 12%;">Assigned To</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 8%;">Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2" style="border:1px solid #ddd;padding:8px;text-align:center;font-weight:bold;">US-05</td>
+        <td rowspan="2" style="border:1px solid #ddd;padding:8px;">Iniciar sesión</td>
+        <td style="border:1px solid #ddd;padding:8px;text-align:center;">WI-56</td>
+        <td style="border:1px solid #ddd;padding:8px;">Integración IAM</td>
+        <td style="border:1px solid #ddd;padding:8px;"><i>Implementar autenticación mediante el proveedor IAM.</i></td>
+        <td style="border:1px solid #ddd;padding:8px;text-align:center;">4</td>
+        <td style="border:1px solid #ddd;padding:8px;">Luis, Diego</td>
+        <td style="border:1px solid #ddd;padding:8px;text-align:center;color:#2aac2a;font-weight:bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #ddd;padding:8px;text-align:center;">WI-57</td>
+        <td style="border:1px solid #ddd;padding:8px;">Protección de rutas</td>
+        <td style="border:1px solid #ddd;padding:8px;"><i>Restringir acceso según autenticación y roles.</i></td>
+        <td style="border:1px solid #ddd;padding:8px;text-align:center;">3</td>
+        <td style="border:1px solid #ddd;padding:8px;">López, Rodrigo</td>
+        <td style="border:1px solid #ddd;padding:8px;text-align:center;color:#2aac2a;font-weight:bold;">Done</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border:1px solid #ddd;padding:8px;text-align:center;font-weight:bold;">US-15</td>
+        <td rowspan="2" style="border:1px solid #ddd;padding:8px;">Gestionar tareas</td>
+        <td style="border:1px solid #ddd;padding:8px;text-align:center;">WI-58</td>
+        <td style="border:1px solid #ddd;padding:8px;">CRUD de tareas</td>
+        <td style="border:1px solid #ddd;padding:8px;"><i>Completar operaciones de creación, edición y eliminación.</i></td>
+        <td style="border:1px solid #ddd;padding:8px;text-align:center;">4</td>
+        <td style="border:1px solid #ddd;padding:8px;">López, Rodrigo</td>
+        <td style="border:1px solid #ddd;padding:8px;text-align:center;color:#2aac2a;font-weight:bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #ddd;padding:8px;text-align:center;">WI-59</td>
+        <td style="border:1px solid #ddd;padding:8px;">Validaciones</td>
+        <td style="border:1px solid #ddd;padding:8px;"><i>Aplicar reglas de negocio y validaciones de entrada.</i></td>
+        <td style="border:1px solid #ddd;padding:8px;text-align:center;">2</td>
+        <td style="border:1px solid #ddd;padding:8px;">Mamani, Alan</td>
+        <td style="border:1px solid #ddd;padding:8px;text-align:center;color:#2aac2a;font-weight:bold;">Done</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border:1px solid #ddd;padding:8px;text-align:center;font-weight:bold;">US-28</td>
+        <td rowspan="2" style="border:1px solid #ddd;padding:8px;">Dashboard de métricas</td>
+        <td style="border:1px solid #ddd;padding:8px;text-align:center;">WI-60</td>
+        <td style="border:1px solid #ddd;padding:8px;">Indicadores</td>
+        <td style="border:1px solid #ddd;padding:8px;"><i>Mostrar métricas principales del taller.</i></td>
+        <td style="border:1px solid #ddd;padding:8px;text-align:center;">3</td>
+        <td style="border:1px solid #ddd;padding:8px;">Sanchez, Juan</td>
+        <td style="border:1px solid #ddd;padding:8px;text-align:center;color:#2aac2a;font-weight:bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #ddd;padding:8px;text-align:center;">WI-61</td>
+        <td style="border:1px solid #ddd;padding:8px;">Optimización UI</td>
+        <td style="border:1px solid #ddd;padding:8px;"><i>Mejorar la visualización y experiencia del dashboard.</i></td>
+        <td style="border:1px solid #ddd;padding:8px;text-align:center;">3</td>
+        <td style="border:1px solid #ddd;padding:8px;">Aguilar, Jeferson</td>
+        <td style="border:1px solid #ddd;padding:8px;text-align:center;color:#2aac2a;font-weight:bold;">Done</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border:1px solid #ddd;padding:8px;text-align:center;font-weight:bold;">TS-02</td>
+        <td rowspan="2" style="border:1px solid #ddd;padding:8px;">Refinamiento del sistema</td>
+        <td style="border:1px solid #ddd;padding:8px;text-align:center;">WI-62</td>
+        <td style="border:1px solid #ddd;padding:8px;">Corrección de incidencias</td>
+        <td style="border:1px solid #ddd;padding:8px;"><i>Resolver observaciones encontradas durante las pruebas.</i></td>
+        <td style="border:1px solid #ddd;padding:8px;text-align:center;">3</td>
+        <td style="border:1px solid #ddd;padding:8px;">Todo el equipo</td>
+        <td style="border:1px solid #ddd;padding:8px;text-align:center;color:#2aac2a;font-weight:bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border:1px solid #ddd;padding:8px;text-align:center;">WI-63</td>
+        <td style="border:1px solid #ddd;padding:8px;">Despliegue final</td>
+        <td style="border:1px solid #ddd;padding:8px;"><i>Validar la versión publicada y realizar pruebas finales.</i></td>
+        <td style="border:1px solid #ddd;padding:8px;text-align:center;">2</td>
+        <td style="border:1px solid #ddd;padding:8px;">Todo el equipo</td>
+        <td style="border:1px solid #ddd;padding:8px;text-align:center;color:#2aac2a;font-weight:bold;">Done</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+##### 5.2.4.4. Development Evidence for Sprint Review
+
+<p align="justify">
+Durante el Sprint 4, el equipo concentró sus esfuerzos en consolidar la versión final del producto mediante la implementación de las funcionalidades pendientes y la incorporación de mejoras derivadas de la retroalimentación obtenida en la iteración anterior. Entre las principales actividades realizadas destacan la integración del sistema de autenticación y autorización (IAM), el refinamiento de la experiencia de usuario, la optimización de los procesos de gestión del taller y la estabilización de la aplicación desplegada en producción.<br><br>
+
+Asimismo, se realizaron ajustes tanto en el Backend como en el Frontend para mejorar la integración entre los distintos Bounded Contexts, fortalecer las validaciones de negocio, optimizar la interfaz de usuario y garantizar una experiencia consistente para los diferentes tipos de usuarios de la plataforma. Finalmente, se ejecutaron pruebas funcionales integrales y se corrigieron incidencias detectadas durante el proceso de validación, obteniendo una versión estable y lista para la entrega final.<br><br>
+
+En la siguiente tabla se presentan commits representativos del desarrollo realizado durante este sprint en los repositorios del proyecto:
+</p>
+
+<table style="width: 100%; border-collapse: collapse; text-align: justify;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="border: 1px solid #ddd; padding: 8px;">Repository</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Branch</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Commit Id</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Commit Message</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Commit Message Body</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-729-OS-Frontend</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/iam-integration</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>5d8a1c4</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">feat:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">integrate authentication flow with IAM provider</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">24/06/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-729-OS-Backend</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/security-config</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>b1a93ef</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">feat:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">configure security filters and authorization rules</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">25/06/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-729-OS-Frontend</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/dashboard-improvements</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>72cb9d1</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">feat:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">improve dashboard layout and responsive components</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">26/06/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-729-OS-Backend</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/task-management</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>91ef5c8</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">feat:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">complete task management business operations</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">27/06/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-729-OS-Frontend</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/user-experience</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>f5de4b2</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">feat:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">enhance forms validation and user interactions</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">28/06/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-729-OS-Backend</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/mechanics-management</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>3cc72a5</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">feat:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">implement mechanics assignment endpoints</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">29/06/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-729-OS-Frontend</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/final-ui-polish</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>ac84e11</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">style:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">refine visual components and responsive behavior</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">30/06/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-729-OS-Backend</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/api-final-adjustments</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>6ab45fd</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">fix:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">resolve validation and integration issues</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">01/07/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-729-OS-Frontend</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>release/v1.0.0</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>ef90a6b</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">chore:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">prepare final production release</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">02/07/2026</td>
+    </tr>
+  </tbody>
+</table>
+
+##### 5.2.4.5. Execution Evidence for Sprint Review
+
+<p align="justify">
+Durante el Sprint 4, el equipo culminó la validación integral de la solución AutoService, verificando la correcta mitigación de las incidencias detectadas durante las iteraciones previas y asegurando la estabilidad de la aplicación desplegada en producción. Esta etapa se enfocó principalmente en consolidar las funcionalidades implementadas, integrar completamente el sistema de autenticación basado en IAM y garantizar una experiencia de usuario consistente en todos los módulos de la plataforma.
+<br><br>
+Entre los principales logros alcanzados destacan la correcta validación del proceso de autenticación y autorización mediante JWT, la protección de rutas según el rol del usuario autenticado, la corrección de observaciones funcionales identificadas durante la revisión del Sprint 3 y la verificación del correcto funcionamiento de los principales flujos del sistema, incluyendo la gestión de órdenes de trabajo, inventario, personal y seguimiento público.
+</p>
+
+<div align="center">
+  <h5>Validación de la Aplicación Desplegada con Autenticación IAM</h5>
+  <img src="docs/assets/execution_iam_login.png" alt="IAM Login Validation" width="80%">
+</div>
+
+<br>
+
+<div align="center">
+  <h5>Corrección de Observaciones y Validación Funcional Final</h5>
+  <img src="docs/assets/execution_final_validation.png" alt="Final Validation" width="80%">
+</div>
+
+<br>
+
+<p align="justify">
+Con el propósito de evidenciar el funcionamiento completo de la solución, se preparó un video demostrativo donde se muestra el flujo de autenticación, el acceso a funcionalidades protegidas mediante roles, la interacción con los distintos módulos del sistema y la validación de la versión final desplegada.
+</p>
+
+<ul>
+  <li><b>Video de Ejecución (Sprint 4):</b> <a href="ENLACE_PENDIENTE_DE_YOUTUBE" target="_blank">Ver demostración de la versión final del sistema</a></li>
+</ul>
+
+---
+
+##### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+<p align="justify">
+Como parte de la entrega final del proyecto, la documentación de servicios se orientó principalmente a validar la correcta implementación del mecanismo de autenticación y autorización basado en Identity and Access Management (IAM). Para ello, se verificó la configuración de seguridad implementada en el Backend, la exposición de los endpoints protegidos mediante Swagger/OpenAPI y la correcta generación y utilización de JSON Web Tokens (JWT) durante las solicitudes autenticadas.
+<br><br>
+Asimismo, se realizaron pruebas de autenticación, autorización por roles, creación de nuevos usuarios y consumo de endpoints protegidos desde el Frontend, comprobando la consistencia de la arquitectura de seguridad implementada y la correcta comunicación entre todos los componentes de la solución.
+</p>
+
+<ul>
+  <li><b>Repositorio Backend:</b> <a href="https://github.com/InnovaTechStudio/AutoService-729-OS-Backend" target="_blank">AutoService-729-OS-Backend</a></li>
+  <li><b>Repositorio Frontend:</b> <a href="https://github.com/InnovaTechStudio/AutoService-729-OS-Frontend" target="_blank">AutoService-729-OS-Frontend</a></li>
+  <li><b>Documentación Swagger UI:</b> <a href="https://autoservice-os-backend.onrender.com/swagger-ui/index.html" target="_blank">AutoService API Documentation</a></li>
+</ul>
+
+<div align="center">
+
+<table style="margin: auto; width: 100%; border-collapse: collapse; text-align: left; font-size: 12px; border: 1px solid #ddd;">
+
+<thead>
+
+<tr style="background-color:#f2f2f2;">
+<th style="padding:8px;border:1px solid #ddd;text-align:center;width:25%;">Endpoint / HTTP Method</th>
+<th style="padding:8px;border:1px solid #ddd;width:35%;">Validation Performed</th>
+<th style="padding:8px;border:1px solid #ddd;width:20%;">Evidence</th>
+<th style="padding:8px;border:1px solid #ddd;width:20%;">Expected Result</th>
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr style="background-color:#fafafa;font-weight:bold;">
+<td colspan="4" style="padding:6px;border:1px solid #ddd;">Identity and Access Management (IAM)</td>
+</tr>
+
+<tr>
+<td style="padding:6px;border:1px solid #ddd;text-align:center;"><strong>POST</strong><br><code>/api/v1/auth/sign-in</code></td>
+<td style="padding:6px;border:1px solid #ddd;">Validación del inicio de sesión mediante credenciales registradas.</td>
+<td style="padding:6px;border:1px solid #ddd;">Swagger + Frontend</td>
+<td style="padding:6px;border:1px solid #ddd;"><b>200 OK</b><br>JWT generado correctamente.</td>
+</tr>
+
+<tr>
+<td style="padding:6px;border:1px solid #ddd;text-align:center;"><strong>POST</strong><br><code>/api/v1/auth/sign-up</code></td>
+<td style="padding:6px;border:1px solid #ddd;">Registro de nuevos usuarios con asignación automática de rol.</td>
+<td style="padding:6px;border:1px solid #ddd;">Frontend + Base de Datos</td>
+<td style="padding:6px;border:1px solid #ddd;"><b>200 OK</b><br>Usuario registrado.</td>
+</tr>
+
+<tr>
+<td style="padding:6px;border:1px solid #ddd;text-align:center;"><strong>GET</strong><br><code>/api/v1/users/me</code></td>
+<td style="padding:6px;border:1px solid #ddd;">Validación del acceso utilizando un JWT válido.</td>
+<td style="padding:6px;border:1px solid #ddd;">Swagger Authorization</td>
+<td style="padding:6px;border:1px solid #ddd;"><b>200 OK</b><br>Información del usuario autenticado.</td>
+</tr>
+
+<tr>
+<td style="padding:6px;border:1px solid #ddd;text-align:center;"><strong>GET</strong><br><code>Endpoints protegidos</code></td>
+<td style="padding:6px;border:1px solid #ddd;">Verificación del acceso únicamente para usuarios autenticados.</td>
+<td style="padding:6px;border:1px solid #ddd;">Swagger + Frontend</td>
+<td style="padding:6px;border:1px solid #ddd;"><b>401 / 403</b><br>Acceso denegado sin JWT.</td>
+</tr>
+
+<tr style="background-color:#fafafa;font-weight:bold;">
+<td colspan="4" style="padding:6px;border:1px solid #ddd;">Validación de Integración</td>
+</tr>
+
+<tr>
+<td style="padding:6px;border:1px solid #ddd;text-align:center;">JWT Generation</td>
+<td style="padding:6px;border:1px solid #ddd;">Comprobación de la generación correcta del Access Token.</td>
+<td style="padding:6px;border:1px solid #ddd;">Swagger Response</td>
+<td style="padding:6px;border:1px solid #ddd;">Token válido.</td>
+</tr>
+
+<tr>
+<td style="padding:6px;border:1px solid #ddd;text-align:center;">Frontend Authentication</td>
+<td style="padding:6px;border:1px solid #ddd;">Persistencia del token y autorización automática en las peticiones HTTP.</td>
+<td style="padding:6px;border:1px solid #ddd;">Developer Tools</td>
+<td style="padding:6px;border:1px solid #ddd;">Autenticación exitosa.</td>
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+<br>
+
+<p align="justify">
+Las siguientes evidencias muestran la correcta implementación del mecanismo de autenticación y autorización dentro de la plataforma, así como la documentación automática generada mediante Swagger/OpenAPI y la interacción entre el Frontend y el Backend utilizando JWT.
+</p>
+
+<div align="center">
+  <h5>Swagger UI mostrando Endpoints Protegidos</h5>
+  <img src="docs/assets/swagger_iam_general.png" alt="Swagger IAM" width="80%">
+</div>
+
+<br>
+
+<div align="center">
+  <h5>Generación Correcta del JWT desde Swagger</h5>
+  <img src="docs/assets/swagger_jwt_response.png" alt="JWT Response" width="80%">
+</div>
+
+<br>
+
+<div align="center">
+  <h5>Registro de Usuario y Autenticación desde el Frontend</h5>
+  <img src="docs/assets/frontend_signup_login.png" alt="Frontend IAM" width="80%">
+</div>
+
+<br>
+
+<div align="center">
+  <h5>Verificación del Token JWT en las Solicitudes HTTP</h5>
+  <img src="docs/assets/frontend_jwt_console.png" alt="JWT Console Validation" width="80%">
+</div>
+
+##### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+<p align="justify">
+Durante el Sprint 4 no fue necesario realizar un nuevo proceso de despliegue desde cero, puesto que la infraestructura de producción había sido implementada durante el Sprint anterior. En esta iteración, el trabajo se concentró en la consolidación del entorno productivo, verificando que las nuevas funcionalidades incorporadas, especialmente el módulo de Identity and Access Management (IAM), se integraran correctamente sin afectar la disponibilidad de los servicios desplegados.
+</p>
+
+<p align="justify">
+Asimismo, se validó el funcionamiento de los flujos automatizados de integración y despliegue continuo, comprobando que las nuevas versiones del Frontend y Backend fueran publicadas correctamente luego de cada actualización aprobada sobre la rama principal del proyecto.
+</p>
+
+---
+
+###### A. Validación del Entorno Productivo
+
+<p align="justify">
+Durante esta etapa se verificó el correcto funcionamiento de todos los componentes previamente desplegados:
+</p>
+
+<ul>
+<li><b>Landing Page:</b> Validación de disponibilidad y correcto acceso público.</li>
+
+<li><b>Frontend:</b> Verificación del funcionamiento de la autenticación IAM, navegación protegida y consumo de servicios REST desplegados.</li>
+
+<li><b>Backend:</b> Validación de endpoints protegidos mediante JWT, disponibilidad del servicio y conexión con la base de datos productiva.</li>
+</ul>
+
+---
+
+###### B. Actualización Continua de la Aplicación
+
+<p align="justify">
+Las mejoras implementadas durante este Sprint fueron publicadas utilizando la infraestructura CI/CD previamente configurada. Cada integración aprobada sobre la rama principal generó automáticamente una nueva versión de la aplicación, permitiendo verificar la correcta propagación de los cambios sin afectar la estabilidad del entorno de producción.
+</p>
+
+---
+
+###### C. Evidencias de Validación del Entorno
+
+<div align="center">
+
+<h5>Evidencia 1: Ejecución exitosa del flujo CI/CD posterior a la integración del módulo IAM</h5>
+
+<img src="docs/assets/deployment_pipeline_sprint4.png" width="80%">
+
+</div>
+
+<br>
+
+<div align="center">
+
+<h5>Evidencia 2: Aplicación desplegada ejecutando correctamente la autenticación mediante JWT</h5>
+
+<img src="docs/assets/deployment_iam_validation.png" width="80%">
+
+</div>
+
+<br>
+
+<div align="center">
+
+<h5>Evidencia 3: Backend desplegado respondiendo correctamente a solicitudes autenticadas</h5>
+
+<img src="docs/assets/deployment_backend_health.png" width="80%">
+
+</div>
+
+##### 5.2.4.8. Team Collaboration Insights during Sprint
+
+<p align="justify">
+Durante el Sprint 4, el trabajo colaborativo del equipo estuvo orientado principalmente a la consolidación de la versión final del producto, priorizando la resolución de observaciones identificadas durante la revisión anterior, la implementación del módulo de autenticación basado en Identity and Access Management (IAM) y la validación integral del funcionamiento de la aplicación desplegada.
+</p>
+
+<p align="justify">
+La estrategia GitFlow continuó utilizándose para organizar el desarrollo, permitiendo que cada integrante trabajara sobre ramas independientes destinadas a la corrección de incidencias, mejoras funcionales y ajustes finales de la interfaz de usuario y los servicios del Backend. Todos los cambios fueron integrados mediante Pull Requests revisados antes de incorporarse a las ramas principales del proyecto.
+</p>
+
+<p align="justify">
+La colaboración del equipo también se reflejó en las pruebas cruzadas entre Frontend y Backend, la validación del flujo completo de autenticación mediante JWT, la actualización de la documentación técnica y la preparación de las evidencias necesarias para la entrega final del proyecto. El uso consistente de Conventional Commits permitió mantener la trazabilidad de todas las modificaciones realizadas durante el Sprint.
+</p>
+
+<div align="center">
+
+<h5>Evidencia 1: Gráfico de contribuciones por integrante durante el Sprint 4</h5>
+
+<img src="docs/assets/sprint4_contributors_graph.png" width="80%">
+
+<h5>Evidencia 2: Actividad registrada mediante GitHub Pulse</h5>
+
+<img src="docs/assets/sprint4_pulse_activity.png" width="80%">
+
+<h5>Evidencia 3: Pull Requests utilizados para la integración de mejoras finales</h5>
+
+<img src="docs/assets/sprint4_pull_requests.png" width="80%">
+
+<h5>Evidencia 4: Organización de ramas bajo GitFlow durante la fase de estabilización</h5>
+
+<img src="docs/assets/sprint4_gitflow_branches.png" width="80%">
+
+</div>
+
+<br>
+
+<p align="justify">
+Entre las principales actividades colaborativas desarrolladas durante este Sprint destacan:
+</p>
+
+<ul style="text-align: justify;">
+<li>Implementación y validación del módulo de autenticación y autorización mediante JWT.</li>
+
+<li>Corrección de observaciones funcionales identificadas durante la revisión del Sprint anterior.</li>
+
+<li>Pruebas integrales entre Frontend y Backend utilizando el entorno desplegado.</li>
+
+<li>Optimización de la experiencia de usuario y ajustes finales de la interfaz.</li>
+
+<li>Actualización de la documentación técnica, evidencias y material correspondiente a la entrega final.</li>
+
+<li>Validación del funcionamiento de los flujos CI/CD y del entorno productivo.</li>
+</ul>
+
+<p align="justify">
+Los repositorios utilizados durante el trabajo colaborativo del Sprint fueron los siguientes:
+</p>
+
+<p align="center">
+<b>Backend:</b>
+<code><a href="https://github.com/InnovaTechStudio/AutoService-729-OS-Backend" target="_blank">https://github.com/InnovaTechStudio/AutoService-729-OS-Backend</a></code>
+
+<br>
+
+<b>Frontend:</b>
+<code><a href="https://github.com/InnovaTechStudio/AutoService-729-OS-Frontend" target="_blank">https://github.com/InnovaTechStudio/AutoService-729-OS-Frontend</a></code>
 </p>
 
 ### 5.3. Validation Interviews
