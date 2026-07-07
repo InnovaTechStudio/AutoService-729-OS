@@ -5,7 +5,7 @@ Universidad Peruana de Ciencias Aplicadas<br>
 Facultad de Ingenería, Carrera de Ingeniería de Software<br>
 **Ciclo:** 2026-10
 
-**TB2 – Release Review**
+**INFORME DE TRABAJO FINAL**
 
 **1ASI0730** Desarrollo de Aplicaciones Open Source<br>
 **NRC:** 17952<br>
